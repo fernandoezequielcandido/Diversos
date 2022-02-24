@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#left, #right {
+  float: left;
+  width: 180px;
+  height: 1005px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#father {
+  vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+}
+</style>
+<script src="ChoiceImageMin.js"></script>
+
+<script>
+function seeSelectedValues(){
+	var values_ = laavorChoiceImageGetSelectedValues('father');
+};
+
+function seeSelectedSources(){
+	var  sources_ = laavorChoiceImageGetSelectedImages('father');
+};
+
+function select(value, source){
+	alert("Selected valor: " + value + " -- Src: " + source);
+};
+
+function deselect(value, source){
+	alert("Deselected valor: " + value + " -- Src: " + source);
+};
+</script>
+
+</head>
+<body>
+
+<h1>Choose your favorite works</h1>
+</br>
+
+</br>
+
+<div class="laavorChoiceImage" id="father" laavorChosen="select" laavorUnchosen="deselect">
+ <div id="left">
+  <img src="images/CasparDavidFriedrich.jpg" laavorValue="1" width="175" height="200">
+  <img src="images/LeonardodaVinci.jpg"laavorValue="2" width="175" height="200">
+  <img src="images/PieterBruegel.jpg" laavorValue="3" width="175" height="200">
+  <img src="images/Rafael.png" laavorValue="4" width="175" height="200">
+  <img src="images/Ticiano.jpg" laavorValue="5" width="175" height="200">
+ </div>
+ 
+ <div id="right">
+ </div>
+</div>
+
+
+</body>
+</html>
