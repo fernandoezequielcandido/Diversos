@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#left, #right {
+  float: left;
+  width: 180px;
+  height: 1005px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#father {
+  vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+}
+</style>
+
+
+</head>
+<body>
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+<div/>
+<canvas id="canvas">
+Your browser does not support the canvas element.
+</canvas>
+</br>
+
+</br>
+
+
+<script>
+var ctx;
+var isCheck;
+
+window.onload = function () {
+  var canvas = document.getElementById('canvas');
+  	canvas.style.cursor = "grab";
+	canvas.width = 30;
+	canvas.height = 30;
+	canvas.addEventListener("click", laavorClickCheck);	
+	
+  
+	if (canvas.getContext) {
+    ctx = canvas.getContext('2d');
+	isCheck = "true";
+	drawCheckBox(isCheck);
+
+	/*
+	ctx.lineWidth = 8;
+	ctx.strokeStyle = "#0f0";
+    ctx.fillStyle = "#ddd";
+    roundedRect(ctx, 4, 4, 50, 50, 15);
+	
+	ctx.beginPath();
+    ctx.moveTo(17,27);
+    ctx.lineTo(24,39);
+    ctx.lineTo(39,15);
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = '#000';
+    ctx.stroke(); */  
+	  
+	  /*  ctx.beginPath();
+    ctx.moveTo(30, 30);
+    ctx.lineTo(25, 55);
+    ctx.lineTo(25, 55);
+    ctx.fill();*/
+
+	}
+}
+	
+
+function laavorClickCheck() {
+
+	ctx.clearRect(0, 0, 20, 20);
+
+	if(isCheck == "true")
+	{
+		isCheck = "false";
+		
+	}
+	else
+	{
+		isCheck = "true";
+	}
+	
+	drawCheckBox(isCheck);
+}	
+
+//function drawCheckBox(ctx, withCheck)
+function drawCheckBox(withCheck)
+{
+	ctx.lineWidth = 2;
+	ctx.strokeStyle = "#0f0";
+    ctx.fillStyle = "#ddd";
+    roundedRect(ctx, 1, 1, 20, 20, 15);
+
+	if(withCheck.toString() === "true")
+	{
+		ctx.beginPath();
+		ctx.moveTo(05,17);
+		ctx.lineTo(15,19);
+		ctx.lineTo(04,05);
+		ctx.lineWidth = 2;
+		ctx.strokeStyle = '#000';
+		ctx.stroke();   
+	}
+}
+	
+function roundedRect(ctx, x, y, width, height, radius) {
+  ctx.beginPath();
+  ctx.moveTo(x, y + radius);
+  ctx.lineTo(x, y + height - radius);
+  ctx.arcTo(x, y + height, x + radius, y + height, radius);
+  ctx.lineTo(x + width - radius, y + height);
+  ctx.arcTo(x + width, y + height, x + width, y + height-radius, radius);
+  ctx.lineTo(x + width, y + radius);
+  ctx.arcTo(x + width, y, x + width - radius, y, radius);
+  ctx.lineTo(x + radius, y);
+  ctx.arcTo(x, y, x, y + radius, radius);
+  ctx.stroke();
+}
+</script>
+
+</body>
+</html>

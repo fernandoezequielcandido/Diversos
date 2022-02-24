@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#left, #right {
+  float: left;
+  width: 180px;
+  height: 1005px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#father {
+  vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+}
+</style>
+
+
+</head>
+<body>
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+<div height="300" />
+<canvas id="canvas">
+Your browser does not support the canvas element.
+</canvas>
+</br>
+
+</br>
+
+
+<script>
+
+window.onload = function () {
+  var canvas = document.getElementById('canvas');
+ if (canvas.getContext) {
+    var ctx = canvas.getContext('2d');
+	ctx.lineWidth = 10;
+	ctx.strokeStyle = "#0f0";
+     ctx.fillStyle = "#ddd";
+	 
+	 /* uqdrado perfeito
+	 ctx.beginPath();
+  	ctx.moveTo(12, 12);
+	ctx.lineTo(12, 85);
+	ctx.lineTo(85, 85);
+	ctx.lineTo(85, 12);
+	ctx.lineTo(7, 12);*/
+	
+	/*
+		ctx.beginPath();
+	//move to é pnto x e y do canvas início do desenho
+  	ctx.moveTo(60, 85);
+	//75 height - 15(arc) qualquer arc deve ser dimuido do height faz parte do size
+	//ctx.lineTo(12, 85);
+	// 85 is height full
+	ctx.arcTo(85, 97, 97, 105, 15);*/
+	
+	
+	 /*
+	ctx.beginPath();
+	//move to é pnto x e y do canvas início do desenho
+  	ctx.moveTo(12, 12);
+	//75 height - 15(arc) qualquer arc deve ser dimuido do height faz parte do size
+	ctx.lineTo(12, 60);
+	// 85 is height full
+	ctx.arcTo(12, 85, 25, 85, 25);*/
+//	ctx.lineTo(85, 85);
+	//ctx.arcTo(85, 60, 75, 47, 15);
+	//ctx.arcTo(60, 85, 97, 85, 25);
+	
+	/*
+	ctx.beginPath();
+	//move to é pnto x e y do canvas início do desenho
+  	ctx.moveTo(12, 12);
+	//75 height - 15(arc) qualquer arc deve ser dimuido do height faz parte do size
+	ctx.lineTo(12, 60);
+	// 85 is height full
+	ctx.arcTo(12, 85, 25, 85, 25);
+	ctx.lineTo(85, 85);
+	ctx.arcTo(85, 60, 75, 47, 15);
+	//ctx.arcTo(60, 85, 97, 85, 25);
+	//ctx.arcTo(12 + 60, 12 + , 12 + 85, 12 + 85-25, 25);
+	//ctx.arcTo(12 + 85 - 25 , 37, 40, 12, 25);
+	ctx.lineTo(85, 12);
+	//ctx.arcTo(85, 12, 25, 12, 25);
+	ctx.lineTo(7, 12);*/
+
+	//ctx.lineTo(2, 350); 350 height
+	//ctx.arcTo(2, 2 + 50, 2 + 15, 2 + 50, 15);
+	/*
+	ctx.arcTo(x, y + height, x + 15, y + height, 15);
+	ctx.lineTo(x + width - 15, y + height);
+	ctx.arcTo(x + width, y + height, x + width, y + height-15, 15);
+	ctx.lineTo(x + width, y + 15);
+	ctx.arcTo(x + width, y, x + width - 15, y, 15);
+	ctx.lineTo(x + 15, y);
+	ctx.arcTo(x, y, x, y + 15, 15);*/
+	ctx.stroke();
+    roundedRect(ctx, 12, 12, 50, 50, 15);
+	 /*
+    roundedRect(ctx, 12, 12, 50, 50, 15);
+	
+	 ctx.beginPath();
+      ctx.moveTo(25,35);
+      ctx.lineTo(35,47);
+      ctx.lineTo(47,23);
+      ctx.lineWidth = 6;
+      ctx.strokeStyle = '#000';
+      ctx.stroke();   
+	  
+	  /*  ctx.beginPath();
+    ctx.moveTo(30, 30);
+    ctx.lineTo(25, 55);
+    ctx.lineTo(25, 55);
+    ctx.fill();*/
+
+	}
+	}
+	
+function roundedRect(ctx, x, y, width, height) {
+  ctx.beginPath();
+  ctx.moveTo(x, y + 15);
+  ctx.lineTo(x, y + height - 15);
+  ctx.arcTo(x, y + height, x + 15, y + height, 15);
+  ctx.lineTo(x + width - 15, y + height);
+  ctx.arcTo(x + width, y + height, x + width, y + height-15, 15);
+  ctx.lineTo(x + width, y + 15);
+  ctx.arcTo(x + width, y, x + width - 15, y, 15);
+  ctx.lineTo(x + 15, y);
+  ctx.arcTo(x, y, x, y + 15, 15);
+  ctx.stroke();
+}
+</script>
+
+</body>
+</html>

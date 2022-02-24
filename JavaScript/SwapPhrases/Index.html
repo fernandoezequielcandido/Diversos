@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Laavor.com - Tools for Developers</title>
+<!-- Stylesheets -->
+<link rel="shortcut icon" href="images/laavorico.ico" type="image/x-icon">
+<link rel="icon" href="images/laavorico.ico" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body>
+<img src="images/laavorico.ico" />
+<br/>
+<h4>Created and maintained by Fernando Ezequiel Candido</h4>
+<br/>
+<br/>
+<div>
+
+<div id="divPhrases">
+	<div laavorValue="1">
+		<span>Abraham Lincoln</span>
+		</br>
+		<span>Those who deny freedom to others, deserve it not for themselves</span>
+	</div>
+	
+	
+	<div laavorValue="2" laavorBorderColor="#4B0082" laavorTextColor="#4B0082">
+		<span>Winston S. Churchill</span>
+		</br>
+		<span>Success is stumbling from failure to failure with no loss of enthusiasm</span>
+	</div>
+	
+	
+	<div laavorValue="3" laavorBorderColor="#0080ff" laavorTextColor="#0080ff">
+		<span>Watch your thoughts; they lead to attitudes.</span></br>
+		<span>Watch your attitudes; they lead to words.</span></br>
+		<span>Watch your words; they lead to actions.</span></br>
+		<span>Watch your actions; they lead to habits.</span></br>
+		<span>Watch your habits; they lead to character.</span></br>
+		<span>Watch your character; it determines your destiny.</span>
+	</div>
+	
+	
+	<div laavorValue="4" laavorBorderColor="#db0000" laavorTextColor="#db0000">
+		<span>Benjamin Franklin</span>
+		</br>
+		<span>Tell me and I forget. Teach me and I remember. Involve me and I learn</span>
+	</div>
+	
+
+	<span laavorValue="5">Tools for Developers</span>
+	
+	
+	<div laavorValue="6" laavorBorderColor="green" laavorTextColor="green">
+		<span>Robert Louis Stevenson</span>
+		</br>
+		<span>Don't judge each day by the harvest you reap but by the seeds that you plant</span>
+	</div>
+	
+	
+	<div laavorValue="7" laavorBorderColor="#ff8000" laavorTextColor="#ff8000">
+		<span>Fernando Ezequiel Candido</span>
+		</br>
+		<span>Giving up comes from the despair that follows waiting, so don't wait</span>
+	</div>
+
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<div id="divTaylor" style="align:center;">
+
+	<div laavorValue="1">
+		<span>Captains and the Kings</span>
+		<br/>
+		</br>
+		<table>
+		<tr>
+		<td>
+		 <img  src="images/Captains_and_the_Kings.jpg"   /></td>
+			<td><span>Captains and the Kings is a 1972 historical novel by Taylor Caldwell 
+			chronicling the rise to wealth and power of an Irish immigrant, 
+			Joseph Francis Xavier Armagh, who emigrates as a penniless teenager to the United States, 
+			along with his younger brother and baby sister, only for their parents to die shortly afterwards. 
+			Joseph Armagh befriends a Lebanese immigrant, and both are taken under the tutelage of an American plutocrat. 
+			An inter-generational saga focusing on the themes of the American dream, discrimination and bigotry in American life, 
+			and of history as made by a cabal of the rich and powerful, through Armagh's attempt to make his eldest son, who eventually becomes a senator, 
+			the first Catholic President of the United States.</span></td>
+		</table>
+		</tr>
+	</div>
+	
+	
+	<div laavorValue="2">
+		<span>The Eagles Gather</span>
+		<br/>
+		</br>
+		<table>
+		<tr>
+		<td><img src="images/eagles.jpg" height="360" width="220"/></td>
+		<td>
+			<span>Sequel to Dynasty of Death, and dealing this time more with the fortunes and the misfortunes of the somewhat decadent 
+			inheritors of the Bouchard and Barbour fortunes and rights in munitions, than with the sweep of industry itself. 
+			The period is perhaps two generations beyond the main period of Dynasty of Death. 
+			The families have continued to intermarry, and their integrity seems to have dissipated in conflict over power, show, 
+			wealth and personalities. Christopher, cold-blooded schemer, is out to ""get"" the brother who holds the titular headship, 
+			and uses his brothers and even the little sister he pretended to adore, for his own ends. 
+			</span>
+		</td>
+		</table>
+		</tr>
+	</div>
+	
+	
+	<div laavorValue="3">
+		<span>Time No Longer</span>
+		<br/>
+		</br>
+		<table>
+		<tr>
+		<td><img src="images/timenolonger.jpg" height="360" width="220"/></td>
+		<td>
+			<span>This is the epic saga of the Erlich dynasty...Karl, the brilliant scientist...Eric, 
+			their Jewish adopted brother...Therese, the proud beauty...Maria, whose ruthless common sense cut through all pretenses...Gerda, 
+			a slave to her own Passions...All trapped in the inferno of evil that was Nazi Germany...
+			each facing his or her own moment of terrible truth...Here is Talor Caldwell's most searing triumph--and unforgettable novel of love and hate, 
+			strength and weakness, despair and unconquerable courage.. 
+			</span>
+		</td>
+		</table>
+		</tr>
+	</div>
+	
+	
+</div>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<button onclick="test();">Get Value</button>
+<br/>
+<button onclick="test2();">Block</button>
+<br/>
+<button onclick="test3();">Release</button>
+
+<script src="SwapPhrasesBase.js"></script>
+<script type="text/javascript">
+
+function test()
+{
+	var index = laavorGetIndexSwapPhrasesChosen("divPhrases");
+	var value = laavorGetValueSwapPhrasesChosen("divPhrases");
+	var est = 0;
+
+};
+
+function test2()
+{
+	laavorBlockSwapPhrases("divPhrases");
+};
+
+function test3()
+{
+	laavorReleaseSwapPhrases("divPhrases");
+};
+
+function starterInDeepLanguage(a, b, c, d) {
+	var ts = a;
+};
+
+ LaavorSwapPhrases('divPhrases', {OnSwap: starterInDeepLanguage, borderColor: "black", backgroundColor: "white", textColor: "black", border: "solid 2px", width: "700", fontSize: 2});
+ LaavorSwapPhrases('divTaylor', {OnSwap: starterInDeepLanguage, borderColor: "black", backgroundColor: "white", textColor: "black", border: "solid 2px", width: "1200", height: "500", fontSize: 2});
+</script>
+</body>
+</html>
