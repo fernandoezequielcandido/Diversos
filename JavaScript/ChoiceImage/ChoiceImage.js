@@ -1,190 +1,312 @@
-function lvCI01(lvCI42) {
-    "use strict";
-    var lvCI02 = "";
-    var lvCI03 = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    for (var lvCI04 = 0; lvCI04 < 15; lvCI04++)
-        lvCI02 += lvCI03.charAt(Math.floor(Math.random() * lvCI03.length));
-
-    if (lvCI42 !== undefined && lvCI42 !== null) {
-        lvCI02 += "_" + lvCI42;
-    }
-
-    return lvCI02;
-}
-
 window.onload = function () {
     "use strict";
-    var lvCI05 = document.getElementsByClassName("laavorChoiceImage");
+    var choiceImage = document.getElementsByClassName("laavorChoiceImage");
 
-    if (lvCI05 === undefined || lvCI05 === null || lvCI05.length === 0) {
+    if (choiceImage === undefined || choiceImage === null || choiceImage.length === 0) {
 
     }
     else {
-        for (var lvCI06 = 0; lvCI06 < lvCI05.length; lvCI06++) {
-            var lvCI07 = lvCI05[lvCI06];
-            lvCI08(lvCI07, lvCI06);
+        for (var iChoiceImage = 0; iChoiceImage < choiceImage.length; iChoiceImage++) {
+            var choiceImageItem = choiceImage[iChoiceImage];
+            laavorChoiceImageInitAll(choiceImageItem, iChoiceImage);
         }
     }
-
 }
 
-function lvCI09(lvCI11) {
-    var lvCI10 = lvCI11.target.getAttribute("lvCI41");
-    lvCI11.target.classList.add(lvCI10);
-    lvCI11.target.style.borderImage = "1px solid gren";
-    sessionStorage["lvCI24"] = lvCI10;
+function dragStart(evt) {
+    var uniqueName = evt.target.getAttribute("uniqueName_id");
+    evt.target.classList.add(uniqueName);
+	var idFatherAll = evt.target.getAttribute("idFatherAll");
+	var saveData = document.getElementsByClassName("laavorChoiceImage")[idFatherAll];
+	saveData.setAttribute("dragItemlaavor", uniqueName);
 }
 
-function dragEnd(lvCI12) {
-    var lvCI10 = lvCI12.target.getAttribute("lvCI41");
-    lvCI12.target.classList.remove(lvCI10);
-    lvCI12.target.style.borderImage = "";
-    sessionStorage["lvCI24"] = "";
+function dragEnd(evt) {
+    var uniqueName = evt.target.getAttribute("uniqueName_id");
+    evt.target.classList.remove(uniqueName);
+	var idFatherAll = evt.target.getAttribute("idFatherAll");
+	var saveData = document.getElementsByClassName("laavorChoiceImage")[idFatherAll];
+	saveData.setAttribute("dragItemlaavor", uniqueName);
 }
 
-function drop(lvCI14) {
-    lvCI14.preventDefault();
-    var lvCI10 = sessionStorage["lvCI24"];
-    var lvCI13 = lvCI14.target;
-    var lvCI15 = lvCI13.getAttribute("type");
+function drop(evt) {
+    evt.preventDefault();
+	var idFatherAll = evt.target.getAttribute("idFatherAll");
+	var saveData = document.getElementsByClassName("laavorChoiceImage")[idFatherAll];
+	
+    var uniqueName = saveData.getAttribute("dragItemlaavor");
+    var elemFather = evt.target;
+    var typeElem = elemFather.getAttribute("type");
 
-    if (lvCI15 !== "node") {
-        if (lvCI15 !== undefined && lvCI15 !== null) {
-            if (lvCI10 !== undefined && lvCI10 !== null) {
-                var lvCI16 = document.getElementsByClassName(lvCI10)[0];
+	var sourceSelected = "";
+	var valueSelected = "";
+	
+	var isSelected = false;
+		
+    if (typeElem !== "node") {
+        if (typeElem !== undefined && typeElem !== null) {
+            if (uniqueName !== undefined && uniqueName !== null) {
+                var imgLaavor = document.getElementsByClassName(uniqueName)[0];
 
-                var lvCI17 = lvCI14.target.getAttribute("lvCI39");
-                var lvCI18 = lvCI16.getAttribute("lvCI40");
+                var idFather = evt.target.getAttribute("idLaavor");
+                var idFatherNode = imgLaavor.getAttribute("idFather");
 
-                if (lvCI18 !== undefined && lvCI18 !== null && lvCI17 !== lvCI18) {
-                    lvCI14.target.appendChild(document.getElementsByClassName(lvCI10 + "_div")[0]);
+                if (idFatherNode !== undefined && idFatherNode !== null && idFather !== idFatherNode) {
+                    evt.target.appendChild(document.getElementsByClassName(uniqueName + "_div")[0]);
 
-                    lvCI16.setAttribute("lvCI40", lvCI17);
-                    var lvCI19 = document.getElementsByClassName(lvCI16.getAttribute("lvCI41") + "_div")[0];
-                    lvCI19.setAttribute("lvCI40", lvCI17);
+                    imgLaavor.setAttribute("idFather", idFather);
+                    var divImg = document.getElementsByClassName(imgLaavor.getAttribute("uniqueName_id") + "_div")[0];
+                    divImg.setAttribute("idFather", idFather);
+					
+					var IDSelect = 	saveData.getAttribute("IDSelect");
+	
+					if(idFather == IDSelect)
+					{
+						isSelected = true;
+					}
+				
+					sourceSelected = imgLaavor.src;
+					valueSelected = imgLaavor.getAttribute("laavorValue");
                 }
             }
         }
         else {
-            var lvCI17 = lvCI14.target.getAttribute("lvCI17");
-            if (lvCI17 !== undefined && lvCI17 !== null) {
-                var lvCI13 = document.getElementsByClassName(lvCI17)[0];
-                var lvCI16 = document.getElementsByClassName(lvCI10)[0];
+            var idFather = evt.target.getAttribute("idFather");
+            if (idFather !== undefined && idFather !== null) {
+                var elemFather = document.getElementsByClassName(idFather)[0];
+                var imgLaavor = document.getElementsByClassName(uniqueName)[0];
 
-                var lvCI18 = lvCI16.getAttribute("lvCI40");
+                var idFatherNode = imgLaavor.getAttribute("idFather");
 
-                if (lvCI18 !== undefined && lvCI18 !== null && idFather !== lvCI18) {
-                    if (lvCI13 !== undefined && lvCI13 !== null) {
-                        lvCI13.appendChild(document.getElementsByClassName(lvCI10 + "_div")[0]);
-                    }
-                    else {
-                        var sdf = 0;
+                if (idFatherNode !== undefined && idFatherNode !== null && idFather !== idFatherNode) {
+                    if (elemFather !== undefined && elemFather !== null) {
+                        elemFather.appendChild(document.getElementsByClassName(uniqueName + "_div")[0]);
                     }
 
-                    lvCI16.setAttribute("lvCI40", lvCI17);
-                    var lvCI19 = document.getElementsByClassName(lvCI16.getAttribute("lvCI41") + "_div")[0];
-                    lvCI19.setAttribute("lvCI40", lvCI17);
+                    imgLaavor.setAttribute("idFather", idFather);
+                    var divImg = document.getElementsByClassName(imgLaavor.getAttribute("uniqueName_id") + "_div")[0];
+                    divImg.setAttribute("idFather", idFather);
+					
+					var IDSelect = saveData.getAttribute("IDSelect");
+	
+					if(idFather == IDSelect)
+					{
+						isSelected = true;
+					}
+				
+					sourceSelected = imgLaavor.src;
+					valueSelected = imgLaavor.getAttribute("laavorValue");
                 }
-
             }
         }
     }
     else {
-        var lvCI17 = lvCI14.target.getAttribute("lvCI40");
-        if (lvCI17 !== undefined && lvCI17 !== null) {
-            var lvCI13 = document.getElementsByClassName(lvCI17)[0];
-            var lvCI16 = document.getElementsByClassName(lvCI10)[0];
+        var idFather = evt.target.getAttribute("idFather");
+        if (idFather !== undefined && idFather !== null) {
+            var elemFather = document.getElementsByClassName(idFather)[0];
+            var imgLaavor = document.getElementsByClassName(uniqueName)[0];
 
-            var lvCI18 = lvCI16.getAttribute("lvCI40");
+            var idFatherNode = imgLaavor.getAttribute("idFather");
 
-            if (lvCI18 !== undefined && lvCI18 !== null && lvCI17 !== lvCI18) {
-                lvCI13.appendChild(document.getElementsByClassName(lvCI10 + "_div")[0]);
+            if (idFatherNode !== undefined && idFatherNode !== null && idFather !== idFatherNode) {
+                elemFather.appendChild(document.getElementsByClassName(uniqueName + "_div")[0]);
 
-                lvCI16.setAttribute("lvCI40", lvCI17);
-                var lvCI19 = document.getElementsByClassName(lvCI16.getAttribute("lvCI41") + "_div")[0];
-                lvCI19.setAttribute("lvCI40", lvCI17);
+                imgLaavor.setAttribute("idFather", idFather);
+                var divImg = document.getElementsByClassName(imgLaavor.getAttribute("uniqueName_id") + "_div")[0];
+                divImg.setAttribute("idFather", idFather);
+				
+				var IDSelect = saveData.getAttribute("IDSelect");
+	
+				if(idFather == IDSelect)
+				{
+					isSelected = true;
+				}
+				
+				sourceSelected = imgLaavor.src;
+				valueSelected = imgLaavor.getAttribute("laavorValue");
             }
         }
     }
-
-    sessionStorage["lvCI24"] = "";
+	
+	var commandEvent;
+	
+	if(isSelected === "true")
+	{
+		commandEvent = saveData.getAttribute("laavorChosen");
+	}
+	else
+	{
+		commandEvent = saveData.getAttribute("laavorUnchosen");
+	}
+	
+	if(commandEvent !== undefined && commandEvent !== null)
+	{
+		try
+		{
+			window[commandEvent](valueSelected, sourceSelected);		
+		}
+		catch(errorLaavor)
+		{
+			try
+			{
+				window[commandEvent](errorLaavor);
+			}
+			catch(errorLaavorI)
+			{}
+		}
+	}
+	
+    saveData.setAttribute("dragItemlaavor", "");
 }
 
-function allowDropEvent(lvCI20) {
-    lvCI20.preventDefault();
+function laavorChoiceImageGetSelectedValues(id)
+{
+	"use strict";
+	var choiceImageItem = document.getElementById(id);
+	var values = [];		
+		
+	if(choiceImageItem !== undefined && choiceImageItem !== null)
+	{
+		var itemsDeselectSelect = choiceImageItem.children;
+		var imgs = itemsDeselectSelect[1].getElementsByTagName("img");
+			
+		var count = imgs.length;
+		for(var iImg = 0; iImg < imgs.length; iImg++)
+		{
+			var eleImg = imgs[iImg];
+			var valueImg = eleImg.getAttribute("laavorValue");
+			
+			if(valueImg !== undefined && valueImg !== null)
+			{
+				values.push(valueImg);
+			}
+		}
+	}
+	
+	return values;
 }
 
-function lvCI08(lvCI21, lvCI22) {
+function laavorChoiceImageGetSelectedImages(id)
+{
+	"use strict";
+	var choiceImageItem = document.getElementById(id);
+	var sources = [];		
+		
+	if(choiceImageItem !== undefined && choiceImageItem !== null)
+	{
+		var itemsDeselectSelect = choiceImageItem.children;
+		var imgs = itemsDeselectSelect[1].getElementsByTagName("img");
+			
+		var count = imgs.length;
+		for(var iImg = 0; iImg < imgs.length; iImg++)
+		{
+			var eleImg = imgs[iImg];
+			var sourceImg = eleImg.src;
+			
+			if(sourceImg !== undefined && sourceImg !== null)
+			{
+				sources.push(sourceImg);
+			}
+		}
+	}
+	
+	return sources;
+}
+
+function allowDropEvent(ev) {
+    ev.preventDefault();
+}
+
+function laavorUniqueName(id) {
     "use strict";
-    var lvCI23;
-    var lvCI25 = lvCI01("");
-    var lvCI26 = lvCI01("");
+    var laavorName = "";
+    var charPotential = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    var lvCI27 = 0;
-    var lvCI28 = 1;
+    for (var i = 0; i < 15; i++)
+        laavorName += charPotential.charAt(Math.floor(Math.random() * charPotential.length));
 
-    var lvCI29 = lvCI21.children;
-    var lvCI30 = lvCI29[lvCI27].children;
-    var lvCI31 = lvCI29[lvCI28].children;
-
-    lvCI29[lvCI27].addEventListener("drop", drop, true);
-    lvCI29[lvCI27].addEventListener("dragover", allowDropEvent, true);
-    lvCI29[lvCI27].setAttribute("type", "container");
-    lvCI29[lvCI27].setAttribute("lvCI39", lvCI25);
-    lvCI29[lvCI27].classList.add(lvCI25);
-
-    lvCI29[lvCI28].addEventListener("drop", drop, true);
-    lvCI29[lvCI28].addEventListener("dragover", allowDropEvent, true);
-    lvCI29[lvCI28].setAttribute("type", "container");
-    lvCI29[lvCI28].setAttribute("lvCI39", lvCI26);
-    lvCI29[lvCI28].classList.add(lvCI26);
-
-    var lvCI32 = lvCI30.length;
-
-    var lvCI33 = [];
-    var listIds = [];
-
-    for (var lvCI34 = 0; lvCI34 < lvCI32; lvCI34++) {
-
-        var lvCI35 = lvCI30[lvCI34];
-
-        var lvCI36 = document.createElement("div");
-        var lvCI37 = document.createElement("br");
-
-        lvCI36.appendChild(lvCI35);
-        lvCI36.appendChild(lvCI37);
-
-        lvCI36.setAttribute("lvCI40", lvCI25);
-
-        lvCI33.push(lvCI36);
-        lvCI32--;
-        lvCI34--;
+    if (id !== undefined && id !== null) {
+        laavorName += "_" + id;
     }
 
-    var lvCI32 = lvCI33.length;
-    for (var lvCI34 = 0; lvCI34 < lvCI32; lvCI34++) {
-        lvCI23 = lvCI01(lvCI22);
+    return laavorName;
+}
 
-        lvCI29[0].appendChild(lvCI33[lvCI34]);
-        lvCI29[0].children[lvCI34].classList.add(lvCI23 + "_div");
-        lvCI29[0].children[lvCI34].children[0].setAttribute("draggable", true);
-        lvCI29[0].children[lvCI34].children[0].setAttribute("lvCI41", lvCI23);
-        lvCI29[0].children[lvCI34].children[0].addEventListener("dragstart", lvCI09, true);
-        lvCI29[0].children[lvCI34].children[0].addEventListener("dragend", dragEnd, true);
-        lvCI29[0].children[lvCI34].children[0].setAttribute("type", "node");
-        lvCI29[0].children[lvCI34].children[0].setAttribute("lvCI40", lvCI25);
+function laavorChoiceImageInitAll(choiceImageItem, id) {
+    "use strict";
+    var uniqueName;
+    var uniqueNameDeselect = laavorUniqueName("");
+    var uniqueNameSelect = laavorUniqueName("");
+
+    var indexDeselect = 0;
+    var indexSelect = 1;
+
+    var itemsDeselectSelect = choiceImageItem.children;
+    var itemsDeselect = itemsDeselectSelect[indexDeselect].children;
+    var itemsSelect = itemsDeselectSelect[indexSelect].children;
+
+    itemsDeselectSelect[indexDeselect].addEventListener("drop", drop, true);
+    itemsDeselectSelect[indexDeselect].addEventListener("dragover", allowDropEvent, true);
+    itemsDeselectSelect[indexDeselect].setAttribute("type", "container");
+    itemsDeselectSelect[indexDeselect].setAttribute("idLaavor", uniqueNameDeselect);
+    itemsDeselectSelect[indexDeselect].classList.add(uniqueNameDeselect);
+	itemsDeselectSelect[indexDeselect].setAttribute("idFatherAll", id);
+	
+    itemsDeselectSelect[indexSelect].addEventListener("drop", drop, true);
+    itemsDeselectSelect[indexSelect].addEventListener("dragover", allowDropEvent, true);
+    itemsDeselectSelect[indexSelect].setAttribute("type", "container");
+    itemsDeselectSelect[indexSelect].setAttribute("idLaavor", uniqueNameSelect);
+    itemsDeselectSelect[indexSelect].classList.add(uniqueNameSelect);
+	itemsDeselectSelect[indexSelect].setAttribute("idFatherAll", id);
+	
+	choiceImageItem.setAttribute("IDDeselect", uniqueNameDeselect);
+	choiceImageItem.setAttribute("IDSelect", uniqueNameSelect);
+		
+    var countItemsDeselect = itemsDeselect.length;
+
+    var lisTemp = [];
+
+    for (var iItem = 0; iItem < countItemsDeselect; iItem++) {
+
+        var dragDropItem = itemsDeselect[iItem];
+
+        var elemDiv = document.createElement("div");
+        var elemBreakLine = document.createElement("br");
+
+        elemDiv.appendChild(dragDropItem);
+        elemDiv.appendChild(elemBreakLine);
+		
+        elemDiv.setAttribute("idFather", uniqueNameDeselect);
+
+        lisTemp.push(elemDiv);
+        countItemsDeselect--;
+        iItem--;
     }
 
-    var lvCI38 = lvCI31.length;
+    var countItemsDeselect = lisTemp.length;
+    for (var iItem = 0; iItem < countItemsDeselect; iItem++) {
+        uniqueName = laavorUniqueName(id);
 
-    for (var lvCI34 = 0; lvCI34 < lvCI38; lvCI34++) {
-        lvCI23 = lvCI01(lvCI22);
+        itemsDeselectSelect[0].appendChild(lisTemp[iItem]);
+        itemsDeselectSelect[0].children[iItem].classList.add(uniqueName + "_div");
+        itemsDeselectSelect[0].children[iItem].children[0].setAttribute("draggable", true);
+        itemsDeselectSelect[0].children[iItem].children[0].setAttribute("uniqueName_id", uniqueName);
+        itemsDeselectSelect[0].children[iItem].children[0].addEventListener("dragstart", dragStart, true);
+		itemsDeselectSelect[0].children[iItem].children[0].addEventListener("dragend", dragEnd, true);		
+		itemsDeselectSelect[0].children[iItem].children[0].setAttribute("type", "node");
+        itemsDeselectSelect[0].children[iItem].children[0].setAttribute("idFather", uniqueNameDeselect);
+		itemsDeselectSelect[0].children[iItem].children[0].style.cursor = "grab";
+		itemsDeselectSelect[0].children[iItem].children[0].setAttribute("idFatherAll", id);
+    }
 
-        var lvCI35 = lvCI31[lvCI34];
+    var countItemsSelect = itemsSelect.length;
+    for (var iItem = 0; iItem < countItemsSelect; iItem++) {
+        uniqueName = laavorUniqueName(id);
 
-        lvCI35.setAttribute("draggable", true);
-        lvCI35.setAttribute("lvCI41", lvCI23);
-        lvCI35.addEventListener("dragstart", dragEvent);
+        var dragDropItem = itemsSelect[iItem];
+
+        dragDropItem.setAttribute("draggable", true);
+        dragDropItem.setAttribute("uniqueName_id", uniqueName);
+        dragDropItem.addEventListener("dragstart", dragEvent);
     }
 }

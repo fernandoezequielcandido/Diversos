@@ -1,769 +1,769 @@
 function LaavorRatingSwap()
 {
 	"use strict";
-	var lvRT01 =  document.getElementsByClassName("laavorRatingImage");
+	var ratingImage =  document.getElementsByClassName("laavorRatingImage");
 		
-	if(lvRT01 === undefined || lvRT01 === null || lvRT01.length === 0)
+	if(ratingImage === undefined || ratingImage === null || ratingImage.length === 0)
 	{
 		
 	}
 	else
 	{
-		for(var lvRT02 = 0; lvRT02 < lvRT01.length; lvRT02++)
+		for(var iRatingImage = 0; iRatingImage < ratingImage.length; iRatingImage++)
 		{		
-			var lvRT03 = lvRT01[lvRT02];
-			lvRT233(lvRT03, lvRT02);		
+			var ratingImageItem = ratingImage[iRatingImage];
+			laavorRatingImageInitAll(ratingImageItem, iRatingImage);		
 		}
 	}
 		
-	var lvRT04 =  document.getElementsByClassName("laavorRatingNumber");
+	var ratingNumber =  document.getElementsByClassName("laavorRatingNumber");
 		
-	if(lvRT04 === undefined || lvRT04 === null || lvRT04.length === 0)
+	if(ratingNumber === undefined || ratingNumber === null || ratingNumber.length === 0)
 	{
 		
 	}
 	else
 	{
-		for(var lvRT05 = 0; lvRT05 < lvRT04.length; lvRT05++)
+		for(var iRatingNumber = 0; iRatingNumber < ratingNumber.length; iRatingNumber++)
 		{		
-			var lvRT06 = lvRT04[lvRT05];
-			lvRT238(lvRT06, "lvRT249");		
+			var ratingNumberItem = ratingNumber[iRatingNumber];
+			laavorRatingLabelInitAll(ratingNumberItem, "number");		
 		}
 	}
 	
-	var lvRT07 =  document.getElementsByClassName("laavorRatingLetter");
+	var ratingLetter =  document.getElementsByClassName("laavorRatingLetter");
 		
-	if(lvRT07 === undefined || lvRT07 === null || lvRT07.length === 0)
+	if(ratingLetter === undefined || ratingLetter === null || ratingLetter.length === 0)
 	{
 		
 	}
 	else
 	{	
-		for(var lvRT08 = 0; lvRT08 < lvRT07.length; lvRT08++)
+		for(var iRatingLetter = 0; iRatingLetter < ratingLetter.length; iRatingLetter++)
 		{		
-			var lvRT09 = lvRT07[lvRT08];
-			lvRT238(lvRT09, "lvRT250");		
+			var ratingLetterItem = ratingLetter[iRatingLetter];
+			laavorRatingLabelInitAll(ratingLetterItem, "letter");		
 		}
 	}
 	
-	var lvRT10 =  document.getElementsByClassName("laavorSwapImage");
+	var imageSwap =  document.getElementsByClassName("laavorSwapImage");
 		
-	if(lvRT10 === undefined || lvRT10 === null || lvRT10.length === 0)
+	if(imageSwap === undefined || imageSwap === null || imageSwap.length === 0)
 	{
 		
 	}
     else
 	{
-		for(var lvRT11 = 0; lvRT11 < lvRT10.length; lvRT11++)
+		for(var iImageSwap = 0; iImageSwap < imageSwap.length; iImageSwap++)
 		{		
-			var lvRT12 = lvRT10[lvRT11];
-			lvRT246(lvRT12);		
+			var imageSwapItem = imageSwap[iImageSwap];
+			laavorImageSwapInitAll(imageSwapItem);		
 		}
 	}
 	
-	var lvRT13 =  document.getElementsByClassName("laavorSwapLabel");
+	var labelSwap =  document.getElementsByClassName("laavorSwapLabel");
 		
-	if(lvRT13 === undefined || lvRT13 === null || lvRT13.length === 0)
+	if(labelSwap === undefined || labelSwap === null || labelSwap.length === 0)
 	{
 		
 	}
 	else
 	{
-		for(var lvRT14 = 0; lvRT14 < lvRT13.length; lvRT14++)
+		for(var iLabelSwap = 0; iLabelSwap < labelSwap.length; iLabelSwap++)
 		{		
-			var lvRT15 = lvRT13[lvRT14];
-			laavorLabelSwapInitAll(lvRT15);		
+			var labelSwapItem = labelSwap[iLabelSwap];
+			laavorLabelSwapInitAll(labelSwapItem);		
 		}
 	}
 }
 
-function laavorRatingImageResetAll(lvRT16)
+function laavorRatingImageResetAll(id)
 {
 	"use strict";
-	var lvRT17 =  document.getElementById(lvRT16);
-	lvRT17.innerHTML = '';
-	lvRT233(lvRT17);
+	var rating =  document.getElementById(id);
+	rating.innerHTML = '';
+	laavorRatingImageInitAll(rating);
 }
 
-function laavorRatingNumberResetAll(lvRT18)
+function laavorRatingNumberResetAll(id)
 {
 	"use strict";
-	var lvRT17 =  document.getElementById(lvRT18);
-	lvRT17.innerHTML = '';
-	lvRT238(lvRT17, "lvRT249");
+	var rating =  document.getElementById(id);
+	rating.innerHTML = '';
+	laavorRatingLabelInitAll(rating, "number");
 }
 
-function laavorRatingLetterResetAll(lvRT19)
+function laavorRatingLetterResetAll(id)
 {
 	"use strict";
-	var lvRT17 =  document.getElementById(lvRT19);
-	lvRT17.innerHTML = '';
-	lvRT238(lvRT17, "lvRT250");
+	var rating =  document.getElementById(id);
+	rating.innerHTML = '';
+	laavorRatingLabelInitAll(rating, "letter");
 }
 
-function lvRT233(lvRT21, lvRT20)
+function laavorRatingImageInitAll(ratingItem, id)
 {
 	"use strict";
-	var lvRT22 = lvRT245(lvRT20);
+	var uniqueName = laavorUniqueName(id);
 	
-	lvRT21.setAttribute("lvRT243", lvRT22);
-	lvRT21.classList.add(lvRT22);	
+	ratingItem.setAttribute("LaavorAtrHex", uniqueName);
+	ratingItem.classList.add(uniqueName);	
 			
-	if(lvRT21 !== undefined && lvRT21 !== null)
+	if(ratingItem !== undefined && ratingItem !== null)
 	{
-		var lvRT23 = lvRT21.getAttribute("imageSelect");
-		var lvRT24 = lvRT21.getAttribute("imageDeselect");
-		var lvRT25 = lvRT21.getAttribute("spaceBetween");
+		var imageSelect = ratingItem.getAttribute("imageSelect");
+		var imageDeselect = ratingItem.getAttribute("imageDeselect");
+		var spaceBetween = ratingItem.getAttribute("spaceBetween");
 		
-		if(lvRT23 !== undefined && lvRT23 !== null && lvRT24 !== undefined && lvRT24 !== null)
+		if(imageSelect !== undefined && imageSelect !== null && imageDeselect !== undefined && imageDeselect !== null)
 		{	
-			var lvRT26 = lvRT21.getAttribute("itemsNumber");
-			var lvRT27 = lvRT21.getAttribute("initialValue");
-			var lvRT28 = lvRT21.getAttribute("isReadOnly");
-			var lvRT29 = lvRT21.getAttribute("blockSelect");
-			var lvRT30 = lvRT21.getAttribute("imageWidth");
-			var lvRT31 = lvRT21.getAttribute("imageHeight");
-			var lvRT204 = lvRT21.getAttribute("commandEvent");
+			var itemsNumber = ratingItem.getAttribute("itemsNumber");
+			var initialValue = ratingItem.getAttribute("initialValue");
+			var isReadOnly = ratingItem.getAttribute("isReadOnly");
+			var blockSelect = ratingItem.getAttribute("blockSelect");
+			var imageWidth = ratingItem.getAttribute("imageWidth");
+			var imageHeight = ratingItem.getAttribute("imageHeight");
+			var commandEvent = ratingItem.getAttribute("commandEvent");
 			
-			var lvRT32;
-			if(lvRT25 !== undefined && lvRT25 !== null)
+			var numberSpaces;
+			if(spaceBetween !== undefined && spaceBetween !== null)
 			{
-				lvRT32 = lvRT25.lvRT247();
+				numberSpaces = spaceBetween.laavorToInteger();
 			}
 			else
 			{
-				lvRT32 = lvRT239("spaceBetweenImage").lvRT247();	
+				numberSpaces = getDefaultProperties("spaceBetweenImage").laavorToInteger();	
 			}
 	
-			if(lvRT26 === undefined || lvRT26 === null)
+			if(itemsNumber === undefined || itemsNumber === null)
 			{
-				lvRT26 = 5;				
+				itemsNumber = 5;				
 			}
 			
-			if(lvRT27 === undefined || lvRT27 === null)
+			if(initialValue === undefined || initialValue === null)
 			{
-				lvRT27 = 0;
+				initialValue = 0;
 			}
 							
-			for(var lvRT33 = 1; lvRT33 <= lvRT26; lvRT33++)
+			for(var iItem = 1; iItem <= itemsNumber; iItem++)
 			{
-				var lvRT34 = document.createElement("img");
-				lvRT34.setAttribute("NumberLV", lvRT33);
-				lvRT34.setAttribute("ItemsNumber", lvRT26);
-				lvRT34.setAttribute("imageSelect", lvRT23);				
-				lvRT34.setAttribute("imageDeselect", lvRT24);	
+				var elem = document.createElement("img");
+				elem.setAttribute("NumberLV", iItem);
+				elem.setAttribute("ItemsNumber", itemsNumber);
+				elem.setAttribute("imageSelect", imageSelect);				
+				elem.setAttribute("imageDeselect", imageDeselect);	
 			
-			    lvRT34.style.cursor = "pointer";
+			    elem.style.cursor = "pointer";
 				
-				lvRT34.setAttribute("Name", lvRT22);
-				lvRT34.setAttribute("lvRT243", lvRT22);
+				elem.setAttribute("Name", uniqueName);
+				elem.setAttribute("LaavorAtrHex", uniqueName);
 				
-				lvRT34.setAttribute("commandEvent", lvRT204);
+				elem.setAttribute("commandEvent", commandEvent);
 					
-				if(lvRT33 <= lvRT27)
+				if(iItem <= initialValue)
 				{
-					lvRT34.setAttribute("lvRT240", true);
-					lvRT34.src = lvRT23;
+					elem.setAttribute("IsSelectedLV", true);
+					elem.src = imageSelect;
 				}
 				else
 				{
-					lvRT34.setAttribute("lvRT240", false);
-					lvRT34.src = lvRT24;
+					elem.setAttribute("IsSelectedLV", false);
+					elem.src = imageDeselect;
 				}
 				
-				if(lvRT28 !== undefined && lvRT28 !== null)
+				if(isReadOnly !== undefined && isReadOnly !== null)
 				{
-					if(lvRT28.toString() === "true")
+					if(isReadOnly.toString() === "true")
 					{
-						if(lvRT29 !== undefined && lvRT29 !== null)
+						if(blockSelect !== undefined && blockSelect !== null)
 						{
-							lvRT34.setAttribute("blockSelect", lvRT29);	
+							elem.setAttribute("blockSelect", blockSelect);	
 						}
 					}
 					else
 					{
-						lvRT34.addEventListener("click", lvRT231);	
-						lvRT34.onmouseover = lvRT234;
-						lvRT34.onmouseleave = lvRT235;
+						elem.addEventListener("click", laavorClickImage);	
+						elem.onmouseover = HoverRatingImage;
+						elem.onmouseleave = LeaveHoverRatingImage;
 					}
 				}
 				else
 				{
-					lvRT34.addEventListener("click", lvRT231);	
+					elem.addEventListener("click", laavorClickImage);	
 					
-					if(lvRT29 !== undefined && lvRT29 !== null)
+					if(blockSelect !== undefined && blockSelect !== null)
 					{
-						lvRT34.setAttribute("blockSelect", lvRT29);	
+						elem.setAttribute("blockSelect", blockSelect);	
 					}
 					
-					lvRT34.onmouseover = lvRT234;
-					lvRT34.onmouseleave = lvRT235;
+					elem.onmouseover = HoverRatingImage;
+					elem.onmouseleave = LeaveHoverRatingImage;
 				}
 				
-				if(lvRT30 !== undefined && lvRT30 !== null)
+				if(imageWidth !== undefined && imageWidth !== null)
 				{
-					lvRT34.style.width = lvRT30;
+					elem.style.width = imageWidth;
 				}
 				
-				if(lvRT31 !== undefined && lvRT31 !== null)
+				if(imageHeight !== undefined && imageHeight !== null)
 				{
-					lvRT34.style.height = lvRT31;
+					elem.style.height = imageHeight;
 				}
 				
-				if(lvRT33 !== 1 && lvRT32 > 0)
+				if(iItem !== 1 && numberSpaces > 0)
 				{
-					for(var lvRT35 = 0; lvRT35 < lvRT32; lvRT35++)
+					for(var iS = 0; iS < numberSpaces; iS++)
 					{
-						var lvRT36 = document.createElement("span");
-						lvRT36.innerHTML = "&nbsp";
-						lvRT21.appendChild(lvRT36);
+						var elemSpace = document.createElement("span");
+						elemSpace.innerHTML = "&nbsp";
+						ratingItem.appendChild(elemSpace);
 					}
 				}
 									
-				lvRT21.appendChild(lvRT34);
+				ratingItem.appendChild(elem);
 			}
 		}
 	}
 }
 
-function lvRT234() {
+function HoverRatingImage() {
 
 	if(this !== undefined && this !== null)
 	{
-		var lvRT37 = this.getAttribute("NumberLV").lvRT247();
-		var lvRT39 = this.getAttribute("lvRT243");
-		var lvRT44 = document.getElementsByClassName(lvRT39)[0];
-		var lvRT45 = lvRT44.getElementsByTagName("img");
+		var indexTop = this.getAttribute("NumberLV").laavorToInteger();
+		var uniqueNameLaavor = this.getAttribute("LaavorAtrHex");
+		var rating = document.getElementsByClassName(uniqueNameLaavor)[0];
+		var listImages = rating.getElementsByTagName("img");
 		
-		for(var lvRT46 = 0; lvRT46 < lvRT37; lvRT46++)
+		for(var iImage = 0; iImage < indexTop; iImage++)
 		{			
-			var lvRT47 = lvRT45[lvRT46];
-			var lvRT48 = lvRT47.getAttribute("lvRT240");
-			if(lvRT48 !== undefined && lvRT48 != null)
+			var currentImage = listImages[iImage];
+			var isSelected = currentImage.getAttribute("IsSelectedLV");
+			if(isSelected !== undefined && isSelected != null)
 			{
-				if(lvRT48 === "false")
+				if(isSelected === "false")
 				{
-					lvRT47.src = lvRT47.getAttribute("imageSelect");	
+					currentImage.src = currentImage.getAttribute("imageSelect");	
 				}
 			}
 		}	
 	}	
 }
 
-function lvRT235() {
+function LeaveHoverRatingImage() {
 	if(this !== undefined && this !== null)
 	{
-		var lvRT38 = this.getAttribute("NumberLV").lvRT247();
-		var lvRT41 = this.getAttribute("lvRT243");
-		var lvRT49 = document.getElementsByClassName(lvRT41)[0];
-		var lvRT50 = lvRT49.getElementsByTagName("img")
+		var indexTop = this.getAttribute("NumberLV").laavorToInteger();
+		var uniqueNameLaavor = this.getAttribute("LaavorAtrHex");
+		var rating = document.getElementsByClassName(uniqueNameLaavor)[0];
+		var listImages = rating.getElementsByTagName("img")
 		
-		for(var lvRT51 = 0; lvRT51 < lvRT38; lvRT51++)
+		for(var iImage = 0; iImage < indexTop; iImage++)
 		{			
-			var lvRT52 = lvRT50[lvRT51];
-			var lvRT53 = lvRT52.getAttribute("lvRT240");
-			if(lvRT53 !== undefined && lvRT53 != null)
+			var currentImage = listImages[iImage];
+			var isSelected = currentImage.getAttribute("IsSelectedLV");
+			if(isSelected !== undefined && isSelected != null)
 			{
-				if(lvRT53 === "false")
+				if(isSelected === "false")
 				{
-					lvRT52.src = lvRT52.getAttribute("imageDeselect");	
+					currentImage.src = currentImage.getAttribute("imageDeselect");	
 				}
 			}
 		}	
 	}		
 }
 
-function lvRT238(lvRT55, lvRT82)
+function laavorRatingLabelInitAll(ratingItem, typeRating)
 {
 	"use strict";
-	var lvRT54 = lvRT245();
-	var lvRT57 = lvRT245();	
+	var uniqueNameBase = laavorUniqueName();
+	var uniqueNameOthers = laavorUniqueName();	
 
-	lvRT55.setAttribute("lvRT243", lvRT54);
-	lvRT55.classList.add(lvRT54);
+	ratingItem.setAttribute("LaavorAtrHex", uniqueNameBase);
+	ratingItem.classList.add(uniqueNameBase);
 		
-	if(lvRT55 !== undefined && lvRT55 !== null)
+	if(ratingItem !== undefined && ratingItem !== null)
 	{
-		var lvRT58 = lvRT55.getAttribute("itemsNumber");
-		var lvRT59 = lvRT55.getAttribute("initialValue");
-		var lvRT60 = lvRT55.getAttribute("isReadOnly");
-		var lvRT61 = lvRT55.getAttribute("blockSelect");
-		var lvRT62 = lvRT55.getAttribute("spaceBetween");
-		var lvRT63 = lvRT55.getAttribute("fontSize");
-		var lvRT68 = lvRT55.getAttribute("border");
-		var lvRT69 = lvRT55.getAttribute("borderRadius");
-	    var lvRT70 = lvRT55.getAttribute("textColorSelect");
-		var lvRT71 = lvRT55.getAttribute("textColorDeselect");
-		var lvRT72 = lvRT55.getAttribute("borderColorSelect");
-		var lvRT73 = lvRT55.getAttribute("borderColorDeselect");
-		var lvRT78 = lvRT55.getAttribute("backgroundColorSelect");
-		var lvRT79 = lvRT55.getAttribute("backgroundColorDeselect");
-		var lvRT205 = lvRT55.getAttribute("commandEvent");
+		var itemsNumber = ratingItem.getAttribute("itemsNumber");
+		var initialValue = ratingItem.getAttribute("initialValue");
+		var isReadOnly = ratingItem.getAttribute("isReadOnly");
+		var blockSelect = ratingItem.getAttribute("blockSelect");
+		var spaceBetween = ratingItem.getAttribute("spaceBetween");
+		var fontSize = ratingItem.getAttribute("fontSize");
+		var border = ratingItem.getAttribute("border");
+		var borderRadius = ratingItem.getAttribute("borderRadius");
+	    var textColorSelect = ratingItem.getAttribute("textColorSelect");
+		var textColorDeselect = ratingItem.getAttribute("textColorDeselect");
+		var borderColorSelect = ratingItem.getAttribute("borderColorSelect");
+		var borderColorDeselect = ratingItem.getAttribute("borderColorDeselect");
+		var backgroundColorSelect = ratingItem.getAttribute("backgroundColorSelect");
+		var backgroundColorDeselect = ratingItem.getAttribute("backgroundColorDeselect");
+		var commandEvent = ratingItem.getAttribute("commandEvent");
 					
-		if(lvRT58 === undefined || lvRT58 === null)
+		if(itemsNumber === undefined || itemsNumber === null)
 		{
-			lvRT58 = 5;				
+			itemsNumber = 5;				
 		}
 		
-		if(lvRT59 === undefined || lvRT59 === null)
+		if(initialValue === undefined || initialValue === null)
 		{
-			lvRT59 = 0;
+			initialValue = 0;
 		}
 		
-		var lvRT80;
-		if(lvRT62 !== undefined && lvRT62 !== null)
+		var numberSpaces;
+		if(spaceBetween !== undefined && spaceBetween !== null)
 		{
-			lvRT80 = lvRT62.lvRT247();
+			numberSpaces = spaceBetween.laavorToInteger();
 		}
 		else
 		{
-			lvRT80 = lvRT239("spaceBetween").lvRT247();	
+			numberSpaces = getDefaultProperties("spaceBetween").laavorToInteger();	
 		}
 		
-		if(lvRT63 === undefined || lvRT63 === null || lvRT63 === "")
+		if(fontSize === undefined || fontSize === null || fontSize === "")
 		{
-			lvRT63 = lvRT239("fontSize");
+			fontSize = getDefaultProperties("fontSize");
 		}
 		
-		if(lvRT68 === undefined || lvRT68 === null || lvRT68 === "")
+		if(border === undefined || border === null || border === "")
 		{
-			lvRT68 = lvRT239("border");
+			border = getDefaultProperties("border");
 		}
 		
-		if(lvRT69 === undefined || lvRT69 === null || lvRT69 === "")
+		if(borderRadius === undefined || borderRadius === null || borderRadius === "")
 		{
-			lvRT69 = lvRT239("borderRadius");
+			borderRadius = getDefaultProperties("borderRadius");
 		}
 		
-		if(lvRT70 === undefined || lvRT70 === null || lvRT70 === "")
+		if(textColorSelect === undefined || textColorSelect === null || textColorSelect === "")
 		{
-			lvRT70 = lvRT239("textColorSelect");
+			textColorSelect = getDefaultProperties("textColorSelect");
 		}
 		
-		if(lvRT71 === undefined || lvRT71 === null || lvRT71 === "")
+		if(textColorDeselect === undefined || textColorDeselect === null || textColorDeselect === "")
 		{
-			lvRT71 = lvRT239("textColorDeselect");
+			textColorDeselect = getDefaultProperties("textColorDeselect");
 		}
 		
-		if(lvRT78 === undefined || lvRT78 === null || lvRT78 === "")
+		if(backgroundColorSelect === undefined || backgroundColorSelect === null || backgroundColorSelect === "")
 		{
-			lvRT78 = lvRT239("backgroundColorSelect");
+			backgroundColorSelect = getDefaultProperties("backgroundColorSelect");
 		}
 		
-		if(lvRT72 === undefined || lvRT72 === null || lvRT72 === "")
+		if(borderColorSelect === undefined || borderColorSelect === null || borderColorSelect === "")
 		{
-			lvRT72 = lvRT239("borderColorSelect");
+			borderColorSelect = getDefaultProperties("borderColorSelect");
 		}
 		
-		if(lvRT73 === undefined || lvRT73 === null || lvRT73 === "")
+		if(borderColorDeselect === undefined || borderColorDeselect === null || borderColorDeselect === "")
 		{
-			lvRT73 = lvRT239("borderColorDeselect");
+			borderColorDeselect = getDefaultProperties("borderColorDeselect");
 		}	
 		
-		if(lvRT78 === undefined || lvRT78 === null || lvRT78 === "")
+		if(backgroundColorSelect === undefined || backgroundColorSelect === null || backgroundColorSelect === "")
 		{
-			lvRT78 = lvRT239("backgroundColorSelect");
+			backgroundColorSelect = getDefaultProperties("backgroundColorSelect");
 		}
 		
-		if(lvRT79 === undefined || lvRT79 === null || lvRT79 === "")
+		if(backgroundColorDeselect === undefined || backgroundColorDeselect === null || backgroundColorDeselect === "")
 		{
-			lvRT79 = lvRT239("backgroundColorDeselect");
+			backgroundColorDeselect = getDefaultProperties("backgroundColorDeselect");
 		}
 							
-		for(var lvRT56 = 1; lvRT56 <= lvRT58; lvRT56++)
+		for(var iItem = 1; iItem <= itemsNumber; iItem++)
 		{
-			var lvRT81 = document.createElement("span");
-			lvRT81.setAttribute("NumberLV", lvRT56);
-			lvRT81.setAttribute("ItemsNumber", lvRT58);
-			lvRT81.style.cursor = "pointer";
-			lvRT81.style.fontSize = lvRT63;
-			lvRT81.style.borderRadius = lvRT69;
-			lvRT81.style.border = lvRT68;
-			lvRT81.style.borderStyle = lvRT239("borderStyle");
+			var elem = document.createElement("span");
+			elem.setAttribute("NumberLV", iItem);
+			elem.setAttribute("ItemsNumber", itemsNumber);
+			elem.style.cursor = "pointer";
+			elem.style.fontSize = fontSize;
+			elem.style.borderRadius = borderRadius;
+			elem.style.border = border;
+			elem.style.borderStyle = getDefaultProperties("borderStyle");
 			
-			lvRT81.setAttribute("lvRT240", true);
+			elem.setAttribute("IsSelectedLV", true);
 
-			lvRT81.setAttribute("Name", lvRT54);
-			lvRT81.setAttribute("lvRT243", lvRT54);
-			lvRT81.setAttribute("lvRT244", lvRT57);
-			lvRT81.classList.add(lvRT57);
+			elem.setAttribute("Name", uniqueNameBase);
+			elem.setAttribute("LaavorAtrHex", uniqueNameBase);
+			elem.setAttribute("LaavorAtrHexOthers", uniqueNameOthers);
+			elem.classList.add(uniqueNameOthers);
 
-			lvRT81.setAttribute("textColorSelect", lvRT70);
-			lvRT81.setAttribute("textColorDeselect", lvRT71);
-			lvRT81.setAttribute("borderColorSelect", lvRT72);
-			lvRT81.setAttribute("borderColorDeselect", lvRT73);
-			lvRT81.setAttribute("backgroundColorSelect", lvRT78);
-			lvRT81.setAttribute("backgroundColorDeselect", lvRT79);
-			lvRT81.setAttribute("typeRating", lvRT82.toString());
+			elem.setAttribute("textColorSelect", textColorSelect);
+			elem.setAttribute("textColorDeselect", textColorDeselect);
+			elem.setAttribute("borderColorSelect", borderColorSelect);
+			elem.setAttribute("borderColorDeselect", borderColorDeselect);
+			elem.setAttribute("backgroundColorSelect", backgroundColorSelect);
+			elem.setAttribute("backgroundColorDeselect", backgroundColorDeselect);
+			elem.setAttribute("typeRating", typeRating.toString());
 			
-			if(lvRT205 !== undefined && lvRT205 !== null)
+			if(commandEvent !== undefined && commandEvent !== null)
 			{
-				lvRT81.setAttribute("commandEvent", lvRT205);
+				elem.setAttribute("commandEvent", commandEvent);
 			}
 			
-			if(lvRT56 !== 1 && lvRT80 > 0)
+			if(iItem !== 1 && numberSpaces > 0)
 			{
-				for(var lvRT83 = 0; lvRT83 < lvRT80; lvRT83++)
+				for(var iS = 0; iS < numberSpaces; iS++)
 				{
-					var lvRT84 = document.createElement("span");
-					lvRT84.innerHTML = "&nbsp";
-					lvRT55.appendChild(lvRT84);
+					var elemSpace = document.createElement("span");
+					elemSpace.innerHTML = "&nbsp";
+					ratingItem.appendChild(elemSpace);
 				}
 			}
 			
-			if(lvRT82 === "lvRT249")
+			if(typeRating === "number")
 			{
-				lvRT81.innerHTML =  "&nbsp" + lvRT56.toString() + "&nbsp";
+				elem.innerHTML =  "&nbsp" + iItem.toString() + "&nbsp";
 			}
-			else if(lvRT82 === "lvRT250")
+			else if(typeRating === "letter")
 			{
-				lvRT81.innerHTML =  "&nbsp" + laavorGetLetter(lvRT56) + "&nbsp";				
+				elem.innerHTML =  "&nbsp" + laavorGetLetter(iItem) + "&nbsp";				
 			}
 			
-			if(lvRT56 <= lvRT59)
+			if(iItem <= initialValue)
 			{
-				lvRT81.setAttribute("lvRT240", true);
-				lvRT81.style.color = lvRT70;
-				lvRT81.style.backgroundColor = lvRT78;
-				lvRT81.style.borderColor = lvRT72;
+				elem.setAttribute("IsSelectedLV", true);
+				elem.style.color = textColorSelect;
+				elem.style.backgroundColor = backgroundColorSelect;
+				elem.style.borderColor = borderColorSelect;
 			}
 			else
 			{
-				lvRT81.setAttribute("lvRT240", false);
-				lvRT81.style.color = lvRT71;
-				lvRT81.style.backgroundColor = lvRT79;
-			    lvRT81.style.borderColor = lvRT73;
+				elem.setAttribute("IsSelectedLV", false);
+				elem.style.color = textColorDeselect;
+				elem.style.backgroundColor = backgroundColorDeselect;
+			    elem.style.borderColor = borderColorDeselect;
 		    }
 			
-			if(lvRT60 !== undefined && lvRT60 !== null)
+			if(isReadOnly !== undefined && isReadOnly !== null)
 			{
-				if(lvRT60.toString() === "true")
+				if(isReadOnly.toString() === "true")
 				{
-					if(lvRT61 !== undefined && lvRT61 !== null)
+					if(blockSelect !== undefined && blockSelect !== null)
 					{
-						lvRT81.setAttribute("blockSelect", lvRT61);	
+						elem.setAttribute("blockSelect", blockSelect);	
 					}
 				}
 				else
 				{
-					lvRT81.addEventListener("click", lvRT236);	
+					elem.addEventListener("click", laavorClickLabel);	
 				}
 				
-				lvRT81.onmouseover = lvRT241;
-				lvRT81.onmouseleave = lvRT242;
+				elem.onmouseover = HoverRatingLabel;
+				elem.onmouseleave = LeaveHoverRatingLabel;
 			}
 			else
 			{
-				lvRT81.addEventListener("click", lvRT236);	
+				elem.addEventListener("click", laavorClickLabel);	
 				
-				if(lvRT61 !== undefined && lvRT61 !== null)
+				if(blockSelect !== undefined && blockSelect !== null)
 				{
-					lvRT81.setAttribute("blockSelect", lvRT61);	
+					elem.setAttribute("blockSelect", blockSelect);	
 				}
 				
-				lvRT81.onmouseover = lvRT241;
-				lvRT81.onmouseleave = lvRT242;
+				elem.onmouseover = HoverRatingLabel;
+				elem.onmouseleave = LeaveHoverRatingLabel;
 			}
 								
-			lvRT55.appendChild(lvRT81);
+			ratingItem.appendChild(elem);
 		}
 	}
 }
 
-function lvRT241() {
+function HoverRatingLabel() {
 	
 	if(this !== undefined && this !== null)
 	{
-		var lvRT85 = this.getAttribute("NumberLV").lvRT247();
-		var lvRT87 = this.getAttribute("lvRT244");
-		var lvRT90 = document.getElementsByClassName(lvRT87);
+		var indexTop = this.getAttribute("NumberLV").laavorToInteger();
+		var uniqueNameOthers = this.getAttribute("LaavorAtrHexOthers");
+		var listLetters = document.getElementsByClassName(uniqueNameOthers);
 		
-		if(lvRT90.length > 0)
+		if(listLetters.length > 0)
 		{
-			var lvRT91 = lvRT90[0].getAttribute("textColorSelect");
-			var lvRT93 = lvRT90[0].getAttribute("borderColorSelect");
-			var lvRT94 = lvRT90[0].getAttribute("backgroundColorSelect");
+			var textColorSelect = listLetters[0].getAttribute("textColorSelect");
+			var borderColorSelect = listLetters[0].getAttribute("borderColorSelect");
+			var backgroundColorSelect = listLetters[0].getAttribute("backgroundColorSelect");
 
-			for(var lvRT100 = 0; lvRT100 < lvRT85; lvRT100++)
+			for(var iLetter = 0; iLetter < indexTop; iLetter++)
 			{		
-				var lvRT102 = lvRT90[lvRT100];
-				var lvRT109 = lvRT102.getAttribute("lvRT240");
-				if(lvRT109 !== undefined && lvRT109 != null)
+				var currentLetter = listLetters[iLetter];
+				var isSelected = currentLetter.getAttribute("IsSelectedLV");
+				if(isSelected !== undefined && isSelected != null)
 				{
-					if(lvRT109 === "false")
+					if(isSelected === "false")
 					{
-						lvRT102.style.color = lvRT91;
-						lvRT102.style.backgroundColor = lvRT94;
-						lvRT102.style.borderColor = lvRT93;
+						currentLetter.style.color = textColorSelect;
+						currentLetter.style.backgroundColor = backgroundColorSelect;
+						currentLetter.style.borderColor = borderColorSelect;
 					}
 				}
 				else
 				{
-					lvRT102.style.color = lvRT91;
-					lvRT102.style.backgroundColor = lvRT94;
-					lvRT102.style.borderColor = lvRT93;
+					currentLetter.style.color = textColorSelect;
+					currentLetter.style.backgroundColor = backgroundColorSelect;
+					currentLetter.style.borderColor = borderColorSelect;
 				}
 			}	
 		}
 	}	
 }
 
-function lvRT242() {
+function LeaveHoverRatingLabel() {
 
 	if(this !== undefined && this !== null)
 	{
-		var lvRT86 = this.getAttribute("NumberLV").lvRT247();
-		var lvRT88 = this.getAttribute("lvRT244");
-		var lvRT89 = document.getElementsByClassName(lvRT88);
+		var indexTop = this.getAttribute("NumberLV").laavorToInteger();
+		var uniqueNameOthers = this.getAttribute("LaavorAtrHexOthers");
+		var listLetters = document.getElementsByClassName(uniqueNameOthers);
 		
-		if(lvRT89.length > 0)
+		if(listLetters.length > 0)
 		{
-			var lvRT95 = lvRT89[0].getAttribute("textColorDeselect");
-			var lvRT96 = lvRT89[0].getAttribute("borderColorDeselect");
-			var lvRT104 = lvRT89[0].getAttribute("backgroundColorDeselect");
+			var textColorDeselect = listLetters[0].getAttribute("textColorDeselect");
+			var borderColorDeselect = listLetters[0].getAttribute("borderColorDeselect");
+			var backgroundColorDeselect = listLetters[0].getAttribute("backgroundColorDeselect");
 			
-			for(var lvRT101 = 0; lvRT101 < lvRT86; lvRT101++)
+			for(var iLetter = 0; iLetter < indexTop; iLetter++)
 			{		
-				var lvRT103 = lvRT89[lvRT101];
-				var lvRT110 = lvRT103.getAttribute("lvRT240");
-				if(lvRT110 !== undefined && lvRT110 != null)
+				var currentLetter = listLetters[iLetter];
+				var isSelected = currentLetter.getAttribute("IsSelectedLV");
+				if(isSelected !== undefined && isSelected != null)
 				{
-					if(lvRT110 === "false")
+					if(isSelected === "false")
 					{
-						lvRT103.style.color = lvRT95;
-						lvRT103.style.backgroundColor = lvRT104;
-						lvRT103.style.borderColor = lvRT96;
+						currentLetter.style.color = textColorDeselect;
+						currentLetter.style.backgroundColor = backgroundColorDeselect;
+						currentLetter.style.borderColor = borderColorDeselect;
 					}
 				}
 				else
 				{
-					lvRT103.style.color = lvRT95;
-					lvRT103.style.backgroundColor = lvRT104;
-					lvRT103.style.borderColor = lvRT96;
+					currentLetter.style.color = textColorDeselect;
+					currentLetter.style.backgroundColor = backgroundColorDeselect;
+					currentLetter.style.borderColor = borderColorDeselect;
 				}
 			}	
 		}
 	}		
 }
 
-function lvRT246(lvRT97)
+function laavorImageSwapInitAll(imageSwapItem)
 {
 	"use strict";
-	var lvRT98 = lvRT245();
+	var uniqueName = laavorUniqueName();
 		
-	lvRT97.setAttribute("lvRT243", lvRT98);
+	imageSwapItem.setAttribute("LaavorAtrHex", uniqueName);
 	
-	if(lvRT97 !== undefined && lvRT97 !== null)
+	if(imageSwapItem !== undefined && imageSwapItem !== null)
 	{
-		var lvRT99 = lvRT97.getAttribute("firstImage");
-		var lvRT114 = lvRT97.getAttribute("secondImage");
-		var lvRT116 = lvRT97.getAttribute("firstImageWidth");
-		var lvRT118 = lvRT97.getAttribute("firstImageHeight");		
-		var lvRT120 = lvRT97.getAttribute("secondImageWidth");
-		var lvRT122 = lvRT97.getAttribute("secondImageHeight");		
-		var lvRT124 = lvRT97.getAttribute("blockSwap");
-		var lvRT198 = lvRT97.getAttribute("commandEvent");
+		var firstImage = imageSwapItem.getAttribute("firstImage");
+		var secondImage = imageSwapItem.getAttribute("secondImage");
+		var firstImageWidth = imageSwapItem.getAttribute("firstImageWidth");
+		var firstImageHeight = imageSwapItem.getAttribute("firstImageHeight");		
+		var secondImageWidth = imageSwapItem.getAttribute("secondImageWidth");
+		var secondImageHeight = imageSwapItem.getAttribute("secondImageHeight");		
+		var blockSwap = imageSwapItem.getAttribute("blockSwap");
+		var commandEvent = imageSwapItem.getAttribute("commandEvent");
 									
-		var lvRT113 = document.createElement("img");
-		lvRT113.setAttribute("firstImage", lvRT99);
-		lvRT113.setAttribute("secondImage", lvRT114);
-		lvRT113.setAttribute("blockSwap", lvRT124);
-		lvRT113.setAttribute("isFirstImage", true);
+		var elem = document.createElement("img");
+		elem.setAttribute("firstImage", firstImage);
+		elem.setAttribute("secondImage", secondImage);
+		elem.setAttribute("blockSwap", blockSwap);
+		elem.setAttribute("isFirstImage", true);
 		
-		lvRT113.style.cursor = "pointer";
+		elem.style.cursor = "pointer";
 		
-		if(lvRT198 !== undefined && lvRT198 !== null)
+		if(commandEvent !== undefined && commandEvent !== null)
 		{
-			lvRT113.setAttribute("commandEvent", lvRT198);
+			elem.setAttribute("commandEvent", commandEvent);
 		}
 		
-		if(lvRT116 !== undefined && lvRT116 !== null)
+		if(firstImageWidth !== undefined && firstImageWidth !== null)
 		{
-			lvRT113.setAttribute("firstImageWidth", lvRT116);						
+			elem.setAttribute("firstImageWidth", firstImageWidth);						
 		}
 		
-		if(lvRT118 !== undefined && lvRT118 !== null)
+		if(firstImageHeight !== undefined && firstImageHeight !== null)
 		{
-			lvRT113.setAttribute("firstImageHeight", lvRT118);						
+			elem.setAttribute("firstImageHeight", firstImageHeight);						
 		}
 		
-		if(lvRT120 !== undefined && lvRT120 !== null)
+		if(secondImageWidth !== undefined && secondImageWidth !== null)
 		{
-			lvRT113.setAttribute("secondImageWidth", lvRT120);				
+			elem.setAttribute("secondImageWidth", secondImageWidth);				
 		}
 		
-		if(lvRT122 !== undefined && lvRT122 !== null)
+		if(secondImageHeight !== undefined && secondImageHeight !== null)
 		{
-			lvRT113.setAttribute("secondImageHeight", lvRT122);	
+			elem.setAttribute("secondImageHeight", secondImageHeight);	
 		}
 				
-		lvRT113.setAttribute("Name", lvRT98);
-		lvRT113.setAttribute("lvRT243", lvRT98);	
+		elem.setAttribute("Name", uniqueName);
+		elem.setAttribute("LaavorAtrHex", uniqueName);	
 		
-		lvRT113.style.width = lvRT116;
-		lvRT113.style.height = lvRT118;
+		elem.style.width = firstImageWidth;
+		elem.style.height = firstImageHeight;
 		
-		lvRT113.src = lvRT99;
-		lvRT113.addEventListener("click", lvRT170);
+		elem.src = firstImage;
+		elem.addEventListener("click", laavorClickImageSwap);
 		
-		lvRT97.appendChild(lvRT113);
+		imageSwapItem.appendChild(elem);
 	}
 }
 
-function laavorLabelSwapInitAll(lvRT107)
+function laavorLabelSwapInitAll(labelSwapItem)
 {
 	"use strict";
-	var lvRT131 = lvRT245();
+	var uniqueName = laavorUniqueName();
 		
-	lvRT107.setAttribute("lvRT243", lvRT131);
+	labelSwapItem.setAttribute("LaavorAtrHex", uniqueName);
 	
-	if(lvRT107 !== undefined && lvRT107 !== null)
+	if(labelSwapItem !== undefined && labelSwapItem !== null)
 	{
-		var lvRT130 = lvRT107.getAttribute("firstText");
-		var lvRT132 = lvRT107.getAttribute("secondText");
-		var lvRT133 = lvRT107.getAttribute("firstFontSize");
-		var lvRT135 = lvRT107.getAttribute("secondFontSize");
-		var lvRT137 = lvRT107.getAttribute("border");
-		var lvRT138 = lvRT107.getAttribute("borderRadius");
-	    var lvRT139 = lvRT107.getAttribute("firstTextColor");
-		var lvRT140 = lvRT107.getAttribute("secondTextColor");
-		var lvRT141 = lvRT107.getAttribute("firstBorderColor");
-		var lvRT142 = lvRT107.getAttribute("secondBorderColor");
-		var lvRT143 = lvRT107.getAttribute("firstBackgroundColor");
-		var lvRT145 = lvRT107.getAttribute("secondBackgroundColor");
+		var firstText = labelSwapItem.getAttribute("firstText");
+		var secondText = labelSwapItem.getAttribute("secondText");
+		var firstFontSize = labelSwapItem.getAttribute("firstFontSize");
+		var secondFontSize = labelSwapItem.getAttribute("secondFontSize");
+		var border = labelSwapItem.getAttribute("border");
+		var borderRadius = labelSwapItem.getAttribute("borderRadius");
+	    var firstTextColor = labelSwapItem.getAttribute("firstTextColor");
+		var secondTextColor = labelSwapItem.getAttribute("secondTextColor");
+		var firstBorderColor = labelSwapItem.getAttribute("firstBorderColor");
+		var secondBorderColor = labelSwapItem.getAttribute("secondBorderColor");
+		var firstBackgroundColor = labelSwapItem.getAttribute("firstBackgroundColor");
+		var secondBackgroundColor = labelSwapItem.getAttribute("secondBackgroundColor");
 	
-		var lvRT125 = lvRT107.getAttribute("blockSwap");
-		var lvRT199 = lvRT107.getAttribute("commandEvent");
+		var blockSwap = labelSwapItem.getAttribute("blockSwap");
+		var commandEvent = labelSwapItem.getAttribute("commandEvent");
 									
-		var lvRT108 = document.createElement("span");
-		lvRT108.setAttribute("firstText", lvRT130);
-		lvRT108.setAttribute("secondText", lvRT132);
-		lvRT108.setAttribute("blockSwap", lvRT125);
-		lvRT108.setAttribute("isFirstText", true);
+		var elem = document.createElement("span");
+		elem.setAttribute("firstText", firstText);
+		elem.setAttribute("secondText", secondText);
+		elem.setAttribute("blockSwap", blockSwap);
+		elem.setAttribute("isFirstText", true);
 		
-		lvRT108.style.cursor = "pointer";
+		elem.style.cursor = "pointer";
 
-		lvRT108.style.borderStyle = lvRT239("borderStyle");
+		elem.style.borderStyle = getDefaultProperties("borderStyle");
 		
-		if(lvRT199 !== undefined && lvRT199 !== null)
+		if(commandEvent !== undefined && commandEvent !== null)
 		{
-			lvRT108.setAttribute("commandEvent", lvRT199);
+			elem.setAttribute("commandEvent", commandEvent);
 		}
 		
-		if(lvRT133 === undefined || lvRT133 === null || lvRT133 === "")
+		if(firstFontSize === undefined || firstFontSize === null || firstFontSize === "")
 		{
-			lvRT133 = lvRT239("fontSize");
+			firstFontSize = getDefaultProperties("fontSize");
 		}
-		lvRT108.style.fontSize = lvRT133;
+		elem.style.fontSize = firstFontSize;
 		
-		if(lvRT135 === undefined || lvRT135 === null || lvRT135 === "")
+		if(secondFontSize === undefined || secondFontSize === null || secondFontSize === "")
 		{
-			lvRT135 = lvRT239("fontSize");
+			secondFontSize = getDefaultProperties("fontSize");
 		}
 				
-		if(lvRT137 === undefined || lvRT137 === null || lvRT137 === "")
+		if(border === undefined || border === null || border === "")
 		{
-			lvRT137 = lvRT239("border");
+			border = getDefaultProperties("border");
 		}
-		lvRT108.style.border = lvRT137;
+		elem.style.border = border;
 		
-		if(lvRT138 === undefined || lvRT138 === null || lvRT138 === "")
+		if(borderRadius === undefined || borderRadius === null || borderRadius === "")
 		{
-			lvRT138 = lvRT239("borderRadius");
+			borderRadius = getDefaultProperties("borderRadius");
 		}
-		lvRT108.style.borderRadius = lvRT138;
+		elem.style.borderRadius = borderRadius;
 		
-		if(lvRT139 === undefined || lvRT139 === null || lvRT139 === "")
+		if(firstTextColor === undefined || firstTextColor === null || firstTextColor === "")
 		{
-			lvRT139 = lvRT239("firstTextColor");
-		}
-		
-		if(lvRT140 === undefined || lvRT140 === null || lvRT140 === "")
-		{
-			lvRT140 = lvRT239("secondTextColor");
+			firstTextColor = getDefaultProperties("firstTextColor");
 		}
 		
-		if(lvRT143 === undefined || lvRT143 === null || lvRT143 === "")
+		if(secondTextColor === undefined || secondTextColor === null || secondTextColor === "")
 		{
-			lvRT143 = lvRT239("firstBackgroundColor");
+			secondTextColor = getDefaultProperties("secondTextColor");
 		}
 		
-		if(lvRT145 === undefined || lvRT145 === null || lvRT145 === "")
+		if(firstBackgroundColor === undefined || firstBackgroundColor === null || firstBackgroundColor === "")
 		{
-			lvRT145 = lvRT239("secondBackgroundColor");
+			firstBackgroundColor = getDefaultProperties("firstBackgroundColor");
 		}
 		
-		if(lvRT141 === undefined || lvRT141 === null || lvRT141 === "")
+		if(secondBackgroundColor === undefined || secondBackgroundColor === null || secondBackgroundColor === "")
 		{
-			lvRT141 = lvRT239("firstBorderColor");
+			secondBackgroundColor = getDefaultProperties("secondBackgroundColor");
 		}
 		
-		if(lvRT142 === undefined || lvRT142 === null || lvRT142 === "")
+		if(firstBorderColor === undefined || firstBorderColor === null || firstBorderColor === "")
 		{
-			lvRT142 = lvRT239("secondBorderColor");
+			firstBorderColor = getDefaultProperties("firstBorderColor");
 		}
 		
-		if(lvRT133 !== undefined && lvRT133 !== null && lvRT133 !== "")
+		if(secondBorderColor === undefined || secondBorderColor === null || secondBorderColor === "")
 		{
-			lvRT108.setAttribute("firstFontSize", lvRT133);
+			secondBorderColor = getDefaultProperties("secondBorderColor");
 		}
-		lvRT108.style.fontSize = lvRT133;
 		
-		if(lvRT135 !== undefined && lvRT135 !== null && lvRT135 !== "")
+		if(firstFontSize !== undefined && firstFontSize !== null && firstFontSize !== "")
 		{
-			lvRT108.setAttribute("secondFontSize", lvRT135);
+			elem.setAttribute("firstFontSize", firstFontSize);
+		}
+		elem.style.fontSize = firstFontSize;
+		
+		if(secondFontSize !== undefined && secondFontSize !== null && secondFontSize !== "")
+		{
+			elem.setAttribute("secondFontSize", secondFontSize);
 		}
 				
-		if(lvRT138 !== undefined && lvRT138 !== null && lvRT138 !== "")
+		if(borderRadius !== undefined && borderRadius !== null && borderRadius !== "")
 		{
-			lvRT108.setAttribute("borderRadius", lvRT138);
+			elem.setAttribute("borderRadius", borderRadius);
 		}
-		lvRT108.style.borderRadius = lvRT138;
+		elem.style.borderRadius = borderRadius;
 		
-		if(lvRT139 !== undefined && lvRT139 !== null && lvRT139 !== "")
+		if(firstTextColor !== undefined && firstTextColor !== null && firstTextColor !== "")
 		{
-			lvRT108.setAttribute("firstTextColor", lvRT139);
+			elem.setAttribute("firstTextColor", firstTextColor);
 		}
-		lvRT108.style.color = lvRT139;
+		elem.style.color = firstTextColor;
 		
-		if(lvRT140 !== undefined && lvRT140 !== null && lvRT140 !== "")
+		if(secondTextColor !== undefined && secondTextColor !== null && secondTextColor !== "")
 		{
-			lvRT108.setAttribute("secondTextColor", lvRT140);
-		}
-		
-		if(lvRT141 !== undefined && lvRT141 !== null && lvRT141 !== "")
-		{
-			lvRT108.setAttribute("firstBorderColor", lvRT141);
-		}
-		lvRT108.style.borderColor = lvRT141;
-		
-		if(lvRT142 !== undefined && lvRT142 !== null && lvRT142 !== "")
-		{
-			lvRT108.setAttribute("secondBorderColor", lvRT142);	
+			elem.setAttribute("secondTextColor", secondTextColor);
 		}
 		
-		if(lvRT143 !== undefined && lvRT143 !== null && lvRT143 !== "")
+		if(firstBorderColor !== undefined && firstBorderColor !== null && firstBorderColor !== "")
 		{
-			lvRT108.setAttribute("firstBackgroundColor", lvRT143);
+			elem.setAttribute("firstBorderColor", firstBorderColor);
 		}
-		lvRT108.style.backgroundColor = lvRT143;
+		elem.style.borderColor = firstBorderColor;
 		
-		if(lvRT145 !== undefined && lvRT145 !== null && lvRT145 !== "")
+		if(secondBorderColor !== undefined && secondBorderColor !== null && secondBorderColor !== "")
 		{
-			lvRT108.setAttribute("secondBackgroundColor", lvRT145);	
+			elem.setAttribute("secondBorderColor", secondBorderColor);	
+		}
+		
+		if(firstBackgroundColor !== undefined && firstBackgroundColor !== null && firstBackgroundColor !== "")
+		{
+			elem.setAttribute("firstBackgroundColor", firstBackgroundColor);
+		}
+		elem.style.backgroundColor = firstBackgroundColor;
+		
+		if(secondBackgroundColor !== undefined && secondBackgroundColor !== null && secondBackgroundColor !== "")
+		{
+			elem.setAttribute("secondBackgroundColor", secondBackgroundColor);	
 		}
 					
-		lvRT108.setAttribute("Name", lvRT131);
-		lvRT108.setAttribute("lvRT243", lvRT131);	
+		elem.setAttribute("Name", uniqueName);
+		elem.setAttribute("LaavorAtrHex", uniqueName);	
 				
-		lvRT108.innerHTML = lvRT130;
-		lvRT108.addEventListener("click", lvRT147);
+		elem.innerHTML = firstText;
+		elem.addEventListener("click", laavorClickLabelSwap);
 		
-		lvRT107.appendChild(lvRT108);
+		labelSwapItem.appendChild(elem);
 	}
 }
 
-function lvRT239(lvRT188)
+function getDefaultProperties(propertyName)
 {
 	var valuesD = {};
 	
@@ -789,10 +789,10 @@ function lvRT239(lvRT188)
 	valuesD["borderStyle"] = "solid";
 	valuesD["borderColor"] = "";
 		
-	var lvRT152 = valuesD[lvRT188];
-	if(lvRT152 !== undefined && lvRT152 !== null)
+	var returnValue = valuesD[propertyName];
+	if(returnValue !== undefined && returnValue !== null)
 	{
-		return lvRT152;	
+		return returnValue;	
 	}
 	else
 	{
@@ -800,210 +800,210 @@ function lvRT239(lvRT188)
 	}
 }
 
-function laavorRatingGetValue(lvRT153)
+function laavorRatingGetValue(id)
 {
 	"use strict";
-	var lvRT150 = document.getElementById(lvRT153);
-	var lvRT42 = lvRT150.getAttribute("lvRT243");
+	var rating = document.getElementById(id);
+	var uniqueNameLaavor = rating.getAttribute("LaavorAtrHex");
 	
-	if(lvRT150 !== undefined && lvRT150 !== null)
+	if(rating !== undefined && rating !== null)
 	{
-		var lvRT156 = 0;
-		for(var lvRT155 = 0; lvRT155 < lvRT150.children.length; lvRT155++)
+		var count = 0;
+		for(var iCh = 0; iCh < rating.children.length; iCh++)
 		{
-			var element = lvRT150.children[lvRT155];
-			var lvRT159 = element.getAttribute("lvRT243");
+			var element = rating.children[iCh];
+			var nameLocal = element.getAttribute("LaavorAtrHex");
 			
-			if(lvRT159 !== undefined && lvRT159 !== null)
+			if(nameLocal !== undefined && nameLocal !== null)
 			{
-				if(lvRT159 === lvRT42)
+				if(nameLocal === uniqueNameLaavor)
 				{
-					var lvRT111 = element.getAttribute("lvRT240");
-					if(lvRT111 === "true")
+					var isSelected = element.getAttribute("IsSelectedLV");
+					if(isSelected === "true")
 					{
-						lvRT156++;
+						count++;
 					}
 				}
 			}
 		}
 		
-		return lvRT156;
+		return count;
 	}
 	
 	return "error";
 }
 
-function laavorRatingLetterGetValue(lvRT64)
+function laavorRatingLetterGetValue(id)
 {
 	"use strict";
-	var lvRT151 = document.getElementById(lvRT64);
-	var lvRT43 = lvRT151.getAttribute("lvRT243");
+	var rating = document.getElementById(id);
+	var uniqueNameLaavor = rating.getAttribute("LaavorAtrHex");
 	
-	if(lvRT151 !== undefined && lvRT151 !== null)
+	if(rating !== undefined && rating !== null)
 	{
-		var lvRT157 = 0;
-		for(var lvRT154 = 0; lvRT154 < lvRT151.children.length; lvRT154++)
+		var count = 0;
+		for(var iCh = 0; iCh < rating.children.length; iCh++)
 		{
-			var element = lvRT151.children[lvRT154];
-			var lvRT158 = element.getAttribute("lvRT243");
+			var element = rating.children[iCh];
+			var nameLocal = element.getAttribute("LaavorAtrHex");
 			
-			if(lvRT158 !== undefined && lvRT158 !== null)
+			if(nameLocal !== undefined && nameLocal !== null)
 			{
-				if(lvRT158 === lvRT43)
+				if(nameLocal === uniqueNameLaavor)
 				{
-					var lvRT112 = element.getAttribute("lvRT240");
-					if(lvRT112 === "true")
+					var isSelected = element.getAttribute("IsSelectedLV");
+					if(isSelected === "true")
 					{
-						lvRT157++;
+						count++;
 					}
 				}
 			}
 		}
 		
-		return laavorGetLetter(lvRT157);
+		return laavorGetLetter(count);
 	}
 	
 	return "error";
 }
 
-String.prototype.lvRT247 = function()
+String.prototype.laavorToInteger = function()
 {
 	"use strict";
-	var lvRT160 = parseInt(this);
-	return lvRT160;
+	var returnItem = parseInt(this);
+	return returnItem;
 };
 
 String.prototype.laavorToDouble = function()
 {
 	"use strict";
-	var lvRT161 = parseFloat(this);
-	return lvRT161;
+	var returnItem = parseFloat(this);
+	return returnItem;
 };
 
-String.prototype.laavorContains  = function(lvRT163)
+String.prototype.laavorContains  = function(search)
 {
 	"use strict";
-	var lvRT162 = this.indexOf(lvRT163) !== -1;
-	return lvRT162;
+	var returnItem = this.indexOf(search) !== -1;
+	return returnItem;
 };
 
-String.prototype.laavorReplaceAll = function(lvRT164, lvRT165)
+String.prototype.laavorReplaceAll = function(search, substitution)
 {
 	"use strict";
-    var lvRT166 = this;
-    return lvRT166.split(lvRT164).join(lvRT165);
+    var valueStr = this;
+    return valueStr.split(search).join(substitution);
 };
 
-function lvRT245(lvRT167) {
+function laavorUniqueName(id) {
   "use strict";
-  var lvRT182 = "";
-  var lvRT183 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  var laavorName = "";
+  var charPotential = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-  for (var lvRT206 = 0; lvRT206 < 15; lvRT206++)
-    lvRT182 += lvRT183.charAt(Math.floor(Math.random() * lvRT183.length));
+  for (var i = 0; i < 15; i++)
+    laavorName += charPotential.charAt(Math.floor(Math.random() * charPotential.length));
 
-  if(lvRT167 !== undefined && lvRT167 !== null)
+  if(id !== undefined && id !== null)
   {
-	lvRT182 += "_" + lvRT167;  
+	laavorName += "_" + id;  
   }	  
   
-  return lvRT182;
+  return laavorName;
 }
 
-function laavorGetLetter(lvRT192) {
+function laavorGetLetter(indexLetter) {
   "use strict";
-  var lvRT184 = "-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var charPotential = "-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  return lvRT184[lvRT192];
+  return charPotential[indexLetter];
 }
 
-function lvRT170(event)
+function laavorClickImageSwap(event)
 {
 	"use strict";
-	var lvRT127 = event.currentTarget;
-	var lvRT168 = lvRT127.getAttribute("firstImage");
-	var lvRT115 = lvRT127.getAttribute("secondImage");
+	var itemLaavor = event.currentTarget;
+	var firstImage = itemLaavor.getAttribute("firstImage");
+	var secondImage = itemLaavor.getAttribute("secondImage");
 	
-	var lvRT117 = lvRT127.getAttribute("firstImageWidth");
-	var lvRT119 = lvRT127.getAttribute("firstImageHeight");
-	var lvRT121 = lvRT127.getAttribute("secondImageWidth");
-	var lvRT123 = lvRT127.getAttribute("secondImageHeight");
+	var firstImageWidth = itemLaavor.getAttribute("firstImageWidth");
+	var firstImageHeight = itemLaavor.getAttribute("firstImageHeight");
+	var secondImageWidth = itemLaavor.getAttribute("secondImageWidth");
+	var secondImageHeight = itemLaavor.getAttribute("secondImageHeight");
 	
-	var lvRT169 = lvRT127.getAttribute("isFirstImage").toString();
-	var lvRT126 = lvRT127.getAttribute("blockSwap").toString();
-	var lvRT200 = lvRT127.getAttribute("commandEvent");
+	var isFirstImage = itemLaavor.getAttribute("isFirstImage").toString();
+	var blockSwap = itemLaavor.getAttribute("blockSwap").toString();
+	var commandEvent = itemLaavor.getAttribute("commandEvent");
 		
-	var lvRT171 = "";
-	var lvRT185 = "";
-	if(lvRT168 !== undefined && lvRT168 !== null && lvRT115 !== undefined && lvRT115 !== null)
+	var currentImage = "";
+	var firstOrSecond = "";
+	if(firstImage !== undefined && firstImage !== null && secondImage !== undefined && secondImage !== null)
 	{
-		if(lvRT169 === "true")
+		if(isFirstImage === "true")
 		{
-			lvRT127.src = lvRT115;
-			lvRT171 = lvRT115;
-			lvRT185 =  "second";
+			itemLaavor.src = secondImage;
+			currentImage = secondImage;
+			firstOrSecond =  "second";
 						
-			if(lvRT121 !== undefined && lvRT121 !== null)
+			if(secondImageWidth !== undefined && secondImageWidth !== null)
 			{
-				lvRT127.style.width = lvRT121;	
+				itemLaavor.style.width = secondImageWidth;	
 			}
 			
-			if(lvRT123 !== undefined && lvRT123 !== null)
+			if(secondImageHeight !== undefined && secondImageHeight !== null)
 			{
-				lvRT127.style.height = lvRT123;				
+				itemLaavor.style.height = secondImageHeight;				
 			}
 			
-			lvRT127.setAttribute("isFirstImage", false);
+			itemLaavor.setAttribute("isFirstImage", false);
 			
-			if(lvRT126 !== undefined && lvRT126 !== null)
+			if(blockSwap !== undefined && blockSwap !== null)
 			{
-				if(lvRT126.toString() === "true")
+				if(blockSwap.toString() === "true")
 				{
-					lvRT127.removeEventListener("click", lvRT170);
-					lvRT127.removeAttribute("blockSwap");
+					itemLaavor.removeEventListener("click", laavorClickImageSwap);
+					itemLaavor.removeAttribute("blockSwap");
 				}
 			}
 		}
-		else if(lvRT169 === "false")
+		else if(isFirstImage === "false")
 		{
-			lvRT127.src = lvRT168;
-			lvRT171 = lvRT168;
-			lvRT185 =  "first";
+			itemLaavor.src = firstImage;
+			currentImage = firstImage;
+			firstOrSecond =  "first";
 			
-			if(lvRT117 !== undefined && lvRT117 !== null)
+			if(firstImageWidth !== undefined && firstImageWidth !== null)
 			{
-				lvRT127.style.width = lvRT117;	
+				itemLaavor.style.width = firstImageWidth;	
 			}
 			
-			if(lvRT119 !== undefined && lvRT119 !== null)
+			if(firstImageHeight !== undefined && firstImageHeight !== null)
 			{
-				lvRT127.style.height = lvRT119;				
+				itemLaavor.style.height = firstImageHeight;				
 			}
 			
-			lvRT127.setAttribute("isFirstImage", true);
+			itemLaavor.setAttribute("isFirstImage", true);
 			
-			if(lvRT126 !== undefined && lvRT126 !== null)
+			if(blockSwap !== undefined && blockSwap !== null)
 			{
-				if(lvRT126.toString() === "true")
+				if(blockSwap.toString() === "true")
 				{
-					lvRT127.removeEventListener("click", lvRT170);
-					lvRT127.removeAttribute("blockSwap");
+					itemLaavor.removeEventListener("click", laavorClickImageSwap);
+					itemLaavor.removeAttribute("blockSwap");
 				}
 			}
 		}	
 	}
 	
-	if(lvRT200 !== undefined && lvRT200 !== null)
+	if(commandEvent !== undefined && commandEvent !== null)
 	{
 		try
 		{
-			window[lvRT200](lvRT171, lvRT185);		
+			window[commandEvent](currentImage, firstOrSecond);		
 		}
 		catch(errorLaavor)
 		{
 			try
 			{
-				window[lvRT200](errorLaavor);
+				window[commandEvent](errorLaavor);
 			}
 			catch(errorLaavorI)
 			{}
@@ -1011,117 +1011,117 @@ function lvRT170(event)
 	}
 }
 
-function lvRT147(event)
+function laavorClickLabelSwap(event)
 {
 	"use strict";
-	var lvRT128 = event.currentTarget;
-	var lvRT129 = lvRT128.getAttribute("firstText");
-	var lvRT144 = lvRT128.getAttribute("isFirstText");
-	var lvRT146 = lvRT128.getAttribute("secondText");
-	var lvRT134 = lvRT128.getAttribute("firstFontSize");
-	var lvRT136 = lvRT128.getAttribute("secondFontSize");
-	var lvRT148 = lvRT128.getAttribute("firstTextColor");
-	var lvRT149 = lvRT128.getAttribute("secondTextColor");
-	var lvRT187 = lvRT128.getAttribute("firstBorderColor");
-	var lvRT189 = lvRT128.getAttribute("secondBorderColor");
-	var lvRT190 = lvRT128.getAttribute("firstBackgroundColor");
-	var lvRT191 = lvRT128.getAttribute("secondBackgroundColor");
+	var itemLaavor = event.currentTarget;
+	var firstText = itemLaavor.getAttribute("firstText");
+	var isFirstText = itemLaavor.getAttribute("isFirstText");
+	var secondText = itemLaavor.getAttribute("secondText");
+	var firstFontSize = itemLaavor.getAttribute("firstFontSize");
+	var secondFontSize = itemLaavor.getAttribute("secondFontSize");
+	var firstTextColor = itemLaavor.getAttribute("firstTextColor");
+	var secondTextColor = itemLaavor.getAttribute("secondTextColor");
+	var firstBorderColor = itemLaavor.getAttribute("firstBorderColor");
+	var secondBorderColor = itemLaavor.getAttribute("secondBorderColor");
+	var firstBackgroundColor = itemLaavor.getAttribute("firstBackgroundColor");
+	var secondBackgroundColor = itemLaavor.getAttribute("secondBackgroundColor");
 		
-	var lvRT193 = lvRT128.getAttribute("blockSwap");
+	var blockSwap = itemLaavor.getAttribute("blockSwap");
 	
-	var lvRT201 = lvRT128.getAttribute("commandEvent");
+	var commandEvent = itemLaavor.getAttribute("commandEvent");
 		
-	var lvRT194 = "";
-	var lvRT186 = "";
-	if(lvRT129 !== undefined && lvRT129 !== null && lvRT146 !== undefined && lvRT146 !== null)
+	var currentText = "";
+	var firstOrSecond = "";
+	if(firstText !== undefined && firstText !== null && secondText !== undefined && secondText !== null)
 	{
-		if(lvRT144 === "true")
+		if(isFirstText === "true")
 		{
-			lvRT128.innerHTML = lvRT146;
-			lvRT194 = lvRT146;
-			lvRT186 =  "second";
+			itemLaavor.innerHTML = secondText;
+			currentText = secondText;
+			firstOrSecond =  "second";
 						
-			if(lvRT136 !== undefined && lvRT136 !== null)
+			if(secondFontSize !== undefined && secondFontSize !== null)
 			{
-				lvRT128.style.fontSize = lvRT136;	
+				itemLaavor.style.fontSize = secondFontSize;	
 			}
 			
-			if(lvRT149 !== undefined && lvRT149 !== null)
+			if(secondTextColor !== undefined && secondTextColor !== null)
 			{
-				lvRT128.style.color = lvRT149;				
+				itemLaavor.style.color = secondTextColor;				
 			}
 			
-			if(lvRT191 !== undefined && lvRT191 !== null)
+			if(secondBackgroundColor !== undefined && secondBackgroundColor !== null)
 			{
-				lvRT128.style.backgroundColor = lvRT191;				
+				itemLaavor.style.backgroundColor = secondBackgroundColor;				
 			}
 			
-			if(lvRT189 !== undefined && lvRT189 !== null)
+			if(secondBorderColor !== undefined && secondBorderColor !== null)
 			{
-				lvRT128.style.borderColor = lvRT189;				
+				itemLaavor.style.borderColor = secondBorderColor;				
 			}
 			
-			lvRT128.setAttribute("isFirstText", false);
+			itemLaavor.setAttribute("isFirstText", false);
 			
-			if(lvRT193 !== undefined && lvRT193 !== null)
+			if(blockSwap !== undefined && blockSwap !== null)
 			{
-				if(lvRT193.toString() === "true")
+				if(blockSwap.toString() === "true")
 				{
-					lvRT128.removeEventListener("click", lvRT147);
-					lvRT128.removeAttribute("blockSwap");
+					itemLaavor.removeEventListener("click", laavorClickLabelSwap);
+					itemLaavor.removeAttribute("blockSwap");
 				}
 			}
 		}
-		else if(lvRT144 === "false")
+		else if(isFirstText === "false")
 		{
-			lvRT128.innerHTML = lvRT129;
-			lvRT194 = lvRT129;
-			lvRT186 =  "first";
+			itemLaavor.innerHTML = firstText;
+			currentText = firstText;
+			firstOrSecond =  "first";
 						
-			if(lvRT134 !== undefined && lvRT134 !== null)
+			if(firstFontSize !== undefined && firstFontSize !== null)
 			{
-				lvRT128.style.fontSize = lvRT134;	
+				itemLaavor.style.fontSize = firstFontSize;	
 			}
 			
-			if(lvRT148 !== undefined && lvRT148 !== null)
+			if(firstTextColor !== undefined && firstTextColor !== null)
 			{
-				lvRT128.style.color = lvRT148;				
+				itemLaavor.style.color = firstTextColor;				
 			}
 			
-			if(lvRT190 !== undefined && lvRT190 !== null)
+			if(firstBackgroundColor !== undefined && firstBackgroundColor !== null)
 			{
-				lvRT128.style.backgroundColor = lvRT190;				
+				itemLaavor.style.backgroundColor = firstBackgroundColor;				
 			}
 			
-			if(lvRT187 !== undefined && lvRT187 !== null)
+			if(firstBorderColor !== undefined && firstBorderColor !== null)
 			{
-				lvRT128.style.borderColor = lvRT187;				
+				itemLaavor.style.borderColor = firstBorderColor;				
 			}
 						
-			lvRT128.setAttribute("isFirstText", true);
+			itemLaavor.setAttribute("isFirstText", true);
 			
-			if(lvRT193 !== undefined && lvRT193 !== null)
+			if(blockSwap !== undefined && blockSwap !== null)
 			{
-				if(lvRT193.toString() === "true")
+				if(blockSwap.toString() === "true")
 				{
-					lvRT128.removeEventListener("click", lvRT147);
-					lvRT128.removeAttribute("blockSwap");
+					itemLaavor.removeEventListener("click", laavorClickLabelSwap);
+					itemLaavor.removeAttribute("blockSwap");
 				}
 			}
 		}	
 	}
 	
-	if(lvRT201 !== undefined && lvRT201 !== null)
+	if(commandEvent !== undefined && commandEvent !== null)
 	{
 		try
 		{
-			window[lvRT201](lvRT194, lvRT186);		
+			window[commandEvent](currentText, firstOrSecond);		
 		}
 		catch(errorLaavor)
 		{
 			try
 			{
-				window[lvRT201](errorLaavor);
+				window[commandEvent](errorLaavor);
 			}
 			catch(errorLaavorI)
 			{}
@@ -1129,74 +1129,74 @@ function lvRT147(event)
 	}
 }
 
-function lvRT231(event)
+function laavorClickImage(event)
 {
 	"use strict";
-	var lvRT173 = event.currentTarget;
-	var lvRT174 = lvRT173.getAttribute("lvRT240").toString();
-	var lvRT178 = lvRT173.getAttribute("lvRT243");
-    var lvRT179 = lvRT173.getAttribute("NumberLV");	
-	var lvRT195 = lvRT173.getAttribute("blockSelect");
-	var lvRT196 = lvRT173.getAttribute("isReadOnly");
-	var lvRT202 = lvRT173.getAttribute("commandEvent");
+	var imageLaavor = event.currentTarget;
+	var isSelectedItem = imageLaavor.getAttribute("IsSelectedLV").toString();
+	var uniqueNameLaavor = imageLaavor.getAttribute("LaavorAtrHex");
+    var numberClick = imageLaavor.getAttribute("NumberLV");	
+	var blockSelect = imageLaavor.getAttribute("blockSelect");
+	var isReadOnly = imageLaavor.getAttribute("isReadOnly");
+	var commandEvent = imageLaavor.getAttribute("commandEvent");
 		
-	var lvRT207 = document.getElementsByName(lvRT178);
+	var allImages = document.getElementsByName(uniqueNameLaavor);
 	
-	var lvRT208 = "false";
-	if(lvRT207 !== undefined && lvRT207 !== null && lvRT207.length > 0)
+	var subtract = "false";
+	if(allImages !== undefined && allImages !== null && allImages.length > 0)
 	{
-		for(var lvRT230 = 1; lvRT230 <= lvRT207.length; lvRT230++)
+		for(var iM = 1; iM <= allImages.length; iM++)
 		{
-			var lvRT172  = lvRT207[lvRT230 - 1];			
-			var lvRT211 =  lvRT172.getAttribute("NumberLV");
+			var currentImage  = allImages[iM - 1];			
+			var numberCurrent =  currentImage.getAttribute("NumberLV");
 			
-            if(lvRT174 === "false")
+            if(isSelectedItem === "false")
 			{
-				if(lvRT211.lvRT247() <= lvRT179)
+				if(numberCurrent.laavorToInteger() <= numberClick)
 				{
-					lvRT172.setAttribute("lvRT240" , true);
-					lvRT172.src = lvRT172.getAttribute("imageSelect");				
+					currentImage.setAttribute("IsSelectedLV" , true);
+					currentImage.src = currentImage.getAttribute("imageSelect");				
 				}
 			}
 			else
 			{
-				if(lvRT211.lvRT247() >= lvRT179)
+				if(numberCurrent.laavorToInteger() >= numberClick)
 				{
-					lvRT172.setAttribute("lvRT240" , false);
-					lvRT172.src = lvRT172.getAttribute("imageDeselect");				
+					currentImage.setAttribute("IsSelectedLV" , false);
+					currentImage.src = currentImage.getAttribute("imageDeselect");				
 				}
 				
-				lvRT208 = "true";
+				subtract = "true";
 			}
 			
-			if(lvRT196 !== undefined && lvRT196 !== null)
+			if(isReadOnly !== undefined && isReadOnly !== null)
 			{
-				if(lvRT196.toString() === "false")
+				if(isReadOnly.toString() === "false")
 				{
-					if(lvRT195 !== undefined && lvRT195 !== null)
+					if(blockSelect !== undefined && blockSelect !== null)
 					{
-						if(lvRT195.toString() === "true")
+						if(blockSelect.toString() === "true")
 						{
-							lvRT172.removeEventListener("click", lvRT231);
-							lvRT172.removeAttribute("blockSelect");
+							currentImage.removeEventListener("click", laavorClickImage);
+							currentImage.removeAttribute("blockSelect");
 									
-							lvRT172.onmouseover = null;
-						    lvRT172.onmouseleave = null;
+							currentImage.onmouseover = null;
+						    currentImage.onmouseleave = null;
 						}
 					}
 				}
 			}
 			else
 			{
-				if(lvRT195 !== undefined && lvRT195 !== null)
+				if(blockSelect !== undefined && blockSelect !== null)
 				{
-					if(lvRT195.toString() === "true")
+					if(blockSelect.toString() === "true")
 					{
-						lvRT172.removeEventListener("click", lvRT231);
-						lvRT172.removeAttribute("blockSelect");
+						currentImage.removeEventListener("click", laavorClickImage);
+						currentImage.removeAttribute("blockSelect");
 						
-						lvRT172.onmouseover = null;
-						lvRT172.onmouseleave = null
+						currentImage.onmouseover = null;
+						currentImage.onmouseleave = null
 					}
 				}
 			}
@@ -1204,25 +1204,25 @@ function lvRT231(event)
 		}
 	}
 	
-	if(lvRT202 !== undefined && lvRT202 !== null)
+	if(commandEvent !== undefined && commandEvent !== null)
 	{
 		try
 		{
-			if(lvRT208 === "false")
+			if(subtract === "false")
 			{
-				window[lvRT202](lvRT179);
+				window[commandEvent](numberClick);
 			}
 			else
 			{
-				var lvRT219 = lvRT179.lvRT247() - 1;
-				window[lvRT202](lvRT219);
+				var valueCalc = numberClick.laavorToInteger() - 1;
+				window[commandEvent](valueCalc);
 			}
 		}
 		catch(errorLaavor)
 		{
 			try
 			{
-				window[lvRT202](errorLaavor);
+				window[commandEvent](errorLaavor);
 			}
 			catch(errorLaavorI)
 			{}
@@ -1230,108 +1230,108 @@ function lvRT231(event)
 	}
 }
 
-function lvRT236(event)
+function laavorClickLabel(event)
 {
 	"use strict";
-	var lvRT176 = event.currentTarget;
-	var lvRT175 = lvRT176.getAttribute("lvRT240").toString();
-	var lvRT177 = lvRT176.getAttribute("lvRT243");
-    var lvRT180 = lvRT176.getAttribute("NumberLV");	
-	var lvRT181 = lvRT176.getAttribute("blockSelect");
-	var lvRT197 = lvRT176.getAttribute("isReadOnly");
-	var lvRT92 = lvRT176.getAttribute("textColorSelect");
-	var lvRT210 = lvRT176.getAttribute("textColorDeselect");
-	var lvRT212 = lvRT176.getAttribute("borderColorSelect");
-	var lvRT213 = lvRT176.getAttribute("borderColorDeselect");
-	var lvRT214 = lvRT176.getAttribute("backgroundColorSelect");
-	var lvRT215 = lvRT176.getAttribute("backgroundColorDeselect");
-	var lvRT218 = lvRT176.getAttribute("typeRating");
-	var lvRT203 = lvRT176.getAttribute("commandEvent");
+	var labelLaavor = event.currentTarget;
+	var isSelectedItem = labelLaavor.getAttribute("IsSelectedLV").toString();
+	var uniqueNameLaavor = labelLaavor.getAttribute("LaavorAtrHex");
+    var numberClick = labelLaavor.getAttribute("NumberLV");	
+	var blockSelect = labelLaavor.getAttribute("blockSelect");
+	var isReadOnly = labelLaavor.getAttribute("isReadOnly");
+	var textColorSelect = labelLaavor.getAttribute("textColorSelect");
+	var textColorDeselect = labelLaavor.getAttribute("textColorDeselect");
+	var borderColorSelect = labelLaavor.getAttribute("borderColorSelect");
+	var borderColorDeselect = labelLaavor.getAttribute("borderColorDeselect");
+	var backgroundColorSelect = labelLaavor.getAttribute("backgroundColorSelect");
+	var backgroundColorDeselect = labelLaavor.getAttribute("backgroundColorDeselect");
+	var typeRating = labelLaavor.getAttribute("typeRating");
+	var commandEvent = labelLaavor.getAttribute("commandEvent");
 	
-	var lvRT216 = document.getElementsByName(lvRT177);
+	var allItems = document.getElementsByName(uniqueNameLaavor);
 	
-	var lvRT209 = "false";
+	var subtract = "false";
 	
-	if(lvRT216 !== undefined && lvRT216 !== null && lvRT216.length > 0)
+	if(allItems !== undefined && allItems !== null && allItems.length > 0)
 	{
-		for(var lvRT217 = 1; lvRT217 <= lvRT216.length; lvRT217++)
+		for(var iN = 1; iN <= allItems.length; iN++)
 		{
-			var lvRT229  = lvRT216[lvRT217 - 1];			
-			var lvRT232 =  lvRT229.getAttribute("NumberLV");
+			var currentLabel  = allItems[iN - 1];			
+			var itemNumber =  currentLabel.getAttribute("NumberLV");
 			
-            if(lvRT175 === "false")
+            if(isSelectedItem === "false")
 			{
-				if(lvRT232.lvRT247() <= lvRT180)
+				if(itemNumber.laavorToInteger() <= numberClick)
 				{
-					lvRT229.setAttribute("lvRT240" , true);
+					currentLabel.setAttribute("IsSelectedLV" , true);
 					
-					if(lvRT92 !== undefined && lvRT92 !== null)
+					if(textColorSelect !== undefined && textColorSelect !== null)
 					{
-						lvRT229.style.color = lvRT92;
+						currentLabel.style.color = textColorSelect;
 					}
 					
-					if(lvRT214 !== undefined && lvRT214 !== null)
+					if(backgroundColorSelect !== undefined && backgroundColorSelect !== null)
 					{
-						lvRT229.style.backgroundColor = lvRT214;
+						currentLabel.style.backgroundColor = backgroundColorSelect;
 					}
 					
-					if(lvRT212 !== undefined && lvRT212 !== null)
+					if(borderColorSelect !== undefined && borderColorSelect !== null)
 					{
-						lvRT229.style.borderColor = lvRT212;
+						currentLabel.style.borderColor = borderColorSelect;
 					}
 				}
 			}
 			else
 			{
-				if(lvRT232.lvRT247() >= lvRT180)
+				if(itemNumber.laavorToInteger() >= numberClick)
 				{
-					lvRT229.setAttribute("lvRT240" , false);
+					currentLabel.setAttribute("IsSelectedLV" , false);
 					
-					if(lvRT210 !== undefined && lvRT210 !== null)
+					if(textColorDeselect !== undefined && textColorDeselect !== null)
 					{
-						lvRT229.style.color = lvRT210;
+						currentLabel.style.color = textColorDeselect;
 					}
 					
-					if(lvRT215 !== undefined && lvRT215 !== null)
+					if(backgroundColorDeselect !== undefined && backgroundColorDeselect !== null)
 					{
-						lvRT229.style.backgroundColor = lvRT215;
+						currentLabel.style.backgroundColor = backgroundColorDeselect;
 					}
 					
-					if(lvRT213 !== undefined && lvRT213 !== null)
+					if(borderColorDeselect !== undefined && borderColorDeselect !== null)
 					{
-						lvRT229.style.borderColor = lvRT213;
+						currentLabel.style.borderColor = borderColorDeselect;
 					}
 					
-					lvRT209 = "true";
+					subtract = "true";
 				}
 			}
 			
-			if(lvRT197 !== undefined && lvRT197 !== null)
+			if(isReadOnly !== undefined && isReadOnly !== null)
 			{
-				if(lvRT197.toString() === "false")
+				if(isReadOnly.toString() === "false")
 				{
-					if(lvRT181 !== undefined && lvRT181 !== null)
+					if(blockSelect !== undefined && blockSelect !== null)
 					{
-						if(lvRT181.toString() === "true")
+						if(blockSelect.toString() === "true")
 						{
-							lvRT229.removeEventListener("click", lvRT236);
-							lvRT229.onmouseover = null;
-							lvRT229.onmouseleave = null;
-							lvRT229.removeAttribute("blockSelect");
+							currentLabel.removeEventListener("click", laavorClickLabel);
+							currentLabel.removeEventListener("onmouseover", HoverRatingLabel);
+							currentLabel.removeEventListener("onmouseleave", LeaveHoverRatingLabel);
+							currentLabel.removeAttribute("blockSelect");
 						}
 					}
 				}
 			}
 			else
 			{
-				if(lvRT181 !== undefined && lvRT181 !== null)
+				if(blockSelect !== undefined && blockSelect !== null)
 				{
-					if(lvRT181.toString() === "true")
+					if(blockSelect.toString() === "true")
 					{
-						lvRT229.removeEventListener("click", lvRT236);
-						lvRT229.onmouseover = null;
-						lvRT229.onmouseleave = null;
-						lvRT229.removeAttribute("blockSelect");
+						currentLabel.removeEventListener("click", laavorClickLabel);
+						currentLabel.removeEventListener("onmouseover", HoverRatingLabel);
+						currentLabel.removeEventListener("onmouseleave", LeaveHoverRatingLabel);
+						currentLabel.removeAttribute("blockSelect");
 					}
 				}
 			}
@@ -1339,30 +1339,30 @@ function lvRT236(event)
 		}
 	}
 	
-	if(lvRT203 !== undefined && lvRT203 !== null)
+	if(commandEvent !== undefined && commandEvent !== null)
 	{
 		try
 		{
-			var lvRT220 = lvRT180;
-			if(lvRT209 === "true")		
+			var valueCalc = numberClick;
+			if(subtract === "true")		
 			{
-				lvRT220 = lvRT180.lvRT247() - 1;
+				valueCalc = numberClick.laavorToInteger() - 1;
 			}
 				
-			if(lvRT218 === "lvRT249")
+			if(typeRating === "number")
 			{			
-				window[lvRT203](lvRT220.toString());
+				window[commandEvent](valueCalc.toString());
 			}
-			else if(lvRT218 === "lvRT250")
+			else if(typeRating === "letter")
 			{
-				window[lvRT203](laavorGetLetter(lvRT220.toString()));		
+				window[commandEvent](laavorGetLetter(valueCalc.toString()));		
 			}	
 		}
 		catch(errorLaavor)
 		{
 			try
 			{
-				window[lvRT203](errorLaavor);
+				window[commandEvent](errorLaavor);
 			}
 			catch(errorLaavorI)
 			{}

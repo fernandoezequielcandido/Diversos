@@ -1,84 +1,84 @@
-var laavorSIKarenGillan;
-var laavorSISophieTurner;
+var laavorSwapImageAllImages;
+var laavorSwapImageOptions;
 
-function LaavorSwap(_jadsj_Barbour, Bouchard_27_kla0ga9) {
+function LaavorSwap(idFather, options) {
 	
-	if(laavorSIKarenGillan === undefined || laavorSIKarenGillan === null)
+	if(laavorSwapImageAllImages === undefined || laavorSwapImageAllImages === null)
 	{
-		laavorSIKarenGillan = [];
+		laavorSwapImageAllImages = [];
 	}
 	
-	if(laavorSISophieTurner === undefined || laavorSISophieTurner === null)
+	if(laavorSwapImageOptions === undefined || laavorSwapImageOptions === null)
 	{
-		laavorSISophieTurner = [];
+		laavorSwapImageOptions = [];
 	}
 	
-	if(Bouchard_27_kla0ga9 === undefined || Bouchard_27_kla0ga9 === null)
+	if(options === undefined || options === null)
 	{
-		laavorSISophieTurner[_jadsj_Barbour] = Frey().OnSwap;
+		laavorSwapImageOptions[idFather] = GetDefaults().OnSwap;
 	}
 	else
 	{
-		laavorSISophieTurner[_jadsj_Barbour] = Bouchard_27_kla0ga9.OnSwap;
+		laavorSwapImageOptions[idFather] = options.OnSwap;
 	}
 	
-	Reggie(_jadsj_Barbour)
+	LaavorSwapIndoor(idFather, options)
 }
 
-function Reggie(_sd_s_Ernest) {
+function LaavorSwapIndoor(laavorIdFather, options) {
 	
-    var _Amy_Winchester_ = document.getElementById(_sd_s_Ernest);
+    var laavorFather = document.getElementById(laavorIdFather);
 	
-	laavorSIKarenGillan[_sd_s_Ernest] = [];
-    if (_Amy_Winchester_ !== undefined && _Amy_Winchester_ !== null) {
-        var _Dorcas_LH = _Amy_Winchester_.children;
-        var Liz__Florabelle_ = _Dorcas_LH.length;      
+	laavorSwapImageAllImages[laavorIdFather] = [];
+    if (laavorFather !== undefined && laavorFather !== null) {
+        var items = laavorFather.children;
+        var countItems = items.length;      
 
-		var _Armand_ = _Amy_Winchester_.getAttribute("imageWidth");
-		var _Gregory_ = _Amy_Winchester_.getAttribute("imageHeight");
+		var imageWidth = laavorFather.getAttribute("imageWidth");
+		var imageHeight = laavorFather.getAttribute("imageHeight");
 		
         try {
-            for (var _Martin_Keep_W = 0; _Martin_Keep_W < Liz__Florabelle_; _Martin_Keep_W++) {
+            for (var iItems = 0; iItems < countItems; iItems++) {
                 
-				var Sessions_Steel;
+				var itemFull;
 								
-				var Nicholas;
+				var chosen;
 				
-				if(_Martin_Keep_W === 0)
+				if(iItems === 0)
 				{
-					Nicholas = true;
+					chosen = true;
 				}
 				else
 				{
-					Nicholas = false;
+					chosen = false;
 				}
 				
-				var _il_Hilda = _Dorcas_LH[_Martin_Keep_W].getAttribute("laavorValue");
+				var valueImg = items[iItems].getAttribute("laavorValue");
 					
-				Sessions_Steel = { Joseph: _Dorcas_LH[_Martin_Keep_W], Heckl: _Martin_Keep_W, Carl: Nicholas, Kinsolving: _il_Hilda };
+				itemFull = { Image: items[iItems], Index: iItems, Chosen: chosen, Value: valueImg };
 				
-				if (_Armand_ !== undefined && _Armand_ !== null && _Armand_ !== "")
+				if (imageWidth !== undefined && imageWidth !== null && imageWidth !== "")
 				{
-					_Dorcas_LH[_Martin_Keep_W].style.width = _Armand_.replace("px", "") + 'px';
+					items[iItems].style.width = imageWidth.replace("px", "") + 'px';
 				}
 				
-				if (_Gregory_ !== undefined && _Gregory_ !== null && _Gregory_ !== "")
+				if (imageHeight !== undefined && imageHeight !== null && imageHeight !== "")
 				{
-					_Dorcas_LH[_Martin_Keep_W].style.height  = _Gregory_.replace("px", "") + 'px';
+					items[iItems].style.height  = imageHeight.replace("px", "") + 'px';
 				}
 								
-				if(_Martin_Keep_W !== 0)
+				if(iItems !== 0)
 				{
-					_Dorcas_LH[_Martin_Keep_W].style.display = 'none';
+					items[iItems].style.display = 'none';
 				}
 				
-				_Dorcas_LH[_Martin_Keep_W].setAttribute("Windsor", _sd_s_Ernest);
-				_Dorcas_LH[_Martin_Keep_W].setAttribute("George", _Martin_Keep_W);
-				_Dorcas_LH[_Martin_Keep_W].style.cursor = "grab";
+				items[iItems].setAttribute("IdFather", laavorIdFather);
+				items[iItems].setAttribute("Index", iItems);
+				items[iItems].style.cursor = "grab";
 												
-                laavorSIKarenGillan[_sd_s_Ernest].push(Sessions_Steel);
-				
-				_Dorcas_LH[_Martin_Keep_W].addEventListener("click", Gertrude);
+                laavorSwapImageAllImages[laavorIdFather].push(itemFull);
+							
+				items[iItems].addEventListener("click", laavorClickImageSwap);
         
 			}
 		}
@@ -94,52 +94,52 @@ String.prototype.laavorToInteger = function () {
     return returnItem;
 };
 
-function Gertrude(event)
+function laavorClickImageSwap(event)
 {
 	"use strict";
-	var Raoul = event.currentTarget;
-	var Eugene = Raoul.getAttribute("George").toString().laavorToInteger();
-	var garrisonRoad = Raoul.getAttribute("Windsor").toString();
+	var itemImage = event.currentTarget;
+	var index = itemImage.getAttribute("Index").toString().laavorToInteger();
+	var idFather = itemImage.getAttribute("IdFather").toString();
 
-	var OldTown;
-	var NewTown;
-	var Daisy;
+	var valueChosen;
+	var indexChosen;
+	var sourceChosen;
 	
-	Raoul.style.display = 'none';	
+	itemImage.style.display = 'none';	
 	
-	laavorSIKarenGillan[garrisonRoad][Eugene].Carl = false;
-	if((Eugene + 1) < laavorSIKarenGillan[garrisonRoad].length)
+	laavorSwapImageAllImages[idFather][index].Chosen = false;
+	if((index + 1) < laavorSwapImageAllImages[idFather].length)
 	{
-		laavorSIKarenGillan[garrisonRoad][(Eugene + 1)].Joseph.style.display =  'block';
-		laavorSIKarenGillan[garrisonRoad][(Eugene + 1)].Carl = true;
+		laavorSwapImageAllImages[idFather][(index + 1)].Image.style.display =  'block';
+		laavorSwapImageAllImages[idFather][(index + 1)].Chosen = true;
 		
-		OldTown = laavorSIKarenGillan[garrisonRoad][(Eugene + 1)].Kinsolving;
-	    NewTown = laavorSIKarenGillan[garrisonRoad][(Eugene + 1)].Eugene;
-	    Daisy = laavorSIKarenGillan[garrisonRoad][(Eugene + 1)].Joseph.src;
+		valueChosen = laavorSwapImageAllImages[idFather][(index + 1)].Value;
+	    indexChosen = laavorSwapImageAllImages[idFather][(index + 1)].Index;
+	    sourceChosen = laavorSwapImageAllImages[idFather][(index + 1)].Image.src;
 	}
 	else
 	{
-		laavorSIKarenGillan[garrisonRoad][0].Joseph.style.display =  'block';
-		laavorSIKarenGillan[garrisonRoad][0].Carl = true;
+		laavorSwapImageAllImages[idFather][0].Image.style.display =  'block';
+		laavorSwapImageAllImages[idFather][0].Chosen = true;
 		
-		OldTown = laavorSIKarenGillan[garrisonRoad][0].Kinsolving;
-	    NewTown = laavorSIKarenGillan[garrisonRoad][0].Heckl;
-	    Daisy = laavorSIKarenGillan[garrisonRoad][0].Joseph.src;
+		valueChosen = laavorSwapImageAllImages[idFather][0].Value;
+	    indexChosen = laavorSwapImageAllImages[idFather][0].Index;
+	    sourceChosen = laavorSwapImageAllImages[idFather][0].Image.src;
 	}
 	
-	if(laavorSISophieTurner !== undefined && laavorSISophieTurner !== null)
+	if(laavorSwapImageOptions !== undefined && laavorSwapImageOptions !== null)
 	{
-		if(laavorSISophieTurner[garrisonRoad] !== undefined && laavorSISophieTurner[garrisonRoad] !== null)
+		if(laavorSwapImageOptions[idFather] !== undefined && laavorSwapImageOptions[idFather] !== null)
 		{
 			try
 			{
-				laavorSISophieTurner[garrisonRoad](OldTown, NewTown, Daisy);		
+				laavorSwapImageOptions[idFather](valueChosen, indexChosen, sourceChosen);		
 			}
 			catch(errorLaavor)
 			{
 				try
 				{
-					laavorSISophieTurner[garrisonRoad](errorLaavor);
+					laavorSwapImageOptions[idFather](errorLaavor);
 				}
 				catch(errorLaavorI)
 				{}
@@ -148,17 +148,17 @@ function Gertrude(event)
 	}
 }
 
-function laavorGetValueSwapImageChosen(burbank)
+function laavorGetValueSwapImageChosen(idFather)
 {
-	if(laavorSIKarenGillan !== undefined && laavorSIKarenGillan !== null)
+	if(laavorSwapImageAllImages !== undefined && laavorSwapImageAllImages !== null)
 	{
-		if(laavorSIKarenGillan[burbank] !== undefined && laavorSIKarenGillan[burbank] !== null)
+		if(laavorSwapImageAllImages[idFather] !== undefined && laavorSwapImageAllImages[idFather] !== null)
 		{
-			for(var Godfrey = 0; Godfrey < laavorSIKarenGillan[burbank].length; Godfrey++)
+			for(var index = 0; index < laavorSwapImageAllImages[idFather].length; index++)
 			{	
-				if(laavorSIKarenGillan[burbank][Godfrey].Carl.toString() === "true")
+				if(laavorSwapImageAllImages[idFather][index].Chosen.toString() === "true")
 				{
-					return laavorSIKarenGillan[burbank][Godfrey].Kinsolving;
+					return laavorSwapImageAllImages[idFather][index].Value;
 				}
 			}
 		}	
@@ -167,17 +167,17 @@ function laavorGetValueSwapImageChosen(burbank)
  	return "";
 }
 
-function laavorGetIndexSwapImageChosen(Jacques)
+function laavorGetIndexSwapImageChosen(idFather)
 {
-	if(laavorSIKarenGillan !== undefined && laavorSIKarenGillan !== null)
+	if(laavorSwapImageAllImages !== undefined && laavorSwapImageAllImages !== null)
 	{
-		if(laavorSIKarenGillan[Jacques] !== undefined && laavorSIKarenGillan[Jacques] !== null)
+		if(laavorSwapImageAllImages[idFather] !== undefined && laavorSwapImageAllImages[idFather] !== null)
 		{
-			for(var Lucy = 0; Lucy < laavorSIKarenGillan[Jacques].length; Lucy++)
+			for(var index = 0; index < laavorSwapImageAllImages[idFather].length; index++)
 			{	
-				if(laavorSIKarenGillan[Jacques][Lucy].Carl.toString() === "true")
+				if(laavorSwapImageAllImages[idFather][index].Chosen.toString() === "true")
 				{
-					return laavorSIKarenGillan[Jacques][Lucy].Heckl;
+					return laavorSwapImageAllImages[idFather][index].Index;
 				}
 			}
 		}	
@@ -186,17 +186,17 @@ function laavorGetIndexSwapImageChosen(Jacques)
 	return "";
 }
 
-function laavorGetSourceSwapImageChosen(May)
+function laavorGetSourceSwapImageChosen(idFather)
 {
-	if(laavorSIKarenGillan !== undefined && laavorSIKarenGillan !== null)
+	if(laavorSwapImageAllImages !== undefined && laavorSwapImageAllImages !== null)
 	{
-		if(laavorSIKarenGillan[May] !== undefined && laavorSIKarenGillan[May] !== null)
+		if(laavorSwapImageAllImages[idFather] !== undefined && laavorSwapImageAllImages[idFather] !== null)
 		{
-			for(var Quaker = 0; Quaker < laavorSIKarenGillan[May].length; Quaker++)
+			for(var index = 0; index < laavorSwapImageAllImages[idFather].length; index++)
 			{	
-				if(laavorSIKarenGillan[May][Quaker].Carl.toString() === "true")
+				if(laavorSwapImageAllImages[idFather][index].Chosen.toString() === "true")
 				{
-					return laavorSIKarenGillan[May][Quaker].Joseph.src;
+					return laavorSwapImageAllImages[idFather][index].Image.src;
 				}
 			}
 		}	
@@ -205,15 +205,15 @@ function laavorGetSourceSwapImageChosen(May)
 	return "";
 }
 
-function laavorBlockSwapImage(Satsuma)
+function laavorBlockSwapImage(idFather)
 {
-	if(laavorSIKarenGillan !== undefined && laavorSIKarenGillan !== null)
+	if(laavorSwapImageAllImages !== undefined && laavorSwapImageAllImages !== null)
 	{
-		if(laavorSIKarenGillan[Satsuma] !== undefined && laavorSIKarenGillan[Satsuma] !== null)
+		if(laavorSwapImageAllImages[idFather] !== undefined && laavorSwapImageAllImages[idFather] !== null)
 		{
-			for(var Saigo = 0; Saigo < laavorSIKarenGillan[Satsuma].length; Saigo++)
+			for(var index = 0; index < laavorSwapImageAllImages[idFather].length; index++)
 			{	
-				laavorSIKarenGillan[Satsuma][Saigo].Joseph.removeEventListener("click", Gertrude);
+				laavorSwapImageAllImages[idFather][index].Image.removeEventListener("click", laavorClickImageSwap);
 			}
 		}	
 	}
@@ -221,15 +221,15 @@ function laavorBlockSwapImage(Satsuma)
 	return "";
 }
 
-function laavorReleaseSwapImage(Leon)
+function laavorReleaseSwapImage(idFather)
 {
-	if(laavorSIKarenGillan !== undefined && laavorSIKarenGillan !== null)
+	if(laavorSwapImageAllImages !== undefined && laavorSwapImageAllImages !== null)
 	{
-		if(laavorSIKarenGillan[Leon] !== undefined && laavorSIKarenGillan[Leon] !== null)
+		if(laavorSwapImageAllImages[idFather] !== undefined && laavorSwapImageAllImages[idFather] !== null)
 		{
-			for(var paul = 0; paul < laavorSIKarenGillan[Leon].length; paul++)
+			for(var index = 0; index < laavorSwapImageAllImages[idFather].length; index++)
 			{	
-				laavorSIKarenGillan[Leon][paul].Joseph.addEventListener("click", Gertrude);
+				laavorSwapImageAllImages[idFather][index].Image.addEventListener("click", laavorClickImageSwap);
 			}
 		}	
 	}
@@ -237,7 +237,7 @@ function laavorReleaseSwapImage(Leon)
 	return "";
 }
 
-function Frey() {
+function GetDefaults() {
     return {
         OnSwap: ''
     };

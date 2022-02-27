@@ -1,58 +1,58 @@
-﻿var lvGB1;
-var lvGB2;
+﻿var laavorUserOptions;
+var laavorAllIdFather;
 
-function LaavorGroupBox(lvGB3, lvGB4) {
+function LaavorGroupBox(idFather, options) {
     
-	if(lvGB2 === undefined || lvGB2 === null)
+	if(laavorAllIdFather === undefined || laavorAllIdFather === null)
 	{
-		lvGB2 = [];
+		laavorAllIdFather = [];
 	}
-	lvGB2.push(lvGB3);
+	laavorAllIdFather.push(idFather);
 	
-	if(lvGB1 === undefined || lvGB1 === null)
+	if(laavorUserOptions === undefined || laavorUserOptions === null)
 	{
-		lvGB1 = [];
+		laavorUserOptions = [];
 	}
 	
-    if (lvGB4 !== undefined && lvGB4 !== null) {
-		lvGB1[lvGB3] = lvGB4;
+    if (options !== undefined && options !== null) {
+		laavorUserOptions[idFather] = options;
     }
     else {
-		lvGB1[lvGB3] = lvGB5()
+		laavorUserOptions[idFather] = GetDefaults()
     }
 }
 
 window.addEventListener('load', function () {
-	var lvGB6 = lvGB2.length;
-	for(var lvGB7 = 0; lvGB7 < lvGB6; lvGB7++)
+	var countIds = laavorAllIdFather.length;
+	for(var iId = 0; iId < countIds; iId++)
 	{
-		lvGB8(lvGB2[lvGB7]);
+		LaavorGroupBoxIndoor(laavorAllIdFather[iId]);
 	}
 });
 
-function lvGB8(lvGB9) {
-    lvGB10 = document.getElementById(lvGB9);
-    if (lvGB10 !== undefined && lvGB10 !== null) {
-        var lvGB12 = lvGB10.children;
+function LaavorGroupBoxIndoor(idFather) {
+    laavorFather = document.getElementById(idFather);
+    if (laavorFather !== undefined && laavorFather !== null) {
+        var itemsGroup = laavorFather.children;
 
-        lvGB13(lvGB1[lvGB9]);
+        SaveDefaults(laavorUserOptions[idFather]);
 		
         try {     
-			var lvGB11 = { lvGB14: lvGB12[0], lvGB15: lvGB12[1]};	
+			var itemFull = { Title: itemsGroup[0], Content: itemsGroup[1]};	
 		
-			lvGB11.lvGB14.style.backgroundColor = lvGB1[lvGB9].backgroundColorTitle;
-			lvGB11.lvGB14.style.border = "solid 1px";
-			lvGB11.lvGB14.style.borderColor = lvGB1[lvGB9].borderColorTitle;
-			lvGB11.lvGB14.style.color = lvGB1[lvGB9].textColorTitle;
-			lvGB11.lvGB14.style.fontSize = lvGB1[lvGB9].fontSizeTitle.replace("em", "") + 'em';
+			itemFull.Title.style.backgroundColor = laavorUserOptions[idFather].backgroundColorTitle;
+			itemFull.Title.style.border = "solid 1px";
+			itemFull.Title.style.borderColor = laavorUserOptions[idFather].borderColorTitle;
+			itemFull.Title.style.color = laavorUserOptions[idFather].textColorTitle;
+			itemFull.Title.style.fontSize = laavorUserOptions[idFather].fontSizeTitle.replace("em", "") + 'em';
 		
-			lvGB11.lvGB15.style.border = "solid 1px";
-			lvGB11.lvGB15.style.borderColor = lvGB1[lvGB9].borderColorContent;
+			itemFull.Content.style.border = "solid 1px";
+			itemFull.Content.style.borderColor = laavorUserOptions[idFather].borderColorContent;
 				
-			lvGB11.lvGB14.style.marginBottom = "0px";
-			lvGB11.lvGB15.style.marginBottom = "0px";
-			lvGB11.lvGB14.style.marginTop = "0px";
-			lvGB11.lvGB15.style.marginTop = "0x";
+			itemFull.Title.style.marginBottom = "0px";
+			itemFull.Content.style.marginBottom = "0px";
+			itemFull.Title.style.marginTop = "0px";
+			itemFull.Content.style.marginTop = "0x";
 		
 			
 
@@ -66,35 +66,35 @@ function lvGB8(lvGB9) {
     }
 }
 
-function lvGB13(lvGB16) {
-    var lvGB17 = lvGB5();
+function SaveDefaults(options) {
+    var defaultOptions = GetDefaults();
     
-	if (lvGB16.backgroundColorTitle === undefined || lvGB16.backgroundColorTitle === null) {
-        lvGB16.backgroundColorTitle = lvGB17.backgroundColorTitle;
+	if (options.backgroundColorTitle === undefined || options.backgroundColorTitle === null) {
+        options.backgroundColorTitle = defaultOptions.backgroundColorTitle;
     }
 
-    if (lvGB16.borderColorTitle === undefined || lvGB16.borderColorTitle === null) {
-        lvGB16.borderColorTitle = lvGB17.borderColorTitle;
+    if (options.borderColorTitle === undefined || options.borderColorTitle === null) {
+        options.borderColorTitle = defaultOptions.borderColorTitle;
     }
 
-    if (lvGB16.textColorTitle === undefined || lvGB16.textColorTitle === null) {
-        lvGB16.textColorTitle = lvGB17.textColorTitle;
+    if (options.textColorTitle === undefined || options.textColorTitle === null) {
+        options.textColorTitle = defaultOptions.textColorTitle;
     }
 
-    if (lvGB16.borderSizeTitle === undefined || lvGB16.borderSizeTitle === null) {
-        lvGB16.borderSizeTitle = lvGB17.borderSizeTitle;
+    if (options.borderSizeTitle === undefined || options.borderSizeTitle === null) {
+        options.borderSizeTitle = defaultOptions.borderSizeTitle;
     }
 
-    if (lvGB16.fontSizeTitle === undefined || lvGB16.fontSizeTitle === null) {
-        lvGB16.fontSizeTitle = lvGB17.fontSizeTitle;
+    if (options.fontSizeTitle === undefined || options.fontSizeTitle === null) {
+        options.fontSizeTitle = defaultOptions.fontSizeTitle;
     }
 
-    if (lvGB16.borderColorContent === undefined || lvGB16.borderColorContent === null) {
-        lvGB16.borderColorContent = lvGB17.borderColorContent;
+    if (options.borderColorContent === undefined || options.borderColorContent === null) {
+        options.borderColorContent = defaultOptions.borderColorContent;
     }
 }
 
-function lvGB5() {
+function GetDefaults() {
     return {
         backgroundColorTitle: "orange",
         borderColorTitle: "black",

@@ -1,234 +1,233 @@
-var laavorSQArmagh;
-var laavorSQFrancis;
+var laavorSwapPhrasesAllItems;
+var laavorSwapPhrasesOptions;
 
-function LaavorSwapPhrases(Joey, Sean) {
+function LaavorSwapPhrases(idFather, options) {
 	
-	if(laavorSQArmagh === undefined || laavorSQArmagh === null)
+	if(laavorSwapPhrasesAllItems === undefined || laavorSwapPhrasesAllItems === null)
 	{
-		laavorSQArmagh = [];
+		laavorSwapPhrasesAllItems = [];
 	}
 	
-	if(laavorSQFrancis === undefined || laavorSQFrancis === null)
+	if(laavorSwapPhrasesOptions === undefined || laavorSwapPhrasesOptions === null)
 	{
-		laavorSQFrancis = [];
+		laavorSwapPhrasesOptions = [];
 	}
 	
-	if(Sean === undefined || Sean === null)
+	if(options === undefined || options === null)
 	{
-		laavorSQFrancis[Joey] = Timothy();
+		laavorSwapPhrasesOptions[idFather] = GetDefaults();
 	}
 	else
 	{
-		laavorSQFrancis[Joey] = Sean;
+		laavorSwapPhrasesOptions[idFather] = options;
 	}
 	
-	Marjorie(Joey, Sean)
+	LaavorSwapPhrasesIndoor(idFather, options)
 }
 
-function Marjorie(Mary, Xavier) {
+function LaavorSwapPhrasesIndoor(laavorIdFather, options) {
 	
-    var Bridget = document.getElementById(Mary);
+    var laavorFather = document.getElementById(laavorIdFather);
 	
-	laavorSQArmagh[Mary] = [];
-    if (Bridget !== undefined && Bridget !== null) {
-        var Moira = Bridget.children;
-        var OLeary = Moira.length;      
+	laavorSwapPhrasesAllItems[laavorIdFather] = [];
+    if (laavorFather !== undefined && laavorFather !== null) {
+        var items = laavorFather.children;
+        var countItems = items.length;      
 		
         try {
-            for (var Bernarde = 0; Bernarde < OLeary; Bernarde++) {
+            for (var iItems = 0; iItems < countItems; iItems++) {
                 
-				var Smith;							
-				var Voyage;
+				var itemFull;							
+				var chosen;
 				
-				var Teresa;
+				var userOptionsLocal;
 
-				Syrup(laavorSQFrancis[Mary]);
-				Teresa = laavorSQFrancis[Mary];
+				SaveDefaults(laavorSwapPhrasesOptions[laavorIdFather]);
+				userOptionsLocal = laavorSwapPhrasesOptions[laavorIdFather];
 								
-				var Danny = Moira[Bernarde].getAttribute("laavorTextColor");
-				var Jack = Moira[Bernarde].getAttribute("laavorBorderColor");
-				var Daniel = Moira[Bernarde].getAttribute("laavorBackgroundColor");
-				var Irish = Moira[Bernarde].getAttribute("laavorFontSize");
-				var Queen = Moira[Bernarde].getAttribute("laavorBorder");
-				var Barton = Moira[Bernarde].getAttribute("laavorWidth");
-				var Kaiser = Moira[Bernarde].getAttribute("laavorHeight");
-				var Elizabeth = Moira[Bernarde].getAttribute("laavorAlign");
+				var textColorLocal = items[iItems].getAttribute("laavorTextColor");
+				var borderColorLocal = items[iItems].getAttribute("laavorBorderColor");
+				var backgroundColorLocal = items[iItems].getAttribute("laavorBackgroundColor");
+				var fontSizeLocal = items[iItems].getAttribute("laavorFontSize");
+				var borderLocal = items[iItems].getAttribute("laavorBorder");
+				var widthLocal = items[iItems].getAttribute("laavorWidth");
+				var heightLocal = items[iItems].getAttribute("laavorHeight");
+				var alignLocal = items[iItems].getAttribute("laavorAlign");
 				
-				if(Danny !== undefined && Danny !== null && Danny !== "")
+				if(textColorLocal !== undefined && textColorLocal !== null && textColorLocal !== "")
 				{
 										
 				}
 				else
 				{
-					Danny = Teresa.textColor;
+					textColorLocal = userOptionsLocal.textColor;
 				}
 				
-				if(Jack !== undefined && Jack !== null && Jack !== "")
+				if(borderColorLocal !== undefined && borderColorLocal !== null && borderColorLocal !== "")
 				{
 										
 				}
 				else
 				{
-					Jack = Teresa.borderColor;
+					borderColorLocal = userOptionsLocal.borderColor;
 				}
 				
-				if(Daniel !== undefined && Daniel !== null && Daniel !== "")
+				if(backgroundColorLocal !== undefined && backgroundColorLocal !== null && backgroundColorLocal !== "")
 				{
 					
 				}
 				else
 				{
-					Daniel = Teresa.backgroundColor;
+					backgroundColorLocal = userOptionsLocal.backgroundColor;
 				}
 				
-				if(Irish !== undefined && Irish !== null && Irish !== "")
+				if(fontSizeLocal !== undefined && fontSizeLocal !== null && fontSizeLocal !== "")
 				{
 										
 				}				
 				else
 				{
-					Irish =  Teresa.fontSize;
+					fontSizeLocal =  userOptionsLocal.fontSize;
 				}
 				
-				if(Queen !== undefined && Queen !== null && Queen !== "")
+				if(borderLocal !== undefined && borderLocal !== null && borderLocal !== "")
 				{
 										
 				}				
 				else
 				{
-					Queen =  Teresa.border;
+					borderLocal =  userOptionsLocal.border;
 				}
 				
-				if(Barton !== undefined && Barton !== null && Barton !== "")
+				if(widthLocal !== undefined && widthLocal !== null && widthLocal !== "")
 				{
 										
 				}				
 				else
 				{
-					Barton =  Teresa.width;
+					widthLocal =  userOptionsLocal.width;
 				}
 				
-				if(Kaiser !== undefined && Kaiser !== null && Kaiser !== "")
+				if(heightLocal !== undefined && heightLocal !== null && heightLocal !== "")
 				{
 										
 				}				
 				else
 				{
-					Kaiser =  Teresa.height;
+					heightLocal =  userOptionsLocal.height;
 				}
 				
-				if(Elizabeth !== undefined && Elizabeth !== null && Elizabeth !== "")
+				if(alignLocal !== undefined && alignLocal !== null && alignLocal !== "")
 				{
 										
 				}				
 				else
 				{
-					Elizabeth =  Teresa.align;
+					alignLocal =  userOptionsLocal.align;
 				}
 					
-				if(Bernarde === 0)
+				if(iItems === 0)
 				{
-					Voyage = true;
+					chosen = true;
 				}
 				else
 				{
-					Voyage = false;
+					chosen = false;
 				}
 				
-				var oftheBeagle = Moira[Bernarde].getAttribute("laavorValue");
+				var valueQuotes = items[iItems].getAttribute("laavorValue");
 					
-				Smith = { Taft: Moira[Bernarde], Spaulding: Bernarde, Enfield: Voyage, Clair: oftheBeagle };
+				itemFull = { Quotes: items[iItems], Index: iItems, Chosen: chosen, Value: valueQuotes };
 				
-				Moira[Bernarde].style.color = Danny;
-				Moira[Bernarde].style.border = Queen;
-				Moira[Bernarde].style.backgroundColor = Daniel;
-				Moira[Bernarde].style.borderColor = Jack;
-				Moira[Bernarde].style.fontSize  = Irish.toString().replace("em", "") + 'em';
-				Moira[Bernarde].style.width = Barton.replace("px", "") + 'px';
-				Moira[Bernarde].style.marginTop = "10px";
+				items[iItems].style.color = textColorLocal;
+				items[iItems].style.border = borderLocal;
+				items[iItems].style.backgroundColor = backgroundColorLocal;
+				items[iItems].style.borderColor = borderColorLocal;
+				items[iItems].style.fontSize  = fontSizeLocal.toString().replace("em", "") + 'em';
+				items[iItems].style.width = widthLocal.replace("px", "") + 'px';
 				
-				if(Kaiser !== "")
+				if(heightLocal !== "")
 				{
-					Moira[Bernarde].style.height = Kaiser.replace("px", "") + 'px';
+					items[iItems].style.height = heightLocal.replace("px", "") + 'px';
 				}
 				
-				Moira[Bernarde].style.textAlign = Elizabeth;
+				items[iItems].style.textAlign = alignLocal;
 								
-				if(Bernarde !== 0)
+				if(iItems !== 0)
 				{					
-					Moira[Bernarde].style.display = 'none';
+					items[iItems].style.display = 'none';
 				}
 				else
 				{
-					Moira[Bernarde].style.display = 'block';
+					items[iItems].style.display = 'block';
 				}
 				
-				Moira[Bernarde].setAttribute("Oglethorpe", Mary);
-				Moira[Bernarde].setAttribute("Lincoln", Bernarde);
-				Moira[Bernarde].style.cursor = "grab";
+				items[iItems].setAttribute("IdFather", laavorIdFather);
+				items[iItems].setAttribute("Index", iItems);
+				items[iItems].style.cursor = "grab";
 												
-                laavorSQArmagh[Mary].push(Smith);
+                laavorSwapPhrasesAllItems[laavorIdFather].push(itemFull);
 							
-				Moira[Bernarde].addEventListener("click", Maggie);	
+				items[iItems].addEventListener("click", laavorClickPhrasesSwap);	
 			}
 		}
 		catch(e){
-            throw new Error("The Base Content and Phrase order can not be interrupted, if necessary contact Laavor support.");
+            throw new Error("The Base Content and Quote order can not be interrupted, if necessary contact Laavor support.");
         }
 	}
 }
 
-String.prototype.Maine = function () {
+String.prototype.laavorSwapPhrasesToInteger = function () {
     "use strict";
-    var Rory = parseInt(this);
-    return Rory;
+    var returnItem = parseInt(this);
+    return returnItem;
 };
 
-function Maggie(event)
+function laavorClickPhrasesSwap(event)
 {
 	"use strict";
-	var Hennessey = event.currentTarget;
-	var Tom = Hennessey.getAttribute("Lincoln").toString().Maine();
-	var Alice = Hennessey.getAttribute("Oglethorpe").toString();
+	var itemQuotes = event.currentTarget;
+	var index = itemQuotes.getAttribute("Index").toString().laavorSwapPhrasesToInteger();
+	var idFather = itemQuotes.getAttribute("IdFather").toString();
 
-	var Marshall;
-	var Tyler;
+	var valueChosen;
+	var indexChosen;
 	
-	Hennessey.style.display = 'none';	
+	itemQuotes.style.display = 'none';	
 	
-	laavorSQArmagh[Alice][Tom].Enfield = false;
-	if((Tom + 1) < laavorSQArmagh[Alice].length)
+	laavorSwapPhrasesAllItems[idFather][index].Chosen = false;
+	if((index + 1) < laavorSwapPhrasesAllItems[idFather].length)
 	{
-		laavorSQArmagh[Alice][(Tom + 1)].Taft.style.display =  'block';
-		laavorSQArmagh[Alice][(Tom + 1)].Enfield = true;
+		laavorSwapPhrasesAllItems[idFather][(index + 1)].Quotes.style.display =  'block';
+		laavorSwapPhrasesAllItems[idFather][(index + 1)].Chosen = true;
 		
-		Marshall = laavorSQArmagh[Alice][(Tom + 1)].Clair;
-	    Tyler = laavorSQArmagh[Alice][(Tom + 1)].Spaulding;
+		valueChosen = laavorSwapPhrasesAllItems[idFather][(index + 1)].Value;
+	    indexChosen = laavorSwapPhrasesAllItems[idFather][(index + 1)].Index;
 	}
 	else
 	{
-		laavorSQArmagh[Alice][0].Taft.style.display =  'block';
-		laavorSQArmagh[Alice][0].Enfield = true;
+		laavorSwapPhrasesAllItems[idFather][0].Quotes.style.display =  'block';
+		laavorSwapPhrasesAllItems[idFather][0].Chosen = true;
 		
-		Marshall = laavorSQArmagh[Alice][0].Clair;
-	    Tyler = laavorSQArmagh[Alice][0].Spaulding;
+		valueChosen = laavorSwapPhrasesAllItems[idFather][0].Value;
+	    indexChosen = laavorSwapPhrasesAllItems[idFather][0].Index;
 	}
 	
-	if(laavorSQFrancis !== undefined && laavorSQFrancis !== null)
+	if(laavorSwapPhrasesOptions !== undefined && laavorSwapPhrasesOptions !== null)
 	{
-		if(laavorSQFrancis[Alice] !== undefined && laavorSQFrancis[Alice] !== null)
+		if(laavorSwapPhrasesOptions[idFather] !== undefined && laavorSwapPhrasesOptions[idFather] !== null)
 		{
-			if(laavorSQFrancis[Alice].OnSwap !== undefined && laavorSQFrancis[Alice].OnSwap !== null && laavorSQFrancis[Alice].OnSwap !== "")
+			if(laavorSwapPhrasesOptions[idFather].OnSwap !== undefined && laavorSwapPhrasesOptions[idFather].OnSwap !== null && laavorSwapPhrasesOptions[idFather].OnSwap !== "")
 			{
 				try
 				{
-					laavorSQFrancis[Alice].OnSwap(Marshall, Tyler);		
+					laavorSwapPhrasesOptions[idFather].OnSwap(valueChosen, indexChosen);		
 				}
 				catch(errorLaavor)
 				{
 					try
 					{
-						laavorSQFrancis[Alice].OnSwap(errorLaavor);
+						laavorSwapPhrasesOptions[idFather].OnSwap(errorLaavor);
 					}
 					catch(errorLaavorI)
 					{}
@@ -238,17 +237,17 @@ function Maggie(event)
 	}
 }
 
-function laavorGetValueSwapPhrasesChosen(Squibbs)
+function laavorGetValueSwapPhrasesChosen(idFather)
 {
-	if(laavorSQArmagh !== undefined && laavorSQArmagh !== null)
+	if(laavorSwapPhrasesAllItems !== undefined && laavorSwapPhrasesAllItems !== null)
 	{
-		if(laavorSQArmagh[Squibbs] !== undefined && laavorSQArmagh[Squibbs] !== null)
+		if(laavorSwapPhrasesAllItems[idFather] !== undefined && laavorSwapPhrasesAllItems[idFather] !== null)
 		{
-			for(var Murray = 0; Murray < laavorSQArmagh[Squibbs].length; Murray++)
+			for(var index = 0; index < laavorSwapPhrasesAllItems[idFather].length; index++)
 			{	
-				if(laavorSQArmagh[Squibbs][Murray].Enfield.toString() === "true")
+				if(laavorSwapPhrasesAllItems[idFather][index].Chosen.toString() === "true")
 				{
-					return laavorSQArmagh[Squibbs][Murray].Clair;
+					return laavorSwapPhrasesAllItems[idFather][index].Value;
 				}
 			}
 		}	
@@ -257,17 +256,17 @@ function laavorGetValueSwapPhrasesChosen(Squibbs)
  	return "";
 }
 
-function laavorGetIndexSwapPhrasesChosen(Klondike)
+function laavorGetIndexSwapPhrasesChosen(idFather)
 {
-	if(laavorSQArmagh !== undefined && laavorSQArmagh !== null)
+	if(laavorSwapPhrasesAllItems !== undefined && laavorSwapPhrasesAllItems !== null)
 	{
-		if(laavorSQArmagh[Klondike] !== undefined && laavorSQArmagh[Klondike] !== null)
+		if(laavorSwapPhrasesAllItems[idFather] !== undefined && laavorSwapPhrasesAllItems[idFather] !== null)
 		{
-			for(var Emmy = 0; Emmy < laavorSQArmagh[Klondike].length; Emmy++)
+			for(var index = 0; index < laavorSwapPhrasesAllItems[idFather].length; index++)
 			{	
-				if(laavorSQArmagh[Klondike][Emmy].Enfield.toString() === "true")
+				if(laavorSwapPhrasesAllItems[idFather][index].Chosen.toString() === "true")
 				{
-					return laavorSQArmagh[Klondike][Emmy].Spaulding;
+					return laavorSwapPhrasesAllItems[idFather][index].Index;
 				}
 			}
 		}	
@@ -276,15 +275,15 @@ function laavorGetIndexSwapPhrasesChosen(Klondike)
 	return "";
 }
 
-function laavorBlockSwapPhrases(Hauroun)
+function laavorBlockSwapPhrases(idFather)
 {
-	if(laavorSQArmagh !== undefined && laavorSQArmagh !== null)
+	if(laavorSwapPhrasesAllItems !== undefined && laavorSwapPhrasesAllItems !== null)
 	{
-		if(laavorSQArmagh[Hauroun] !== undefined && laavorSQArmagh[Hauroun] !== null)
+		if(laavorSwapPhrasesAllItems[idFather] !== undefined && laavorSwapPhrasesAllItems[idFather] !== null)
 		{
-			for(var Montrose = 0; Montrose < laavorSQArmagh[Hauroun].length; Montrose++)
+			for(var index = 0; index < laavorSwapPhrasesAllItems[idFather].length; index++)
 			{	
-				laavorSQArmagh[Hauroun][Montrose].Taft.removeEventListener("click", Maggie);
+				laavorSwapPhrasesAllItems[idFather][index].Quotes.removeEventListener("click", laavorClickPhrasesSwap);
 			}
 		}	
 	}
@@ -292,15 +291,15 @@ function laavorBlockSwapPhrases(Hauroun)
 	return "";
 }
 
-function laavorReleaseSwapPhrases(Healey)
+function laavorReleaseSwapPhrases(idFather)
 {
-	if(laavorSQArmagh !== undefined && laavorSQArmagh !== null)
+	if(laavorSwapPhrasesAllItems !== undefined && laavorSwapPhrasesAllItems !== null)
 	{
-		if(laavorSQArmagh[Healey] !== undefined && laavorSQArmagh[Healey] !== null)
+		if(laavorSwapPhrasesAllItems[idFather] !== undefined && laavorSwapPhrasesAllItems[idFather] !== null)
 		{
-			for(var Liza = 0; Liza < laavorSQArmagh[Healey].length; Liza++)
+			for(var index = 0; index < laavorSwapPhrasesAllItems[idFather].length; index++)
 			{	
-				laavorSQArmagh[Healey][Liza].Taft.addEventListener("click", Maggie);
+				laavorSwapPhrasesAllItems[idFather][index].Quotes.addEventListener("click", laavorClickPhrasesSwap);
 			}
 		}	
 	}
@@ -308,47 +307,47 @@ function laavorReleaseSwapPhrases(Healey)
 	return "";
 }
 
-function Syrup(Zeff) {
-    var Katherine = Timothy();
+function SaveDefaults(options) {
+    var defaultOptions = GetDefaults();
 
-    if (Zeff.OnSwap === undefined || Zeff.OnSwap === null) {
-        Zeff.OnSwap = Katherine.OnSwap;
+    if (options.OnSwap === undefined || options.OnSwap === null) {
+        options.OnSwap = defaultOptions.OnSwap;
     }
 
-    if (Zeff.textColor === undefined || Zeff.textColor === null) {
-        Zeff.textColor = Katherine.textColor;
+    if (options.textColor === undefined || options.textColor === null) {
+        options.textColor = defaultOptions.textColor;
     }
 
-    if (Zeff.borderColor === undefined || Zeff.borderColor === null) {
-        Zeff.borderColor = Katherine.borderColor;
+    if (options.borderColor === undefined || options.borderColor === null) {
+        options.borderColor = defaultOptions.borderColor;
     }
 
-    if (Zeff.backgroundColor === undefined || Zeff.backgroundColor === null) {
-        Zeff.backgroundColor = Katherine.backgroundColor;
+    if (options.backgroundColor === undefined || options.backgroundColor === null) {
+        options.backgroundColor = defaultOptions.backgroundColor;
     }
 
-    if (Zeff.fontSize === undefined || Zeff.fontSize === null) {
-        Zeff.fontSize = Katherine.fontSize;
+    if (options.fontSize === undefined || options.fontSize === null) {
+        options.fontSize = defaultOptions.fontSize;
     }	
 	
-	if (Zeff.border === undefined || Zeff.border === null) {
-        Zeff.border = Katherine.border;
+	if (options.border === undefined || options.border === null) {
+        options.border = defaultOptions.border;
     }	
 	
-	if (Zeff.width === undefined || Zeff.width === null) {
-        Zeff.width = Katherine.width;
+	if (options.width === undefined || options.width === null) {
+        options.width = defaultOptions.width;
     }	
 	
-	if (Zeff.align === undefined || Zeff.align === null) {
-        Zeff.align = Katherine.align;
+	if (options.align === undefined || options.align === null) {
+        options.align = defaultOptions.align;
     }
 	
-	if (Zeff.height === undefined || Zeff.height === null) {
-        Zeff.height = Katherine.height;
+	if (options.height === undefined || options.height === null) {
+        options.height = defaultOptions.height;
     }
 }
 
-function Timothy() {
+function GetDefaults() {
     return {
 		OnSwap: '',
         textColor: "black",

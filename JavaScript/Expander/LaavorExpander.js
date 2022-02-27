@@ -1,92 +1,92 @@
-﻿var lvExp1;
-var lvExp2;
-var lvExp3;
+﻿var laavorAllItemExpander;
+var laavorAllIdFather;
+var laavorUserOptions;
 
-function LaavorExpander(lvExp4, lvExp5) {
-    lvExp1 = [];
+function LaavorExpander(idFather, options) {
+    laavorAllItemExpander = [];
 	
-	if(lvExp2 === undefined || lvExp2 === null)
+	if(laavorAllIdFather === undefined || laavorAllIdFather === null)
 	{
-		lvExp2 = [];
+		laavorAllIdFather = [];
 	}
-	lvExp2.push(lvExp4);
+	laavorAllIdFather.push(idFather);
 
-	if(lvExp3 === undefined || lvExp3 === null)
+	if(laavorUserOptions === undefined || laavorUserOptions === null)
 	{
-		lvExp3 = [];
+		laavorUserOptions = [];
 	}
 	
-    if (lvExp5 !== undefined && lvExp5 !== null) {
-		lvExp3[lvExp4] = lvExp5;
+    if (options !== undefined && options !== null) {
+		laavorUserOptions[idFather] = options;
     }
     else {
-		lvExp3[lvExp4] = lvExp9()
+		laavorUserOptions[idFather] = GetDefaults()
     }
 }
 
 window.addEventListener('load', function () {
-    var lvExp6 = lvExp2.length;
-	for(var lvExp7 = 0; lvExp7 < lvExp6; lvExp7++)
+    var countIds = laavorAllIdFather.length;
+	for(var iId = 0; iId < countIds; iId++)
 	{
-		lvExp8(lvExp2[lvExp7]);
+		LaavorExpanderIndoor(laavorAllIdFather[iId]);
 	}
 });
 
-function lvExp8(lvExp10) {
-    var lvExp11 = document.getElementById(lvExp10);
-    if (lvExp11 !== undefined && lvExp11 !== null) {
-        var lvExp12 = lvExp11.children;
+function LaavorExpanderIndoor(idFather) {
+    var laavorFather = document.getElementById(idFather);
+    if (laavorFather !== undefined && laavorFather !== null) {
+        var itemExpander = laavorFather.children;
 
-        lvExp13(lvExp3[lvExp10]);
+        SaveDefaults(laavorUserOptions[idFather]);
 		
-		var lvExp14 = lvExp3[lvExp10];
+		var userOptionsLocal = laavorUserOptions[idFather];
 			
-		var lvExp15 = elemSpace = document.createElement("span");
-		var lvExp16 = elemSpace = document.createElement("span"); 
-		var lvExp17;
+		var elemSpaceRight = elemSpace = document.createElement("span");
+		var elemSpaceLeft = elemSpace = document.createElement("span"); 
+		var elemArrow;
 			
-		if(lvExp14.imageArrowExpanded !== "none" && lvExp14.imageArrowClosed !== "none")
+		if(userOptionsLocal.imageArrowExpanded !== "none" && userOptionsLocal.imageArrowClosed !== "none")
 		{
-			lvExp17 = document.createElement("img");
+			elemArrow = document.createElement("img");
 			
-			if (lvExp14.startExpanded.toString() === "true"){
-				lvExp17.src = lvExp14.imageArrowExpanded;
+			if (userOptionsLocal.startExpanded.toString() === "true"){
+				elemArrow.src = userOptionsLocal.imageArrowExpanded;
 			}
 			else{
-				lvExp17.src = lvExp14.imageArrowClosed;
+				elemArrow.src = userOptionsLocal.imageArrowClosed;
 			}
 			
-			lvExp17.style.width = lvExp14.imageArrowWidth.replace("px", "") + "px";
-			lvExp17.style.height = lvExp14.imageArrowHeight.replace("px", "") + "px";
-			lvExp17.style.verticalAlign = "baseline";
+			elemArrow.style.width = userOptionsLocal.imageArrowWidth.replace("px", "") + "px";
+			elemArrow.style.height = userOptionsLocal.imageArrowHeight.replace("px", "") + "px";
+			elemArrow.style.verticalAlign = "baseline";
 			
-			lvExp15.innerHTML = "&nbsp&nbsp&nbsp";
-			lvExp16.innerHTML = "&nbsp&nbsp&nbsp";
+			elemSpaceRight.innerHTML = "&nbsp&nbsp&nbsp";
+			elemSpaceLeft.innerHTML = "&nbsp&nbsp&nbsp";
 		}
-		else if((lvExp14.imageArrowExpanded !== "none" && lvExp14.imageArrowClosed === "none") ||
-			    (lvExp14.imageArrowExpanded === "none" && lvExp14.imageArrowClosed !== "none")){
+		else if((userOptionsLocal.imageArrowExpanded !== "none" && userOptionsLocal.imageArrowClosed === "none") ||
+			    (userOptionsLocal.imageArrowExpanded === "none" && userOptionsLocal.imageArrowClosed !== "none")){
 					
 			throw new Error("When used imageArrowExpanded it is also necessary to use the imageArrowClosed property or vice versa, or leave empty.");
 		}
 		else{
-			lvExp17 = document.createElement("span");
-			lvExp17.innerHTML = "";
-			lvExp15.innerHTML = "";
-			lvExp16.innerHTML = "";
+			elemArrow = document.createElement("span");
+			elemArrow.innerHTML = "";
+			elemSpaceRight.innerHTML = "";
+			elemSpaceLeft.innerHTML = "";
 		}
 		
 		try
 		{
-			var lvExp18 = document.createElement("span");
-			lvExp18.innerHTML = lvExp12[0].innerHTML;
+			var spanTitle = document.createElement("span");
+			spanTitle.innerHTML = itemExpander[0].innerHTML;
 		
-			lvExp12[0].innerHTML = "";
+			itemExpander[0].innerHTML = "";
 		
-			lvExp12[0].appendChild(lvExp16);
-			lvExp12[0].appendChild(lvExp17);
-			lvExp12[0].appendChild(lvExp15);
+			itemExpander[0].appendChild(elemSpaceLeft);
+			itemExpander[0].appendChild(elemArrow);
+			itemExpander[0].appendChild(elemSpaceRight);
 		
-			lvExp12[0].appendChild(lvExp18);
+			itemExpander[0].appendChild(spanTitle);
 		}
 		catch(e){
 			throw new Error("Error while mounting title, if necessary contact Laavor support.");
@@ -94,36 +94,36 @@ function lvExp8(lvExp10) {
 				
         try {
 			
-			var lvExp19 = lvExp51(lvExp12[1]);
+			var heightContent = GetHeight(itemExpander[1]);
 						
-			var lvExp20 = { lvExp21: lvExp12[0], lvExp22: lvExp17, lvExp23: lvExp12[1], lvExp24: lvExp19 };
-			lvExp12[1].style.display = 'none';
-			lvExp1[lvExp10] = lvExp20;
-			lvExp20.lvExp21.setAttribute("lvExp55", lvExp10);
+			var itemFull = { Title: itemExpander[0], Arrow: elemArrow, Content: itemExpander[1], HeightContent: heightContent };
+			itemExpander[1].style.display = 'none';
+			laavorAllItemExpander[idFather] = itemFull;
+			itemFull.Title.setAttribute("IdFather", idFather);
 		
-			lvExp20.lvExp21.onclick = lvExp56;
+			itemFull.Title.onclick = clickTitle;
 			
-			lvExp20.lvExp21.setAttribute("lvExp51", false);
+			itemFull.Title.setAttribute("LaavorIsSelected", false);
 		
-			lvExp20.lvExp21.style.backgroundColor = lvExp14.backgroundColorTitle;
-			lvExp20.lvExp21.style.border = "solid 1px";
-			lvExp20.lvExp21.style.borderColor = lvExp14.borderColorTitle;
-			lvExp20.lvExp21.style.color = lvExp14.textColorTitle;
-			lvExp20.lvExp21.style.fontSize = lvExp14.fontSizeTitle.replace("em", "") + 'em';
+			itemFull.Title.style.backgroundColor = userOptionsLocal.backgroundColorTitle;
+			itemFull.Title.style.border = "solid 1px";
+			itemFull.Title.style.borderColor = userOptionsLocal.borderColorTitle;
+			itemFull.Title.style.color = userOptionsLocal.textColorTitle;
+			itemFull.Title.style.fontSize = userOptionsLocal.fontSizeTitle.replace("em", "") + 'em';
 		
-			lvExp20.lvExp23.style.border = "solid 1px";
-			lvExp20.lvExp23.style.borderColor = lvExp14.borderColorContent;
+			itemFull.Content.style.border = "solid 1px";
+			itemFull.Content.style.borderColor = userOptionsLocal.borderColorContent;
 		
-			lvExp20.lvExp21.style.cursor = "pointer";
+			itemFull.Title.style.cursor = "pointer";
 		
-			lvExp20.lvExp21.style.marginBottom = "0px";
-			lvExp20.lvExp23.style.marginBottom = "0px";
-			lvExp20.lvExp21.style.marginTop = "0px";
-			lvExp20.lvExp23.style.marginTop = "0x";
+			itemFull.Title.style.marginBottom = "0px";
+			itemFull.Content.style.marginBottom = "0px";
+			itemFull.Title.style.marginTop = "0px";
+			itemFull.Content.style.marginTop = "0x";
 
-            if (lvExp14.startExpanded.toString() === "true") {
-                lvExp1[lvExp10].lvExp21.setAttribute("lvExp51", true);
-                lvExp25(lvExp1[lvExp10]);
+            if (userOptionsLocal.startExpanded.toString() === "true") {
+                laavorAllItemExpander[idFather].Title.setAttribute("LaavorIsSelected", true);
+                ShowWithHeightEffect(laavorAllItemExpander[idFather]);
             }
         }
         catch(e){
@@ -135,63 +135,63 @@ function lvExp8(lvExp10) {
     }
 }
 
-function lvExp13(lvExp29) {
-    var lvExp30 = lvExp9();
+function SaveDefaults(options) {
+    var defaultOptions = GetDefaults();
 
-    if (lvExp29.startExpanded === undefined || lvExp29.startExpanded === null) {
-        lvExp29.startExpanded = lvExp30.startExpanded;
+    if (options.startExpanded === undefined || options.startExpanded === null) {
+        options.startExpanded = defaultOptions.startExpanded;
     }
 
-    if (lvExp29.backgroundColorTitle === undefined || lvExp29.backgroundColorTitle === null) {
-        lvExp29.backgroundColorTitle = lvExp30.backgroundColorTitle;
+    if (options.backgroundColorTitle === undefined || options.backgroundColorTitle === null) {
+        options.backgroundColorTitle = defaultOptions.backgroundColorTitle;
     }
 
-    if (lvExp29.borderColorTitle === undefined || lvExp29.borderColorTitle === null) {
-        lvExp29.borderColorTitle = lvExp30.borderColorTitle;
+    if (options.borderColorTitle === undefined || options.borderColorTitle === null) {
+        options.borderColorTitle = defaultOptions.borderColorTitle;
     }
 
-    if (lvExp29.textColorTitle === undefined || lvExp29.textColorTitle === null) {
-        lvExp29.textColorTitle = lvExp30.textColorTitle;
+    if (options.textColorTitle === undefined || options.textColorTitle === null) {
+        options.textColorTitle = defaultOptions.textColorTitle;
     }
 
-    if (lvExp29.fontSizeTitle === undefined || lvExp29.fontSizeTitle === null) {
-        lvExp29.fontSizeTitle = lvExp30.fontSizeTitle;
+    if (options.fontSizeTitle === undefined || options.fontSizeTitle === null) {
+        options.fontSizeTitle = defaultOptions.fontSizeTitle;
     }
 
-    if (lvExp29.borderColorContent === undefined || lvExp29.borderColorContent === null) {
-        lvExp29.borderColorContent = lvExp30.borderColorContent;
+    if (options.borderColorContent === undefined || options.borderColorContent === null) {
+        options.borderColorContent = defaultOptions.borderColorContent;
     }
 	
-	if (lvExp29.imageArrowExpanded === undefined || lvExp29.imageArrowExpanded === null) {
-        lvExp29.imageArrowExpanded = lvExp30.imageArrowExpanded;
+	if (options.imageArrowExpanded === undefined || options.imageArrowExpanded === null) {
+        options.imageArrowExpanded = defaultOptions.imageArrowExpanded;
     }
 	
-	if (lvExp29.imageArrowClosed === undefined || lvExp29.imageArrowClosed === null) {
-        lvExp29.imageArrowClosed = lvExp30.imageArrowClosed;
+	if (options.imageArrowClosed === undefined || options.imageArrowClosed === null) {
+        options.imageArrowClosed = defaultOptions.imageArrowClosed;
     }
 	
-	if (lvExp29.imageArrowWidth === undefined || lvExp29.imageArrowWidth === null) {
-        lvExp29.imageArrowWidth= lvExp30.imageArrowWidth;
+	if (options.imageArrowWidth === undefined || options.imageArrowWidth === null) {
+        options.imageArrowWidth= defaultOptions.imageArrowWidth;
     }
 	
-	if (lvExp29.imageArrowHeight === undefined || lvExp29.imageArrowHeight === null) {
-        lvExp29.imageArrowHeight = lvExp30.imageArrowHeight;
+	if (options.imageArrowHeight === undefined || options.imageArrowHeight === null) {
+        options.imageArrowHeight = defaultOptions.imageArrowHeight;
     }
 }
 
-function lvExp56() {
+function clickTitle() {
     try {
-        var lvExp31 = this.getAttribute("lvExp51");
-		var lvExp32 = this.getAttribute("lvExp55");
+        var isSelected = this.getAttribute("LaavorIsSelected");
+		var idFather = this.getAttribute("IdFather");
 
-        var lvExp35 = lvExp1[lvExp32];
+        var itemFull = laavorAllItemExpander[idFather];
 
-        if (lvExp35 !== undefined && lvExp35 !== null) {
-            if (lvExp31.toString() === 'true') {
-                lvExp36(lvExp35);
+        if (itemFull !== undefined && itemFull !== null) {
+            if (isSelected.toString() === 'true') {
+                HideWithHeightEffect(itemFull);
             }
             else {
-                lvExp25(lvExp35);
+                ShowWithHeightEffect(itemFull);
             }
         }
         else {
@@ -203,115 +203,115 @@ function lvExp56() {
     }
 }
 
-String.prototype.lvExp46 = function () {
+String.prototype.laavorToInteger = function () {
     "use strict";
-    var lvExp47 = parseInt(this);
-    return lvExp47;
+    var returnItem = parseInt(this);
+    return returnItem;
 };
 
-function lvExp51(lvExp45) {
+function GetHeight(object) {
 
-    if (lvExp45.clientHeight !== undefined && lvExp45.clientHeight !== null) {
-        return lvExp45.clientHeight.toString().lvExp46();
+    if (object.clientHeight !== undefined && object.clientHeight !== null) {
+        return object.clientHeight.toString().laavorToInteger();
     }
 
-    if (lvExp45.height !== undefined && lvExp45.style.height !== null) {
-        return lvExp45.height.toString().lvExp46();
+    if (object.height !== undefined && object.style.height !== null) {
+        return object.height.toString().laavorToInteger();
     }
 
-    if (lvExp45.offsetHeight !== undefined && lvExp45.offsetHeight !== null) {
-        return lvExp45.offsetHeight.toString().lvExp46() - 2;
+    if (object.offsetHeight !== undefined && object.offsetHeight !== null) {
+        return object.offsetHeight.toString().laavorToInteger() - 2;
     }
     else {
         throw new Error("Error in count inside Expander(Height Item) contact Laavor.com with example.");
     }
 }
 
-function lvExp44(lvExp48, lvExp49, lvExp50) {
+function changeHeightInTime(objectToHide, heightObject, time) {
     setTimeout(function () {
-        lvExp48.style.height = lvExp49.toString().replace("px", "") + 'px';
-    }, lvExp50);
+        objectToHide.style.height = heightObject.toString().replace("px", "") + 'px';
+    }, time);
 }
 
-function lvExp36(lvExp26) {
-    if (lvExp26.lvExp23 !== undefined && lvExp26.lvExp23 !== null && lvExp26.lvExp24 !== undefined && lvExp26.lvExp24 !== null) {
-        var lvExp37 = lvExp26.lvExp24 / 10;
+function HideWithHeightEffect(objectItem) {
+    if (objectItem.Content !== undefined && objectItem.Content !== null && objectItem.HeightContent !== undefined && objectItem.HeightContent !== null) {
+        var stepAnimation = objectItem.HeightContent / 10;
 
-        var lvExp38 = 0;
-        var lvExp40 = 50;
+        var controlCount = 0;
+        var currentTime = 50;
 
-        lvExp26.lvExp23.style.opacity = "0";
+        objectItem.Content.style.opacity = "0";
 
-        for (var lvExp42 = lvExp26.lvExp24; lvExp42 > 0; lvExp42 -= lvExp37) {
-            lvExp44(lvExp26.lvExp23, lvExp42, lvExp40);
-            if (lvExp38 > 11) {
+        for (var iStepA = objectItem.HeightContent; iStepA > 0; iStepA -= stepAnimation) {
+            changeHeightInTime(objectItem.Content, iStepA, currentTime);
+            if (controlCount > 11) {
                 throw new Error("Error in count inside Expander(Hide Item) contact Laavor.com with example.");
             }
-            lvExp40 += 50;
+            currentTime += 50;
         }
 
         setTimeout(function () {
-            lvExp26.lvExp23.style.height = '0px';
-        }, lvExp40);
+            objectItem.Content.style.height = '0px';
+        }, currentTime);
 
-        lvExp40 += 50;
-
-        setTimeout(function () {
-            lvExp26.lvExp23.style.display = 'none';
-        }, lvExp40);
-
-        lvExp40 += 50;
+        currentTime += 50;
 
         setTimeout(function () {
-            lvExp26.lvExp23.style.height = lvExp26.lvExp24.toString() + 'px';
-        }, lvExp40);
+            objectItem.Content.style.display = 'none';
+        }, currentTime);
 
-        lvExp26.lvExp21.setAttribute("lvExp51", false);
-		var lvExp33 = lvExp26.lvExp21.getAttribute("lvExp55");
+        currentTime += 50;
+
+        setTimeout(function () {
+            objectItem.Content.style.height = objectItem.HeightContent.toString() + 'px';
+        }, currentTime);
+
+        objectItem.Title.setAttribute("LaavorIsSelected", false);
+		var idFather = objectItem.Title.getAttribute("IdFather");
 		
-		if(lvExp3[lvExp33].imageArrowExpanded !== "none" && lvExp3[lvExp33].imageArrowClosed !== "none")
+		if(laavorUserOptions[idFather].imageArrowExpanded !== "none" && laavorUserOptions[idFather].imageArrowClosed !== "none")
 		{		
-			lvExp26.lvExp22.src = lvExp3[lvExp33].imageArrowClosed;
+			objectItem.Arrow.src = laavorUserOptions[idFather].imageArrowClosed;
 		}
     }
 }
 
-function lvExp25(lvExp27) {
-    if (lvExp27.lvExp23 !== undefined && lvExp27.lvExp23 !== null && lvExp27.lvExp24 !== undefined && lvExp27.lvExp24 !== null) {
-        var lvExp28 = lvExp27.lvExp24 / 10;
+function ShowWithHeightEffect(objectItem) {
+    if (objectItem.Content !== undefined && objectItem.Content !== null && objectItem.HeightContent !== undefined && objectItem.HeightContent !== null) {
+        var stepAnimation = objectItem.HeightContent / 10;
 
-        var lvExp39 = 0;
-        var lvExp41 = 50;
+        var controlCount = 0;
+        var currentTime = 50;
 
-        lvExp27.lvExp23.style.height = lvExp28.toString() + 'px';
-        lvExp27.lvExp23.style.display = 'block';
+        objectItem.Content.style.height = stepAnimation.toString() + 'px';
+        objectItem.Content.style.display = 'block';
 
-        for (var lvExp43 = lvExp28; lvExp43 <= lvExp27.lvExp24; lvExp43 += lvExp28) {
-            lvExp44(lvExp27.lvExp23, lvExp43, lvExp41);
-            if (lvExp39 > 11) {
+        for (var iStepA = stepAnimation; iStepA <= objectItem.HeightContent; iStepA += stepAnimation) {
+            changeHeightInTime(objectItem.Content, iStepA, currentTime);
+            if (controlCount > 11) {
                 throw new Error("Error in count inside Expander(Hide Item) contact Laavor.com with example.");
             }
-            lvExp41 += 50;
+            currentTime += 50;
         }
 
         setTimeout(function () {
-            lvExp27.lvExp23.style.height = lvExp27.lvExp24.toString() + 'px';
-            lvExp27.lvExp23.style.opacity = "1";
-		}, lvExp41);
+            objectItem.Content.style.height = objectItem.HeightContent.toString() + 'px';
+            objectItem.Content.style.opacity = "1";
+		}, currentTime);
 
-        lvExp41 += 50;
+        currentTime += 50;
 
-        lvExp27.lvExp21.setAttribute("lvExp51", true);
-		var lvExp34 = lvExp27.lvExp21.getAttribute("lvExp55");
+        objectItem.Title.setAttribute("LaavorIsSelected", true);
+		var idFather = objectItem.Title.getAttribute("IdFather");
 		
-		if(lvExp3[lvExp34].imageArrowExpanded !== "none" && lvExp3[lvExp34].imageArrowClosed !== "none")
+		if(laavorUserOptions[idFather].imageArrowExpanded !== "none" && laavorUserOptions[idFather].imageArrowClosed !== "none")
 		{		
-			lvExp27.lvExp22.src = lvExp3[lvExp34].imageArrowExpanded;
+			objectItem.Arrow.src = laavorUserOptions[idFather].imageArrowExpanded;
 		}
     }
 }
 
-function lvExp9() {
+function GetDefaults() {
     return {
 		startExpanded: true,
         backgroundColorTitle: "black",
