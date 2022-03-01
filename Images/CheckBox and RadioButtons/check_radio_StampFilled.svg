@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="950mm"
+   height="307mm"
+   viewBox="0 0 950 307"
+   version="1.1"
+   id="svg6928"
+   sodipodi:docname="check_radio_StampFilled.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs6922" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1221.8273"
+     inkscape:cy="796.44803"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     width="298mm"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="404.91334,284.50842"
+       orientation="0,1"
+       id="guide995"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6925">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,10)">
+    <rect
+       id="rect3684-1"
+       width="29.328117"
+       height="29.328117"
+       x="22.942671"
+       y="69.306458"
+       style="fill:none;stroke:#ff00ff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\pink.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-1"
+       width="29.328117"
+       height="29.328117"
+       x="62.705807"
+       y="69.155258"
+       style="fill:none;stroke:#0000ff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\Projetos\Definitive\InicioButtons\InicioButtons\InicioButtons.Android\Resources\drawable\unchecked.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0"
+       width="29.328117"
+       height="29.328117"
+       x="103.45167"
+       y="69.155258"
+       style="fill:none;stroke:#ff0000;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\red.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-1"
+       width="29.328117"
+       height="29.328117"
+       x="142.91209"
+       y="69.004097"
+       style="fill:none;stroke:#ffff00;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\yellow.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-5"
+       width="29.328117"
+       height="29.328117"
+       x="21.430759"
+       y="159.26479"
+       style="fill:none;stroke:#ff6600;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\orange.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-7"
+       width="29.328117"
+       height="29.328117"
+       x="61.871387"
+       y="159.2648"
+       style="fill:none;stroke:#008000;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\green.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-54"
+       width="29.328117"
+       height="29.328117"
+       x="102.312"
+       y="159.2648"
+       style="fill:none;stroke:#000000;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\black.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-52"
+       width="29.328117"
+       height="29.328117"
+       x="142.68559"
+       y="159.86952"
+       style="fill:none;stroke:#999999;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\gray.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-5-4"
+       width="29.328117"
+       height="29.328117"
+       x="21.048985"
+       y="243.84865"
+       style="fill:none;stroke:#00ff00;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\greenLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-5-8"
+       width="29.328117"
+       height="29.328117"
+       x="62.215786"
+       y="244.77641"
+       style="fill:none;stroke:#aaccff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\blueLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-0-5-6"
+       width="29.328117"
+       height="29.328117"
+       x="102.20911"
+       y="243.47018"
+       style="fill:none;stroke:#ffeeaa;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\yellowLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffeeaa;stroke-width:0.59811187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect8010"
+       width="55.642788"
+       height="105.8285"
+       x="870.05469"
+       y="182.22147" />
+    <rect
+       id="rect3684-1-0-5-4-3"
+       width="31.744217"
+       height="31.744219"
+       x="889.91766"
+       y="241.02979"
+       style="fill:none;stroke:#ffffff;stroke-width:1.10078192;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\white.png"
+       inkscape:export-xdpi="98.989998"
+       inkscape:export-ydpi="98.989998"
+       rx="0" />
+    <rect
+       id="rect3684-1-8"
+       width="29.328117"
+       height="29.328117"
+       x="143.36861"
+       y="244.53928"
+       style="fill:none;stroke:#800080;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\purple.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-8-3"
+       width="29.328117"
+       height="29.328117"
+       x="182.44914"
+       y="69.226578"
+       style="fill:none;stroke:#803300;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\brown.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4"
+       width="29.328117"
+       height="29.328117"
+       x="181.53857"
+       y="159.86955"
+       style="fill:none;stroke:#ffaacc;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\pinkLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7"
+       width="29.328117"
+       height="29.328117"
+       x="181.72725"
+       y="245.1423"
+       style="fill:none;stroke:#008080;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\turquoise.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7-5"
+       width="29.328117"
+       height="29.328117"
+       x="223.74037"
+       y="244.84131"
+       style="fill:none;stroke:#5599ff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\blueSky.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-43-4"
+       width="29.424654"
+       height="29.424652"
+       x="251.00354"
+       y="58.124504"
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712326"
+       inkscape:export-filename="D:\img\pink.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1"
+       width="29.424652"
+       height="29.424654"
+       x="291.97348"
+       y="58.124508"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\blue.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5"
+       width="29.424652"
+       height="29.424654"
+       x="330.29758"
+       y="58.124508"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\Projetos\Definitive\InicioButtons\InicioButtons\InicioButtons.Android\Resources\drawable\redunchosen.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1"
+       width="29.424652"
+       height="29.424654"
+       x="370.74023"
+       y="57.126118"
+       style="fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\yellow.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-7"
+       width="29.424652"
+       height="29.424654"
+       x="406.41846"
+       y="57.126118"
+       style="fill:none;fill-opacity:1;stroke:#552200;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\brown.png"
+       inkscape:export-xdpi="106.78938"
+       inkscape:export-ydpi="106.78938"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-9"
+       width="29.522978"
+       height="29.422977"
+       x="449.85205"
+       y="55.640503"
+       style="fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:1.02202177;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.711489"
+       inkscape:export-filename="D:\img\orange.png"
+       inkscape:export-xdpi="106.44"
+       inkscape:export-ydpi="106.44"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5"
+       width="29.424652"
+       height="29.424654"
+       x="492.61517"
+       y="59.38969"
+       style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\green.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-1"
+       width="29.424652"
+       height="29.424654"
+       x="334.39163"
+       y="133.17012"
+       style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\gray.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-4"
+       width="29.424652"
+       height="29.424654"
+       x="377.47827"
+       y="137.30698"
+       style="fill:none;fill-opacity:1;stroke:#ffaacc;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\pinkLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-17"
+       width="29.424652"
+       height="29.424654"
+       x="419.91785"
+       y="137.30698"
+       style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\greenLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-5"
+       width="29.424652"
+       height="29.424654"
+       x="461.07733"
+       y="138.37605"
+       style="fill:none;fill-opacity:1;stroke:#aaccff;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\blueLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-8"
+       width="29.424652"
+       height="29.424654"
+       x="246.19264"
+       y="133.5652"
+       style="fill:none;fill-opacity:1;stroke:#ffeeaa;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\yellowLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3"
+       width="29.424652"
+       height="29.424654"
+       x="286.28308"
+       y="133.03067"
+       style="fill:none;fill-opacity:1;stroke:#800080;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\purple.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8"
+       width="29.424652"
+       height="29.424654"
+       x="498.43765"
+       y="138.3777"
+       style="fill:none;fill-opacity:1;stroke:#008080;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\turquoise.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6"
+       width="29.424652"
+       height="29.424654"
+       x="541.73529"
+       y="143.18855"
+       style="fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\blueSky.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffeeaa;stroke-width:0.59811187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect8010-6"
+       width="55.642788"
+       height="105.8285"
+       x="875.67438"
+       y="-4.4247227" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-7"
+       width="29.426329"
+       height="29.32633"
+       x="892.9939"
+       y="57.260151"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.01867032;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.663165"
+       inkscape:export-filename="D:\img\white.png"
+       inkscape:export-xdpi="107.05135"
+       inkscape:export-ydpi="107.05135"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-1-1"
+       width="29.424652"
+       height="29.424654"
+       x="528.29333"
+       y="59.389706"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\black.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       rx="0" />
+    <g
+       id="g1231"
+       inkscape:export-filename="D:\img\pink.png"
+       inkscape:export-xdpi="104.04"
+       inkscape:export-ydpi="104.04"
+       transform="matrix(0.99966612,0,0,1.0199634,0.01280651,-1.0944108)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#ff00ff;fill-opacity:1;stroke:#ff00ff;stroke-width:1.03750193;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="24.936975"
+         x="23.249584"
+         height="29.629045"
+         width="30.212498"
+         id="rect3684" />
+      <text
+         transform="scale(1.1456828,0.87284196)"
+         id="text1021"
+         y="61.125988"
+         x="20.655008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083252px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083252px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="61.125988"
+           x="20.655008"
+           id="tspan1019"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1275"
+       inkscape:export-filename="D:\Projetos\Definitive\InicioButtons\InicioButtons\InicioButtons.Android\Resources\drawable\checked.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="25.011845"
+         x="63.087585"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-9" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-7"
+         y="60.741974"
+         x="55.234455"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="60.741974"
+           x="55.234455"
+           id="tspan1019-7"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1221"
+       inkscape:export-filename="D:\img\red.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="25.011845"
+         x="103.83344"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-9"
+         y="60.568756"
+         x="90.865112"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="60.568756"
+           x="90.865112"
+           id="tspan1019-9"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g990"
+       inkscape:export-filename="D:\img\yellow.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#ffff00;fill-opacity:1;stroke:#ffff00;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="24.860666"
+         x="143.2939"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-9" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-0"
+         y="60.741974"
+         x="125.17612"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="60.741974"
+           x="125.17612"
+           id="tspan1019-99"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1211"
+       inkscape:export-filename="D:\img\brown.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#803300;fill-opacity:1;stroke:#803300;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="25.083164"
+         x="182.83092"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-3-5" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-2"
+         y="61.175014"
+         x="159.65207"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="61.175014"
+           x="159.65207"
+           id="tspan1019-96"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g999"
+       inkscape:export-filename="D:\img\orange.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="115.12138"
+         x="21.812534"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-0" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-1"
+         y="163.95775"
+         x="19.06724"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="163.95775"
+           x="19.06724"
+           id="tspan1019-2"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1201"
+       inkscape:export-filename="D:\img\green.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="115.12138"
+         x="62.253162"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-7" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-5"
+         y="163.95775"
+         x="54.293133"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="163.95775"
+           x="54.293133"
+           id="tspan1019-8"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1196"
+       inkscape:export-filename="D:\img\black.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="115.12138"
+         x="102.69379"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-70" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-57"
+         y="163.95775"
+         x="89.985596"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="163.95775"
+           x="89.985596"
+           id="tspan1019-85"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1191"
+       inkscape:export-filename="D:\img\gray.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="115.72614"
+         x="143.06737"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-95" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-4"
+         y="164.57016"
+         x="125.21149"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="164.57016"
+           x="125.21149"
+           id="tspan1019-6"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1186"
+       inkscape:export-filename="D:\img\pinkLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#ffaacc;fill-opacity:1;stroke:#ffaacc;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="115.72614"
+         x="181.92035"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-6"
+         y="164.87637"
+         x="159.03767"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="164.87637"
+           x="159.03767"
+           id="tspan1019-82"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1181"
+       inkscape:export-filename="D:\img\greenLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.70525"
+         x="21.430759"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-0-9" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-62"
+         y="260.80682"
+         x="18.449104"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.80682"
+           x="18.449104"
+           id="tspan1019-0"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1156"
+       inkscape:export-filename="D:\img\blueLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#aaccff;fill-opacity:1;stroke:#aaccff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="200.63301"
+         x="62.597561"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-0-6" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-74"
+         y="262.10593"
+         x="54.409676"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="262.10593"
+           x="54.409676"
+           id="tspan1019-94"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1176"
+       inkscape:export-filename="D:\img\yellowLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#ffeeaa;fill-opacity:1;stroke:#ffeeaa;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.32678"
+         x="102.59088"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-4-0-2" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-06"
+         y="260.80682"
+         x="89.578445"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.80682"
+           x="89.578445"
+           id="tspan1019-79"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1171"
+       inkscape:export-filename="D:\img\purple.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#800080;fill-opacity:1;stroke:#800080;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="200.39586"
+         x="143.7504"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-3" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-8"
+         y="261.67291"
+         x="125.67099"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="261.67291"
+           x="125.67099"
+           id="tspan1019-994"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1166"
+       inkscape:export-filename="D:\img\turquoise.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#008080;fill-opacity:1;stroke:#008080;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="200.99922"
+         x="182.10901"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-69"
+         y="262.539"
+         x="158.99223"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="262.539"
+           x="158.99223"
+           id="tspan1019-22"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1003"
+       inkscape:export-filename="D:\img\blueSky.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <g
+         id="g997">
+        <rect
+           id="rect3684-7-0-3"
+           width="29.328117"
+           height="29.328117"
+           x="225.50095"
+           y="203.82602"
+           style="fill:#5599ff;fill-opacity:1;stroke:#5599ff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           ry="0"
+           inkscape:export-filename="C:\Users\ferna\OneDrive\Imagens\checkBlueSkyFull.png"
+           inkscape:export-xdpi="28.459274"
+           inkscape:export-ydpi="28.459274"
+           rx="0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+           x="196.82413"
+           y="265.51111"
+           id="text1021-3"
+           transform="scale(1.1456828,0.87284195)"><tspan
+             sodipodi:role="line"
+             id="tspan1019-09"
+             x="196.82413"
+             y="265.51111"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893">X</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1497"
+       inkscape:export-filename="D:\img\pink.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712195"
+         style="fill:#ff00ff;fill-opacity:1;stroke:#ff00ff;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="21.017305"
+         x="251.00352"
+         height="29.424391"
+         width="29.424654"
+         id="rect3684-43" />
+      <text
+         transform="scale(1.0279661,0.97279477)"
+         id="text1021-7-5"
+         y="48.428234"
+         x="248.66251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546083"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546083"
+           y="48.428234"
+           x="248.66251"
+           id="tspan1019-7-0"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1492"
+       inkscape:export-filename="D:\img\blue.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="21.917215"
+         x="291.97351"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-6"
+         y="49.127621"
+         x="288.7962"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="49.127621"
+           x="288.7962"
+           id="tspan1019-7-0-8"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1487"
+       inkscape:export-filename="D:\Projetos\Definitive\InicioButtons\InicioButtons\InicioButtons.Android\Resources\drawable\red.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="21.917215"
+         x="330.29761"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-7"
+         y="49.108192"
+         x="326.06189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="49.108192"
+           x="326.06189"
+           id="tspan1019-7-0-9"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1000"
+       inkscape:export-filename="D:\img\yellow.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#ffff00;fill-opacity:1;stroke:#ffff00;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="20.918808"
+         x="370.74026"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-8"
+         y="48.233963"
+         x="365.40506"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="48.233963"
+           x="365.40506"
+           id="tspan1019-7-0-3"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1477"
+       inkscape:export-filename="D:\img\brown.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#803300;fill-opacity:1;stroke:#803300;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="20.918808"
+         x="406.41849"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-1" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-0"
+         y="47.939617"
+         x="400.0235"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="47.939617"
+           x="400.0235"
+           id="tspan1019-7-0-88"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g991"
+       inkscape:export-filename="D:\img\orange.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="21.453344"
+         x="449.85205"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-2" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-9"
+         y="48.626484"
+         x="442.27325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="48.626484"
+           x="442.27325"
+           id="tspan1019-7-0-1"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1508"
+       inkscape:export-filename="D:\img\blueLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#aaccff;fill-opacity:1;stroke:#aaccff;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="102.16872"
+         x="461.07736"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-80" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-65"
+         y="131.56483"
+         x="453.06839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="131.56483"
+           x="453.06839"
+           id="tspan1019-7-0-4"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1464"
+       inkscape:export-filename="D:\img\greenLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="101.09966"
+         x="419.91788"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-1" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-3"
+         y="130.80013"
+         x="412.92944"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="130.80013"
+           x="412.92944"
+           id="tspan1019-7-0-2"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1459"
+       inkscape:export-filename="D:\img\pinkLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#ffaacc;fill-opacity:1;stroke:#ffaacc;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="101.09965"
+         x="377.4783"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-3" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-30"
+         y="130.703"
+         x="371.83972"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="130.703"
+           x="371.83972"
+           id="tspan1019-7-0-81"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1454"
+       transform="translate(-4.0940552,-5.08383)"
+       inkscape:export-filename="D:\img\gray.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="101.09966"
+         x="334.39163"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-8" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-06"
+         y="130.60587"
+         x="330.01462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="130.60587"
+           x="330.01462"
+           id="tspan1019-7-0-91"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1449"
+       inkscape:export-filename="D:\img\black.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       transform="translate(238.93895,-77.382755)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="100.56512"
+         x="289.35443"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-8-8" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-94"
+         y="129.9259"
+         x="286.35104"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="129.9259"
+           x="286.35104"
+           id="tspan1019-7-0-7"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1503"
+       inkscape:export-filename="D:\img\green.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       transform="translate(238.93895,-77.382755)">
+      <g
+         id="g1444">
+        <rect
+           id="rect3684-43-2-6-7-4"
+           width="29.424391"
+           height="29.424654"
+           x="253.67621"
+           y="100.56512"
+           style="fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           ry="14.712327"
+           inkscape:export-filename="D:\images\bitmap.png"
+           inkscape:export-xdpi="28.459274"
+           inkscape:export-ydpi="28.459274"
+           rx="0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+           x="251.42017"
+           y="130.02304"
+           id="text1021-7-5-2"
+           transform="scale(1.0279661,0.97279473)"><tspan
+             sodipodi:role="line"
+             id="tspan1019-7-0-14"
+             x="251.42017"
+             y="130.02304"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089">X</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1439"
+       inkscape:export-filename="D:\img\yellowLight.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       transform="translate(-53.988444,-79.11178)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#ffeeaa;fill-opacity:1;stroke:#ffeeaa;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="176.46967"
+         x="300.18112"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-86" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-4"
+         y="208.02379"
+         x="296.55453"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="208.02379"
+           x="296.55453"
+           id="tspan1019-7-0-40"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1434"
+       inkscape:export-filename="D:\img\StampFilledRadio.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79"
+       transform="translate(-53.988444,-79.11178)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#800080;fill-opacity:1;stroke:#800080;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="175.93513"
+         x="340.27155"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-86-6" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-38"
+         y="207.63524"
+         x="335.80579"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="207.63524"
+           x="335.80579"
+           id="tspan1019-7-0-13"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1429"
+       inkscape:export-filename="D:\img\turquoise.png"
+       inkscape:export-xdpi="106.44"
+       inkscape:export-ydpi="106.44"
+       transform="translate(116.472,-75.902908)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#008080;fill-opacity:1;stroke:#008080;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="177.97498"
+         x="381.96729"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-36"
+         y="209.77226"
+         x="376.52783"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="209.77226"
+           x="376.52783"
+           id="tspan1019-7-0-89"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g992"
+       inkscape:export-filename="D:\img\blueSky.png"
+       inkscape:export-xdpi="106.44"
+       inkscape:export-ydpi="106.44"
+       transform="translate(116.472,-75.902908)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#5599ff;fill-opacity:1;stroke:#5599ff;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="182.78583"
+         x="425.26492"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80"
+         y="214.53195"
+         x="418.62869"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="214.53195"
+           x="418.62869"
+           id="tspan1019-7-0-70"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1536"
+       inkscape:export-filename="D:\img\white.png"
+       inkscape:export-xdpi="104.04"
+       inkscape:export-ydpi="104.04"
+       transform="translate(345.76539,-137.02845)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="15.048471"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.0455296;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="149.52002"
+         x="551.42511"
+         height="30.096943"
+         width="30.204861"
+         id="rect3684-43-2-6-7-4-2" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-0"
+         y="180.64099"
+         x="541.46265"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.84546089"
+           y="180.64099"
+           x="541.46265"
+           id="tspan1019-7-0-70-3"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1014"
+       inkscape:export-filename="D:\img\white.png"
+       inkscape:export-xdpi="104.06"
+       inkscape:export-ydpi="104.06"
+       transform="translate(339.71777,194.06062)">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.04716849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="4.3952379"
+         x="550.5545"
+         height="30.200996"
+         width="30.195232"
+         id="rect3684-4-0-9-9" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-3-2"
+         y="37.80085"
+         x="480.73636"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79084015px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79084015px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:1.11981893"
+           y="37.80085"
+           x="480.73636"
+           id="tspan1019-09-6"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-1-4-7-7"
+       width="29.328117"
+       height="29.328117"
+       x="278.82712"
+       y="243.47005"
+       style="fill:none;stroke:#ff8080;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\redLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7-5-4"
+       width="29.328117"
+       height="29.328117"
+       x="320.84024"
+       y="243.16905"
+       style="fill:none;stroke:#cccccc;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\grayLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <g
+       id="g1050"
+       inkscape:export-filename="D:\img\RedLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#ff8080;fill-opacity:1;stroke:#ff8080;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.32695"
+         x="279.20889"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-9" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-69-4"
+         y="260.62311"
+         x="243.74509"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.62311"
+           x="243.74509"
+           id="tspan1019-22-5"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1045"
+       inkscape:export-filename="d:\img\GrayLight.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107"
+       transform="translate(-3.0238095,-0.7559524)">
+      <g
+         id="g1055"
+         inkscape:export-filename="D:\img\3.png"
+         inkscape:export-xdpi="107.14"
+         inkscape:export-ydpi="107.14">
+        <rect
+           id="rect3684-7-0-3-1"
+           width="29.328117"
+           height="29.328117"
+           x="322.60083"
+           y="202.15375"
+           style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           ry="0"
+           inkscape:export-filename="C:\Users\ferna\OneDrive\Imagens\checkBlueSkyFull.png"
+           inkscape:export-xdpi="28.459274"
+           inkscape:export-ydpi="28.459274"
+           rx="0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+           x="281.57697"
+           y="263.59521"
+           id="text1021-3-8"
+           transform="scale(1.1456828,0.87284195)"><tspan
+             sodipodi:role="line"
+             id="tspan1019-09-5"
+             x="281.57697"
+             y="263.59521"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893">X</tspan></text>
+      </g>
+    </g>
+    <rect
+       id="rect3684-1-4-7-7-5"
+       width="29.328117"
+       height="29.328117"
+       x="361.96033"
+       y="241.28546"
+       style="fill:none;stroke:#ffb380;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\orangeLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7-5-4-9"
+       width="29.328117"
+       height="29.328117"
+       x="403.97345"
+       y="240.98447"
+       style="fill:none;stroke:#ffcc00;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\YellowDark.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <g
+       id="g1056"
+       transform="translate(0.40090387,1.8708867)"
+       inkscape:export-filename="D:\img\OrangeLight.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#ffb380;fill-opacity:1;stroke:#ffb380;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="197.14236"
+         x="362.3421"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-9-5" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-69-4-4"
+         y="258.12027"
+         x="316.30725"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="258.12027"
+           x="316.30725"
+           id="tspan1019-22-5-2"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1061"
+       inkscape:export-filename="d:\img\YellowDark.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="C:\Users\ferna\OneDrive\Imagens\checkBlueSkyFull.png"
+         ry="0"
+         style="fill:#ffcc00;fill-opacity:1;stroke:#ffcc00;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.21321"
+         x="402.71024"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-3-1-9" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-3-8-4"
+         y="260.22629"
+         x="351.49982"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.22629"
+           x="351.49982"
+           id="tspan1019-09-5-6"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6-7"
+       width="29.424654"
+       height="29.424654"
+       x="581.68427"
+       y="48.797215"
+       style="fill:none;fill-opacity:1;stroke:#ffb380;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\2.png"
+       inkscape:export-xdpi="106.79073"
+       inkscape:export-ydpi="106.79073"
+       rx="0" />
+    <g
+       id="g1066"
+       inkscape:export-filename="D:\img\1.png"
+       inkscape:export-xdpi="106.44"
+       inkscape:export-ydpi="106.44">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#ffb380;fill-opacity:1;stroke:#ffb380;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="12.491578"
+         x="581.68591"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3-7" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-4"
+         y="39.475235"
+         x="570.79419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="39.475235"
+           x="570.79419"
+           id="tspan1019-7-0-70-6"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6-0"
+       width="29.424654"
+       height="29.424654"
+       x="586.21997"
+       y="133.37593"
+       style="fill:none;fill-opacity:1;stroke:#ffcc00;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\4.png"
+       inkscape:export-xdpi="106.79073"
+       inkscape:export-ydpi="106.79073"
+       rx="0" />
+    <g
+       id="g1074"
+       inkscape:export-filename="D:\img\3.png"
+       inkscape:export-xdpi="106.79073"
+       inkscape:export-ydpi="106.79073">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#ffcc00;fill-opacity:1;stroke:#ffcc00;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="97.070305"
+         x="586.22162"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3-9" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-6"
+         y="126.4193"
+         x="575.20654"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="126.4193"
+           x="575.20654"
+           id="tspan1019-7-0-70-4"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-1-4-7-7-5-8"
+       width="29.328117"
+       height="29.328117"
+       x="439.26733"
+       y="241.33189"
+       style="fill:none;stroke:#225500;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\GreenDark.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7-5-4-9-7"
+       width="29.328117"
+       height="29.328117"
+       x="481.28046"
+       y="241.0309"
+       style="fill:none;stroke:#002255;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\BlueDark.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <g
+       id="g1069"
+       inkscape:export-filename="D:\img\GreenDark.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#225500;fill-opacity:1;stroke:#225500;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.05968"
+         x="440.05002"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-9-5-6" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-69-4-4-6"
+         y="260.31689"
+         x="384.13397"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.31689"
+           x="384.13397"
+           id="tspan1019-22-5-2-6"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1075"
+       inkscape:export-filename="d:\img\BlueDark.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="C:\Users\ferna\OneDrive\Imagens\checkBlueSkyFull.png"
+         ry="0"
+         style="fill:#002255;fill-opacity:1;stroke:#002255;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.25964"
+         x="480.01721"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-3-1-9-0" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-3-8-4-1"
+         y="260.27948"
+         x="418.97659"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.27948"
+           x="418.97659"
+           id="tspan1019-09-5-6-7"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6-9"
+       width="29.424654"
+       height="29.424654"
+       x="633.63373"
+       y="57.263885"
+       style="fill:none;fill-opacity:1;stroke:#225500;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\2.png"
+       inkscape:export-xdpi="106.7905"
+       inkscape:export-ydpi="106.7905"
+       rx="0" />
+    <g
+       id="g1096"
+       inkscape:export-filename="D:\img\1.png"
+       inkscape:export-xdpi="106.44068"
+       inkscape:export-ydpi="106.44068">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#225500;fill-opacity:1;stroke:#225500;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="20.958298"
+         x="633.63531"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3-96" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-7"
+         y="48.178738"
+         x="621.33032"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="48.178738"
+           x="621.33032"
+           id="tspan1019-7-0-70-0"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6-0-9"
+       width="29.424654"
+       height="29.424654"
+       x="635.23737"
+       y="134.19977"
+       style="fill:none;fill-opacity:1;stroke:#002255;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\4.png"
+       inkscape:export-xdpi="106.7905"
+       inkscape:export-ydpi="106.7905"
+       rx="0" />
+    <g
+       id="g1091"
+       inkscape:export-filename="D:\img\3.png"
+       inkscape:export-xdpi="106.7905"
+       inkscape:export-ydpi="106.7905">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#002255;fill-opacity:1;stroke:#002255;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="97.894135"
+         x="635.23895"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3-9-0" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-6-4"
+         y="127.26617"
+         x="622.89038"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="127.26617"
+           x="622.89038"
+           id="tspan1019-7-0-70-4-5"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-1-4-7-7-5-2"
+       width="29.328117"
+       height="29.328117"
+       x="519.14612"
+       y="241.53186"
+       style="fill:none;stroke:#00ffff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\Aqua.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7-5-4-9-4"
+       width="29.328117"
+       height="29.328117"
+       x="561.15924"
+       y="241.23087"
+       style="fill:none;stroke:#ac9d93;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\Tan.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <g
+       id="g1125"
+       inkscape:export-filename="D:\img\Aqua.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.25964"
+         x="519.92871"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-9-5-0" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-69-4-4-8"
+         y="260.54599"
+         x="453.85547"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.54599"
+           x="453.85547"
+           id="tspan1019-22-5-2-4"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1130"
+       inkscape:export-filename="D:\img\Tan.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="C:\Users\ferna\OneDrive\Imagens\checkBlueSkyFull.png"
+         ry="0"
+         style="fill:#ac9d93;fill-opacity:1;stroke:#ac9d93;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.45961"
+         x="559.89594"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-3-1-9-06" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-3-8-4-12"
+         y="260.50858"
+         x="488.69809"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.50858"
+           x="488.69809"
+           id="tspan1019-09-5-6-2"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-1-4-7-7-5-8-2"
+       width="29.328117"
+       height="29.328117"
+       x="596.45312"
+       y="241.57829"
+       style="fill:none;stroke:#002200;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\GreenDarkness.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <rect
+       id="rect3684-1-4-7-5-4-9-7-9"
+       width="29.328117"
+       height="29.328117"
+       x="638.46625"
+       y="241.2773"
+       style="fill:none;stroke:#8a2be2;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="d:\img\BlueViolet.png"
+       inkscape:export-xdpi="107.14"
+       inkscape:export-ydpi="107.14"
+       rx="0" />
+    <g
+       id="g1135"
+       inkscape:export-filename="D:\img\GreenDarkness.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="0"
+         style="fill:#002200;fill-opacity:1;stroke:#002200;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.30608"
+         x="597.23572"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-9-5-6-4" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-69-4-4-6-2"
+         y="260.59918"
+         x="521.33228"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.59918"
+           x="521.33228"
+           id="tspan1019-22-5-2-6-5"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1140"
+       inkscape:export-filename="D:\img\BlueViolet.png"
+       inkscape:export-xdpi="107"
+       inkscape:export-ydpi="107">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="C:\Users\ferna\OneDrive\Imagens\checkBlueSkyFull.png"
+         ry="0"
+         style="fill:#8a2be2;fill-opacity:1;stroke:#8a2be2;stroke-width:1.01699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="199.50604"
+         x="637.20294"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-7-0-3-1-9-0-1" />
+      <text
+         transform="scale(1.1456828,0.87284195)"
+         id="text1021-3-8-4-1-9"
+         y="260.56177"
+         x="556.17487"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.11981893"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.79083633px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:1.11981893"
+           y="260.56177"
+           x="556.17487"
+           id="tspan1019-09-5-6-7-9"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-3"
+       width="29.424654"
+       height="29.424654"
+       x="691.41388"
+       y="48.698906"
+       style="fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\Aqua.png"
+       inkscape:export-xdpi="106.78938"
+       inkscape:export-ydpi="106.78938"
+       rx="0" />
+    <rect
+       id="rect3684-43-4-1-5-1-5-1-1-2"
+       width="29.424654"
+       height="29.424654"
+       x="727.09204"
+       y="48.698917"
+       style="fill:none;fill-opacity:1;stroke:#ac9d93;stroke-width:1.02034748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\Tan.png"
+       inkscape:export-xdpi="106.78938"
+       inkscape:export-ydpi="106.78938"
+       rx="0" />
+    <g
+       id="g1152"
+       inkscape:export-filename="D:\img\Tan.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#ac9d93;fill-opacity:1;stroke:#ac9d93;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="12.491573"
+         x="727.09204"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-8-8-0" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-94-9"
+         y="39.389286"
+         x="712.17987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="39.389286"
+           x="712.17987"
+           id="tspan1019-7-0-7-2"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g1157"
+       inkscape:export-filename="D:\img\Aqua.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.712327"
+         style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.02034295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="12.491573"
+         x="691.41382"
+         height="29.424654"
+         width="29.424391"
+         id="rect3684-43-2-6-7-4-26" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-2-6"
+         y="39.486423"
+         x="677.24902"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="39.486423"
+           x="677.24902"
+           id="tspan1019-7-0-14-0"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6-7-1"
+       width="29.424654"
+       height="29.424654"
+       x="764.98163"
+       y="48.700569"
+       style="fill:none;fill-opacity:1;stroke:#002200;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\GreenDarkness.png"
+       inkscape:export-xdpi="106.7905"
+       inkscape:export-ydpi="106.7905"
+       rx="0" />
+    <g
+       id="g1162"
+       inkscape:export-filename="D:\img\GreenDarkness.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#002200;fill-opacity:1;stroke:#002200;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="12.394933"
+         x="764.98315"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3-7-9" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-4-3"
+         y="39.375885"
+         x="749.10474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="39.375885"
+           x="749.10474"
+           id="tspan1019-7-0-70-6-5"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <rect
+       id="rect3684-43-4-1-5-1-5-8-3-8-6-9-5"
+       width="29.424654"
+       height="29.424654"
+       x="808.61957"
+       y="46.573097"
+       style="fill:none;fill-opacity:1;stroke:#8a2be2;stroke-width:1.01999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="14.712327"
+       inkscape:export-filename="D:\img\BlueViolet.png"
+       inkscape:export-xdpi="106.79073"
+       inkscape:export-ydpi="106.79073"
+       rx="0" />
+    <g
+       id="g1167"
+       inkscape:export-filename="D:\img\BlueViolet.png"
+       inkscape:export-xdpi="106.79"
+       inkscape:export-ydpi="106.79">
+      <rect
+         rx="0"
+         inkscape:export-ydpi="28.459274"
+         inkscape:export-xdpi="28.459274"
+         inkscape:export-filename="D:\images\bitmap.png"
+         ry="14.76065"
+         style="fill:#8a2be2;fill-opacity:1;stroke:#8a2be2;stroke-width:1.02369452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="10.267509"
+         x="808.62128"
+         height="29.521299"
+         width="29.521046"
+         id="rect3684-43-2-6-7-4-86-6-3-3-96-1" />
+      <text
+         transform="scale(1.0279661,0.97279473)"
+         id="text1021-7-5-80-7-1"
+         y="37.188969"
+         x="791.55579"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;line-height:1.25;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84546089"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8169899px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#ffffff;stroke-width:0.84546089"
+           y="37.188969"
+           x="791.55579"
+           id="tspan1019-7-0-70-0-5"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+  </g>
+</svg>

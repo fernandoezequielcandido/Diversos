@@ -1,0 +1,1988 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="523mm"
+   height="305mm"
+   viewBox="0 0 523 305"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="checkBoxes_Fit.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1165">
+      <stop
+         style="stop-color:#8a2be2;stop-opacity:1;"
+         offset="0"
+         id="stop1161" />
+      <stop
+         style="stop-color:#8a2be2;stop-opacity:0;"
+         offset="1"
+         id="stop1163" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1157">
+      <stop
+         style="stop-color:#002200;stop-opacity:1;"
+         offset="0"
+         id="stop1153" />
+      <stop
+         style="stop-color:#002200;stop-opacity:0;"
+         offset="1"
+         id="stop1155" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1145">
+      <stop
+         style="stop-color:#ac9d93;stop-opacity:1;"
+         offset="0"
+         id="stop1141" />
+      <stop
+         style="stop-color:#ac9d93;stop-opacity:0;"
+         offset="1"
+         id="stop1143" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1127">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop1123" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0;"
+         offset="1"
+         id="stop1125" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2035">
+      <stop
+         style="stop-color:#002255;stop-opacity:1;"
+         offset="0"
+         id="stop2031" />
+      <stop
+         style="stop-color:#002255;stop-opacity:0;"
+         offset="1"
+         id="stop2033" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2021">
+      <stop
+         style="stop-color:#225500;stop-opacity:1;"
+         offset="0"
+         id="stop2017" />
+      <stop
+         style="stop-color:#225500;stop-opacity:0;"
+         offset="1"
+         id="stop2019" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1079">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="0"
+         id="stop1075" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:0;"
+         offset="1"
+         id="stop1077" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1067">
+      <stop
+         style="stop-color:#ffb380;stop-opacity:1;"
+         offset="0"
+         id="stop1063" />
+      <stop
+         style="stop-color:#ffb380;stop-opacity:0;"
+         offset="1"
+         id="stop1065" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1062">
+      <stop
+         style="stop-color:#ff8080;stop-opacity:1;"
+         offset="0"
+         id="stop1058" />
+      <stop
+         style="stop-color:#ff8080;stop-opacity:0;"
+         offset="1"
+         id="stop1060" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1048">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop1044" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop1046" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3050">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop3046" />
+      <stop
+         style="stop-color:#ffff00;stop-opacity:0;"
+         offset="1"
+         id="stop3048" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3038">
+      <stop
+         style="stop-color:#ff6600;stop-opacity:1;"
+         offset="0"
+         id="stop3034" />
+      <stop
+         style="stop-color:#ff6600;stop-opacity:0;"
+         offset="1"
+         id="stop3036" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5903">
+      <stop
+         style="stop-color:#5599ff;stop-opacity:1;"
+         offset="0"
+         id="stop5899" />
+      <stop
+         style="stop-color:#5599ff;stop-opacity:0;"
+         offset="1"
+         id="stop5901" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9107">
+      <stop
+         style="stop-color:#ffaacc;stop-opacity:1;"
+         offset="0"
+         id="stop9103" />
+      <stop
+         style="stop-color:#ffaacc;stop-opacity:0;"
+         offset="1"
+         id="stop9105" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9097">
+      <stop
+         style="stop-color:#800080;stop-opacity:1;"
+         offset="0"
+         id="stop9093" />
+      <stop
+         style="stop-color:#800080;stop-opacity:0;"
+         offset="1"
+         id="stop9095" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9087">
+      <stop
+         style="stop-color:#008080;stop-opacity:1;"
+         offset="0"
+         id="stop9083" />
+      <stop
+         style="stop-color:#008080;stop-opacity:0;"
+         offset="1"
+         id="stop9085" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9077">
+      <stop
+         style="stop-color:#803300;stop-opacity:1;"
+         offset="0"
+         id="stop9073" />
+      <stop
+         style="stop-color:#803300;stop-opacity:0;"
+         offset="1"
+         id="stop9075" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10496">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10492" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop10494" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10480">
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1;"
+         offset="0"
+         id="stop10476" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:0;"
+         offset="1"
+         id="stop10478" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10456">
+      <stop
+         style="stop-color:#ff00cc;stop-opacity:1;"
+         offset="0"
+         id="stop10452" />
+      <stop
+         style="stop-color:#ff00cc;stop-opacity:0;"
+         offset="1"
+         id="stop10454" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10448">
+      <stop
+         style="stop-color:#ffeeaa;stop-opacity:1;"
+         offset="0"
+         id="stop10444" />
+      <stop
+         style="stop-color:#ffeeaa;stop-opacity:0;"
+         offset="1"
+         id="stop10446" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10432">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop10428" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop10430" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10424">
+      <stop
+         style="stop-color:#999999;stop-opacity:1;"
+         offset="0"
+         id="stop10420" />
+      <stop
+         style="stop-color:#999999;stop-opacity:0;"
+         offset="1"
+         id="stop10422" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10408">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop10404" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop10406" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10392">
+      <stop
+         style="stop-color:#aaccff;stop-opacity:1;"
+         offset="0"
+         id="stop10388" />
+      <stop
+         style="stop-color:#aaccff;stop-opacity:0;"
+         offset="1"
+         id="stop10390" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10376">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="0"
+         id="stop10372" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:0;"
+         offset="1"
+         id="stop10374" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10344">
+      <stop
+         style="stop-color:#008000;stop-opacity:1;"
+         offset="0"
+         id="stop10340" />
+      <stop
+         style="stop-color:#008000;stop-opacity:0;"
+         offset="1"
+         id="stop10342" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10262">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop10258" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:0;"
+         offset="1"
+         id="stop10260" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6351"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop6349" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6327"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop6325" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6233"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop6231" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10344"
+       id="radialGradient10346"
+       cx="83.288055"
+       cy="29.637884"
+       fx="83.288055"
+       fy="29.637884"
+       r="12.84969"
+       gradientTransform="matrix(1,0,0,0.86167392,0,4.0996923)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10392"
+       id="radialGradient10394"
+       cx="181.1087"
+       cy="29.103388"
+       fx="181.1087"
+       fy="29.103388"
+       r="12.849748"
+       gradientTransform="matrix(1,0,0,0.86167722,0,4.0256613)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10408"
+       id="radialGradient10410"
+       cx="29.834122"
+       cy="119.97505"
+       fx="29.834122"
+       fy="119.97505"
+       r="12.849753"
+       gradientTransform="matrix(1,0,0,0.86167658,0,16.595359)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10424"
+       id="radialGradient10426"
+       cx="83.288033"
+       cy="121.57867"
+       fx="83.288033"
+       fy="121.57867"
+       r="12.849748"
+       gradientTransform="matrix(1,0,0,0.8616773,0,16.81709)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10432"
+       id="radialGradient10434"
+       cx="136.2074"
+       cy="121.04413"
+       fx="136.2074"
+       fy="121.04413"
+       r="12.849748"
+       gradientTransform="matrix(1,0,0,0.8616773,0,16.743151)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10448"
+       id="radialGradient10450"
+       cx="178.436"
+       cy="120.50956"
+       fx="178.436"
+       fy="120.50956"
+       r="12.849748"
+       gradientTransform="matrix(1,0,0,0.8616773,0,16.669208)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10456"
+       id="radialGradient10458"
+       cx="29.108727"
+       cy="207.79501"
+       fx="29.108727"
+       fy="207.79501"
+       r="12.849753"
+       gradientTransform="matrix(1,0,0,0.86167661,0,28.742911)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10480"
+       id="radialGradient10482"
+       cx="134.06926"
+       cy="206.57034"
+       fx="134.06926"
+       fy="206.57034"
+       r="12.849753"
+       gradientTransform="matrix(1,0,0,0.86167697,0,28.573438)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10496"
+       id="radialGradient10498"
+       cx="-159.92723"
+       cy="65.986572"
+       fx="-159.92723"
+       fy="65.986572"
+       r="12.849753"
+       gradientTransform="matrix(1,0,0,0.86167697,0,9.1274634)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10392"
+       id="radialGradient10394-8"
+       cx="181.1087"
+       cy="29.103388"
+       fx="181.1087"
+       fy="29.103388"
+       r="12.849748"
+       gradientTransform="matrix(1,0,0,0.86167722,0,4.0256613)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10376"
+       id="radialGradient10378-5"
+       cx="135.13831"
+       cy="29.637953"
+       fx="135.13831"
+       fy="29.637953"
+       r="12.849748"
+       gradientTransform="matrix(1,0,0,0.86167715,0,4.0996062)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10344"
+       id="radialGradient10346-7"
+       cx="83.288055"
+       cy="29.637884"
+       fx="83.288055"
+       fy="29.637884"
+       r="12.84969"
+       gradientTransform="matrix(1,0,0,0.86167392,0,4.0996923)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10262"
+       id="radialGradient10264-7"
+       cx="30.559578"
+       cy="31.085936"
+       fx="30.559578"
+       fy="31.085936"
+       r="12.84975"
+       gradientTransform="matrix(1,0,0,0.86167685,0,4.2999044)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10408"
+       id="radialGradient10410-5"
+       cx="29.834122"
+       cy="119.97505"
+       fx="29.834122"
+       fy="119.97505"
+       r="12.849753"
+       gradientTransform="matrix(1,0,0,0.86167658,0,16.595359)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10262"
+       id="radialGradient10264-7-5"
+       cx="30.559578"
+       cy="31.085936"
+       fx="30.559578"
+       fy="31.085936"
+       r="12.84975"
+       gradientTransform="matrix(1,0,0,0.86167685,0,4.2999044)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9077"
+       id="radialGradient9079"
+       cx="179.84259"
+       cy="210.92648"
+       fx="179.84259"
+       fy="210.92648"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,27.327214)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9087"
+       id="radialGradient9089"
+       cx="223.67479"
+       cy="211.46103"
+       fx="223.67479"
+       fy="211.46103"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,27.396468)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9097"
+       id="radialGradient9099"
+       cx="264.29977"
+       cy="208.78833"
+       fx="264.29977"
+       fy="208.78833"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,27.050199)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9107"
+       id="radialGradient9109"
+       cx="308.59497"
+       cy="209.31201"
+       fx="308.59497"
+       fy="209.31201"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,27.118046)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5903"
+       id="radialGradient5905"
+       cx="347.2742"
+       cy="209.02515"
+       fx="347.2742"
+       fy="209.02515"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,27.080881)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3038"
+       id="radialGradient3040"
+       cx="82.556458"
+       cy="209.32314"
+       fx="82.556458"
+       fy="209.32314"
+       r="13.026066"
+       gradientTransform="matrix(1,0,0,0.87046234,0,27.11523)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3050"
+       id="radialGradient3052"
+       cx="135.13214"
+       cy="29.75091"
+       fx="135.13214"
+       fy="29.75091"
+       r="13.026061"
+       gradientTransform="matrix(1,0,0,0.87046287,0,3.8538475)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1048"
+       id="radialGradient1050"
+       cx="223.57858"
+       cy="123.93462"
+       fx="223.57858"
+       fy="123.93462"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,16.056722)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1062"
+       id="radialGradient1064"
+       cx="262.25781"
+       cy="123.64776"
+       fx="262.25781"
+       fy="123.64776"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,16.019557)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1067"
+       id="linearGradient1069"
+       x1="214.02744"
+       y1="37.873833"
+       x2="240.07874"
+       y2="37.873833"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1079"
+       id="linearGradient1081"
+       x1="252.70665"
+       y1="37.586975"
+       x2="278.75797"
+       y2="37.586975"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2021"
+       id="radialGradient2023"
+       cx="311.24298"
+       cy="126.07278"
+       fx="311.24298"
+       fy="126.07278"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,16.333737)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2035"
+       id="radialGradient2037"
+       cx="349.92221"
+       cy="125.78592"
+       fx="349.92221"
+       fy="125.78592"
+       r="13.025653"
+       gradientTransform="matrix(1,0,0,0.870442,0,16.296572)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1127"
+       id="linearGradient1129"
+       x1="306.76995"
+       y1="23.975815"
+       x2="332.82126"
+       y2="23.975815"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1145"
+       id="linearGradient1147"
+       x1="345.44917"
+       y1="23.688955"
+       x2="371.50048"
+       y2="23.688955"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1157"
+       id="linearGradient1159"
+       x1="388.55442"
+       y1="23.441276"
+       x2="414.60573"
+       y2="23.441276"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1165"
+       id="linearGradient1167"
+       x1="427.23364"
+       y1="23.154416"
+       x2="453.28495"
+       y2="23.154416"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="-1698.1048"
+     inkscape:cy="700.00859"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     width="298mm" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,8)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4763"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4765"><rect
+           id="rect4767"
+           width="208.09143"
+           height="171.72594"
+           x="248.49753"
+           y="379.04742" /></flowRegion><flowPara
+         id="flowPara4769" /></flowRoot>    <rect
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#f2f2f2;stroke-width:9.02889347;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect7746-4"
+       width="409.17465"
+       height="268.31381"
+       x="0.67566836"
+       y="92.957001" />
+    <rect
+       id="rect3684-1"
+       width="29.328117"
+       height="29.328117"
+       x="15.270129"
+       y="59.967697"
+       style="fill:none;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\blue.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4583"
+       inkscape:export-filename="D:\img\green.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="14.376271"
+         x="68.380386"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1"
+         d="m 70.493942,25.847021 8.94477,14.74758 16.647215,-21.982237 v 0 L 79.687179,34.472961 Z"
+         style="fill:url(#radialGradient10346);fill-opacity:1;stroke:#008000;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2"
+       width="29.328117"
+       height="29.328117"
+       x="67.998604"
+       y="58.51968"
+       style="fill:none;stroke:#008000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\green.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g3056"
+       inkscape:export-filename="D:\img\yellow.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkYellowFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffff00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="14.376304"
+         x="120.23064"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkYellowFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7"
+         d="m 122.3442,25.847051 8.94477,14.747579 16.64721,-21.982236 v 0 l -16.39874,15.860597 z"
+         style="fill:url(#radialGradient3052);fill-opacity:1;stroke:#ffff00;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-4"
+       width="29.328117"
+       height="29.328117"
+       x="119.84886"
+       y="58.519707"
+       style="fill:none;stroke:#ffff00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\yellow.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4595"
+       inkscape:export-filename="D:\img\red.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="104.71341"
+         x="14.926443"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2"
+         d="m 17.040007,116.18415 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient10410);fill-opacity:1;stroke:#ff0000;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-4-2"
+       width="29.328117"
+       height="29.328117"
+       x="-278.96939"
+       y="7.8840022"
+       style="fill:none;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="C:\Users\ferna\OneDrive\Projetos\Laavor\Laavor\images\resource\checksFit.png"
+       inkscape:export-xdpi="28.013367"
+       inkscape:export-ydpi="28.013367" />
+    <g
+       id="g4599"
+       inkscape:export-filename="D:\img\gray.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46"
+       style="stroke:#808080">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGrayFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="106.31702"
+         x="68.380348"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-2" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGrayFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-5"
+         d="m 70.49392,117.78777 8.94477,14.74758 16.64721,-21.98224 v 0 l -16.39874,15.8606 z"
+         style="fill:url(#radialGradient10426);fill-opacity:1;stroke:#808080;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-4-1"
+       width="29.328117"
+       height="29.328117"
+       x="67.998581"
+       y="150.46043"
+       style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\gray.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4603"
+       inkscape:export-filename="D:\img\black.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlackFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="105.78248"
+         x="121.29971"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-6" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlackFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-0"
+         d="m 123.41329,117.25323 8.94477,14.74758 16.64721,-21.98224 v 0 l -16.39874,15.8606 z"
+         style="fill:url(#radialGradient10434);fill-opacity:1;stroke:#000000;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-4-9"
+       width="29.328117"
+       height="29.328117"
+       x="120.91794"
+       y="149.92587"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\black.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4611"
+       inkscape:export-filename="D:\img\pink.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ff00cc;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="192.53337"
+         x="14.20105"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1"
+         d="m 16.314614,204.00412 8.94477,14.74757 16.647219,-21.98223 v 0 l -16.398749,15.8606 z"
+         style="fill:url(#radialGradient10458);fill-opacity:1;stroke:#ff00cc;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1"
+       width="29.328117"
+       height="29.328117"
+       x="14.20105"
+       y="230.32803"
+       style="fill:none;fill-opacity:1;stroke:#ff00cc;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\pink.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g3044"
+       inkscape:export-filename="D:\img\orange.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="193.94853"
+         x="67.654953"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-6" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-5"
+         d="m 69.768519,205.41928 8.94477,14.74757 16.647219,-21.98223 v 0 l -16.398749,15.8606 z"
+         style="fill:url(#radialGradient3040);fill-opacity:1;stroke:#ff6600;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-4"
+       width="29.328117"
+       height="29.328117"
+       x="67.654953"
+       y="231.74319"
+       style="fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\orange.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4619"
+       inkscape:export-filename="D:\img\greenLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46"
+       transform="translate(-0.53453901,2.6726953)">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="191.3087"
+         x="119.1616"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-7" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-0"
+         d="m 121.27515,202.77945 8.94477,14.74758 16.64722,-21.98224 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient10482);fill-opacity:1;stroke:#00ff00;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-5"
+       width="29.328117"
+       height="29.328117"
+       x="118.77982"
+       y="235.45212"
+       style="fill:none;stroke:#00ff00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\greenLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4591"
+       inkscape:export-filename="D:\img\blueLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#aaccff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="13.841734"
+         x="166.20105"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-6" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-2"
+         d="m 168.31459,25.312485 8.94477,14.74758 16.64721,-21.982238 v 0 l -16.39875,15.860598 z"
+         style="fill:url(#radialGradient10394);fill-opacity:1;stroke:#aaccff;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-0"
+       width="29.328117"
+       height="29.328117"
+       x="165.81924"
+       y="57.985146"
+       style="fill:none;stroke:#aaccff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\blueLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g4607"
+       inkscape:export-filename="D:\img\yellowLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffeeaa;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="105.24791"
+         x="163.52834"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-5" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-27"
+         d="m 165.6419,116.71866 8.94477,14.74758 16.64721,-21.98224 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient10450);fill-opacity:1;stroke:#ffeeaa;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-6"
+       width="29.328117"
+       height="29.328117"
+       x="163.14656"
+       y="149.39131"
+       style="fill:none;stroke:#ffeeaa;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\yellowLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.51699996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect7746"
+       width="117.59859"
+       height="141.65285"
+       x="-220.23007"
+       y="4.6071386" />
+    <g
+       id="g4623"
+       inkscape:export-filename="D:\img\white.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="50.724918"
+         x="-174.83488"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-7-1" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-0-8"
+         d="m -172.72134,62.195675 8.94477,14.74758 16.64722,-21.98224 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient10498);fill-opacity:1;stroke:#ffffff;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-5-0"
+       width="29.328117"
+       height="29.328117"
+       x="-175.21666"
+       y="94.868332"
+       style="fill:none;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\white.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       transform="translate(-458.19542,-7.9402836)"
+       id="g4579-1"
+       inkscape:export-filename="C:\Users\ferna\OneDrive\Projetos\Laavor\Laavor\images\resource\checksFit.png"
+       inkscape:export-xdpi="28.013388"
+       inkscape:export-ydpi="28.013388">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="15.824286"
+         x="15.651913"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-8" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-0"
+         d="m 17.765468,27.295035 8.94477,14.747574 16.647213,-21.982231 v 0 L 26.958705,35.920974 Z"
+         style="fill:url(#radialGradient10264-7);fill-opacity:1;stroke:#0000ff;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-6"
+       width="29.328117"
+       height="29.328117"
+       x="-409.51117"
+       y="7.8840027"
+       style="fill:none;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="C:\Users\ferna\OneDrive\Projetos\Laavor\Laavor\images\resource\checksFit.png"
+       inkscape:export-xdpi="28.013384"
+       inkscape:export-ydpi="28.013384" />
+    <g
+       transform="translate(-480.11152,61.015254)"
+       id="g4583-2"
+       inkscape:export-filename="C:\Users\ferna\OneDrive\Projetos\Laavor\Laavor\images\resource\checksFit.png"
+       inkscape:export-xdpi="28.013391"
+       inkscape:export-ydpi="28.013391">
+      <g
+         id="g4695"
+         transform="translate(34.723091,-67.507523)">
+        <rect
+           id="rect3684-5-4"
+           width="29.328117"
+           height="29.328117"
+           x="68.380386"
+           y="14.376271"
+           style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           ry="0"
+           inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+           inkscape:export-xdpi="26"
+           inkscape:export-ydpi="26" />
+        <path
+           style="fill:url(#radialGradient10346-7);fill-opacity:1;stroke:#008000;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 70.493942,25.847021 8.94477,14.74758 16.647215,-21.982237 v 0 L 79.687179,34.472961 Z"
+           id="path6266-1-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc"
+           inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+           inkscape:export-xdpi="26"
+           inkscape:export-ydpi="26" />
+      </g>
+    </g>
+    <rect
+       id="rect3684-1-2-65"
+       width="29.328117"
+       height="29.328117"
+       x="-344.50488"
+       y="7.8840022"
+       style="fill:none;stroke:#008000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="C:\Users\ferna\OneDrive\Projetos\Laavor\Laavor\images\resource\checksFit.png"
+       inkscape:export-xdpi="28.013391"
+       inkscape:export-ydpi="28.013391" />
+    <g
+       transform="translate(-502.56216,46.048161)"
+       id="g4587-1"
+       inkscape:export-filename="D:\images\checkYellowFitFull.png"
+       inkscape:export-xdpi="28.013391"
+       inkscape:export-ydpi="28.013391">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkYellowFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffcc00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="14.376304"
+         x="120.23064"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-7" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkYellowFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-03"
+         d="m 122.3442,25.847051 8.94477,14.747579 16.64721,-21.982236 v 0 l -16.39874,15.860597 z"
+         style="fill:url(#radialGradient10378-5);fill-opacity:1;stroke:#ffcc00;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-4-5"
+       width="29.328117"
+       height="29.328117"
+       x="-360.26263"
+       y="119.53496"
+       style="fill:none;stroke:#ffcc00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\images\checkYellowFit.png"
+       inkscape:export-xdpi="28.013388"
+       inkscape:export-ydpi="28.013388" />
+    <g
+       transform="translate(-480.11152,61.015254)"
+       id="g4591-6"
+       inkscape:export-filename="D:\images\checkBlueLightFitFull.png"
+       inkscape:export-xdpi="28.01338"
+       inkscape:export-ydpi="28.01338">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#aaccff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="13.841734"
+         x="166.20105"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-6-2" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkGreenFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-2-5"
+         d="m 168.31459,25.312485 8.94477,14.74758 16.64721,-21.982238 v 0 l -16.39875,15.860598 z"
+         style="fill:url(#radialGradient10394-8);fill-opacity:1;stroke:#aaccff;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-0-8"
+       width="29.328117"
+       height="29.328117"
+       x="-314.29227"
+       y="119.0004"
+       style="fill:none;stroke:#aaccff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\images\checkBlueLightFit.png"
+       inkscape:export-xdpi="28.013367"
+       inkscape:export-ydpi="28.013367" />
+    <g
+       transform="translate(-326.92818,-96.829407)"
+       id="g4595-7"
+       inkscape:export-filename="C:\Users\ferna\OneDrive\Projetos\Laavor\Laavor\images\resource\checksFit.png"
+       inkscape:export-xdpi="28.013367"
+       inkscape:export-ydpi="28.013367">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="104.71341"
+         x="14.926443"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-1" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-6"
+         d="m 17.040007,116.18415 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient10410-5);fill-opacity:1;stroke:#ff0000;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-1-2-4-2-5"
+       width="29.328117"
+       height="29.328117"
+       x="16.339207"
+       y="146.02849"
+       style="fill:none;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\red.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1072"
+       inkscape:export-filename="D:\img\1.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <g
+         inkscape:export-ydpi="105.46"
+         inkscape:export-xdpi="105.46"
+         inkscape:export-filename="D:\img\blue.png"
+         id="g4579-1-7"
+         transform="translate(-1.4508649,1.3802854)">
+        <rect
+           id="rect3684-8-5"
+           width="29.328117"
+           height="29.328117"
+           x="15.651913"
+           y="15.824286"
+           style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           ry="0"
+           inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+           inkscape:export-xdpi="26"
+           inkscape:export-ydpi="26" />
+        <path
+           style="fill:url(#radialGradient10264-7-5);fill-opacity:1;stroke:#0000ff;stroke-width:0.55699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 17.765468,27.295035 8.94477,14.747574 16.647213,-21.982231 v 0 L 26.958705,35.920974 Z"
+           id="path6266-0-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc"
+           inkscape:export-filename="C:\Projetos\Images Check and Radio\checkBlueFull.png"
+           inkscape:export-xdpi="26"
+           inkscape:export-ydpi="26" />
+      </g>
+    </g>
+    <g
+       id="g9297"
+       inkscape:export-filename="D:\img\brown.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#803300;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="195.55215"
+         x="164.94107"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-4" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-2"
+         d="m 167.05463,207.0229 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient9079);fill-opacity:1;stroke:#803300;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-41"
+       width="29.328117"
+       height="29.328117"
+       x="164.94106"
+       y="233.34682"
+       style="fill:none;fill-opacity:1;stroke:#803300;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\brown.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g9301"
+       inkscape:export-filename="D:\img\Turquoise.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#008080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="196.08669"
+         x="208.77327"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-9" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-4"
+         d="m 210.88683,207.55744 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient9089);fill-opacity:1;stroke:#008080;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-9"
+       width="29.328117"
+       height="29.328117"
+       x="208.77327"
+       y="233.88135"
+       style="fill:none;fill-opacity:1;stroke:#008080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\turquoise.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g9305"
+       inkscape:export-filename="D:\img\purple.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#800080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="193.414"
+         x="249.39824"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-0" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-0"
+         d="m 251.5118,204.88474 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient9099);fill-opacity:1;stroke:#800080;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-8"
+       width="29.328117"
+       height="29.328117"
+       x="249.39822"
+       y="231.20865"
+       style="fill:none;fill-opacity:1;stroke:#800080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\purple.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g9113"
+       inkscape:export-filename="D:\img\pinkLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffaacc;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="193.93767"
+         x="293.69345"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59"
+         d="m 295.80702,205.40842 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient9109);fill-opacity:1;stroke:#ffaacc;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93"
+       width="29.328117"
+       height="29.328117"
+       x="293.69345"
+       y="230.67412"
+       style="fill:none;fill-opacity:1;stroke:#ffaacc;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\pinkLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g5909"
+       inkscape:export-filename="D:\img\blueSky.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="193.6508"
+         x="332.37268"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-5" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-9"
+         d="m 334.48624,205.12156 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient5905);fill-opacity:1;stroke:#5599ff;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-5"
+       width="29.328117"
+       height="29.328117"
+       x="332.29819"
+       y="230.35117"
+       style="fill:none;fill-opacity:1;stroke:#5599ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\blueSky.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1054"
+       inkscape:export-filename="D:\img\grayLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="108.56028"
+         x="208.67705"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-4" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-6"
+         d="m 210.79062,120.03103 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient1050);fill-opacity:1;stroke:#cccccc;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-0"
+       width="29.328117"
+       height="29.328117"
+       x="208.67708"
+       y="145.29674"
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\grayLight.png"
+       inkscape:export-xdpi="105.4622"
+       inkscape:export-ydpi="105.4622" />
+    <g
+       id="g1068"
+       inkscape:export-filename="D:\img\redLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ff8080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="108.27341"
+         x="247.35628"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-5-3" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-9-4"
+         d="m 249.46984,119.74417 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient1064);fill-opacity:1;stroke:#ff8080;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-5-8"
+       width="29.328117"
+       height="29.328117"
+       x="247.28181"
+       y="144.97379"
+       style="fill:none;fill-opacity:1;stroke:#ff8080;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\redLight.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1073"
+       inkscape:export-filename="D:\img\OrangeLight.png"
+       inkscape:export-xdpi="105.4622"
+       inkscape:export-ydpi="105.4622">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffb380;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="22.499495"
+         x="212.15157"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-4-8" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-6-4"
+         d="m 214.26513,33.970245 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#linearGradient1069);fill-opacity:1;stroke:#ffb380;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-0-5"
+       width="29.328117"
+       height="29.328117"
+       x="212.15158"
+       y="59.235966"
+       style="fill:none;fill-opacity:1;stroke:#ffb380;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\orangeLight.png"
+       inkscape:export-xdpi="105.46214"
+       inkscape:export-ydpi="105.46214" />
+    <g
+       id="g1085"
+       inkscape:export-filename="D:\img\YellowDark.png"
+       inkscape:export-xdpi="105.46214"
+       inkscape:export-ydpi="105.46214">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ffcc00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="22.212622"
+         x="250.8308"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-5-3-3" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-9-4-3"
+         d="m 252.94435,33.683385 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#linearGradient1081);fill-opacity:1;stroke:#ffcc00;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-5-8-8"
+       width="29.328117"
+       height="29.328117"
+       x="250.75632"
+       y="58.912998"
+       style="fill:none;fill-opacity:1;stroke:#ffcc00;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\yellowDark.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g2027"
+       inkscape:export-filename="D:\img\greenDark.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#225500;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="110.69844"
+         x="296.34146"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-1" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-2"
+         d="m 298.45503,122.16919 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient2023);fill-opacity:1;stroke:#225500;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-4"
+       width="29.328117"
+       height="29.328117"
+       x="296.34146"
+       y="147.43489"
+       style="fill:none;fill-opacity:1;stroke:#225500;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\greenDark.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g2041"
+       inkscape:export-filename="D:\img\BlueDark.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#002255;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="110.41158"
+         x="335.02069"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-5-2" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-9-8"
+         d="m 337.13425,121.88233 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#radialGradient2037);fill-opacity:1;stroke:#002255;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-5-7"
+       width="29.328117"
+       height="29.328117"
+       x="334.9462"
+       y="147.11194"
+       style="fill:none;fill-opacity:1;stroke:#002255;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\blueDark.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1139"
+       inkscape:export-filename="D:\img\Aqua.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="8.6014757"
+         x="304.89407"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-4-8-3" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-6-4-0"
+         d="m 307.00765,20.072226 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#linearGradient1129);fill-opacity:1;stroke:#00ffff;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-0-5-3"
+       width="29.328117"
+       height="29.328117"
+       x="304.8941"
+       y="45.337948"
+       style="fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\Aqua.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1151"
+       inkscape:export-filename="D:\img\Tan.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#ac9d93;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="8.3146029"
+         x="343.5733"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-5-3-3-1" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-9-4-3-3"
+         d="m 345.68687,19.785366 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#linearGradient1147);fill-opacity:1;stroke:#ac9d93;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-5-8-8-7"
+       width="29.328117"
+       height="29.328117"
+       x="343.49884"
+       y="45.01498"
+       style="fill:none;fill-opacity:1;stroke:#ac9d93;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\Tan.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1175"
+       inkscape:export-filename="D:\img\GreenDarkness.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#002200;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="8.0669365"
+         x="386.67856"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-4-8-4" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-6-4-2"
+         d="m 388.79212,19.537687 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#linearGradient1159);fill-opacity:1;stroke:#002200;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-0-5-0"
+       width="29.328117"
+       height="29.328117"
+       x="386.67856"
+       y="44.80341"
+       style="fill:none;fill-opacity:1;stroke:#002200;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\GreenDarkness.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+    <g
+       id="g1171"
+       inkscape:export-filename="D:\img\BlueViolet.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46">
+      <rect
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         ry="0"
+         style="fill:none;fill-opacity:1;stroke:#8a2be2;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         y="7.7800636"
+         x="425.35779"
+         height="29.328117"
+         width="29.328117"
+         id="rect3684-5-9-3-4-8-5-3-3-3" />
+      <path
+         inkscape:export-ydpi="26"
+         inkscape:export-xdpi="26"
+         inkscape:export-filename="C:\Projetos\Images Check and Radio\checkRedFull.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path6266-1-7-2-1-59-9-4-3-39"
+         d="m 427.47134,19.250827 8.94477,14.74757 16.64722,-21.98223 v 0 l -16.39875,15.8606 z"
+         style="fill:url(#linearGradient1167);fill-opacity:1;stroke:#8a2be2;stroke-width:0.55599999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       id="rect3684-5-9-3-4-1-93-5-8-8-75"
+       width="29.328117"
+       height="29.328117"
+       x="425.28329"
+       y="44.480442"
+       style="fill:none;fill-opacity:1;stroke:#8a2be2;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       ry="0"
+       inkscape:export-filename="D:\img\BlueViolet.png"
+       inkscape:export-xdpi="105.46"
+       inkscape:export-ydpi="105.46" />
+  </g>
+</svg>
